@@ -189,6 +189,7 @@ finit() {
     mkdir -pv $rdhome/states
     mkdir -pv $rdhome/screenshots
     mkdir -pv $rdhome/bios/pico-8
+    mkdir -pv $rdhome/.logs
 
     # XMLSTARLET HERE
     cp -f /app/retrodeck/es_settings.xml /var/config/emulationstation/.emulationstation/es_settings.xml
