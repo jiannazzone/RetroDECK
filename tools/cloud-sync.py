@@ -43,7 +43,7 @@ if not os.path.exists(rules_config_path):
 # parse the args and see if we want to upload or download
 for opt, arg in opts:
     if opt == ("-h", "--help"):
-         print (f "Usage:\n\
+         print (f"Usage:\n\
 flatpak run [FLATPAK-RUN-OPTION] net.retrodeck-retrodeck [ARGUMENTS]\n\
 \n\
 Arguments:\n\
