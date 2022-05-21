@@ -83,3 +83,6 @@ https://retrodeck.net")
         os.system(f'zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --title "RetroDECK" --text=Done!\n\nYou can check the logfiles in {retrodeck_folder}/.logs/cloud-sync.log')
 
 #TODO: remove gamedata
+#TODO: include the config files
+#TODO: put this script elsewhere and call it with proper tools
+#TODO: move zenity in said tools and use cli output here
