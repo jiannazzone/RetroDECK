@@ -94,6 +94,15 @@ modules:
       - ln -s "xml" "${FLATPAK_DEST}/bin/xmlstarlet" ||:
     cleanup: ["*"]
 
+  - name: rclone
+    buildsystem: simple
+    build-commands:
+      - cp rclone /app/bin/rclone
+    sources:
+      - type: archive
+        url: https://github.com/rclone/rclone/releases/download/v1.58.1/rclone-v1.58.1-linux-amd64.zip
+        sha256: 135a4a0965cb58eafb07941f2013a82282c44c28fea9595587778e969d9ed035
+
   # ES-DE
 
   - name: ffmpeg
