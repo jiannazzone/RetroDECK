@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Original Script by https://gist.github.com/nullstalgia
+
 import os
 import shutil
 import configparser
@@ -38,9 +40,39 @@ if not os.path.exists(rclone_config_path):
 if not os.path.exists(rules_config_path):
     shutil.copyfile(rules_config_def_path, rules_config_path)
 
-# sync states
-#print("Syncing savestates")
-#os.system(f"rclone bisync -v --workdir /var/cache/rclone/bisync {retrodeck_folder}/roms/ \"{sync_remote}\":\"{sync_path}/savestates\" --include *.state* --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+# parse the args and see if we want to upload or download
+for opt, arg in opts:
+    if opt == ("-h", "--help"):
+         print (f "Usage:\n\
+flatpak run [FLATPAK-RUN-OPTION] net.retrodeck-retrodeck [ARGUMENTS]\n\
+\n\
+Arguments:\n\
+    -h, --help        Print this help\n\
+    --reset           Starts the initial RetroDECK installer (backup your data first!)\n\
+    --reset-ra        Resets RetroArch's config to the default values\n\
+    --reset-sa        Reset standalone emulator configs to the default values\n\
+    --reset-tools     Recreate the tools section\n\
+\n\
+https://retrodeck.net")
+         sys.exit()
+    elif opt in ("-u", "--upload"):
 
-print("Syncing saves, screenshots, and gamedata")
-os.system(f"rclone bisync -v --workdir /var/cache/rclone/bisync {retrodeck_folder}/roms/ \"{sync_remote}\":\"{sync_path}/\" --filters-file {rules_config_path} --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+        # upload states
+        #print("Syncing savestates")
+        #os.system(f"rclone sync -P {retrodeck_folder}/roms/ \"{sync_remote}\":\"{sync_path}/savestates\" --include *.state* --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+
+        # upload saves
+        os.system(f'zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --title "RetroDECK" --text=Uploading saves, screenshots, and gamedata.\n\nPress ok to continue and wait for the completion message.')
+        os.system(f"rclone sync -P {retrodeck_folder}/roms/ \"{sync_remote}\":\"{sync_path}/\" --filter-from {rules_config_path} --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+        os.system(f'zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --title "RetroDECK" --text=Done!\n\nYou can check the logfiles in {retrodeck_folder}/.logs/cloud-sync.log')
+
+    elif opt in ("-d", "--download"):
+
+        # download states
+        #print("Syncing savestates")
+        #os.system(f"rclone sync -P \"{sync_remote}\":\"{sync_path}/savestates\" {retrodeck_folder}/roms/ --include *.state* --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+
+        # download saves
+        os.system(f'zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --title "RetroDECK" --text=Downloading saves, screenshots, and gamedata.\n\nPress ok to continue and wait for the completion message.')
+        os.system(f"rclone sync -P \"{sync_remote}\":\"{sync_path}/\" {retrodeck_folder}/roms/ --filter-from {rules_config_path} --log-file {retrodeck_folder}/.logs/cloud-sync.log")
+        os.system(f'zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --title "RetroDECK" --text=Done!\n\nYou can check the logfiles in {retrodeck_folder}/.logs/cloud-sync.log')

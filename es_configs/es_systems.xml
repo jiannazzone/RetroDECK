@@ -1410,7 +1410,7 @@
         <name>tools</name>
         <fullname>RetroDECK Tools</fullname>
         <path>/var/config/retrodeck/tools</path>
-        <extension>.sh .SH .py .PY</extension>
+        <extension>.sh .SH</extension>
         <command>bash %ROM%</command>
         <platform>tools</platform>
         <theme>tools</theme>
