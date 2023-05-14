@@ -77,7 +77,7 @@ modules:
     build-commands:
       - |
       
-        VERSION="0.6.6b"
+        VERSION="0.6.7b"
 
         git checkout ${GITHUB_REF_NAME}
         mkdir -p ${FLATPAK_DEST}/retrodeck/
@@ -90,7 +90,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/XargonWan/RetroDECK.git
-        branch: main
+        branch: cooker-0.6.7b
 
   - name: xmlstarlet
     config-opts:
@@ -500,8 +500,8 @@ modules:
       - ln -s "${FLATPAK_DEST}/yuzu/usr/bin/yuzu" "${FLATPAK_DEST}/bin/yuzu"
     sources:
       - type: file
-        url: https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1369/yuzu-mainline-20230312-54c359d1e.AppImage
-        sha256: 219874f72ea09856c8f1349d7bf744ecbd2823a469bd29f036b386924f5c5a97
+        url: https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1431/yuzu-mainline-20230513-a0bf08807.AppImage
+        sha256: fe588d32a713c80432460356f8b47663bccb21ccdd09be99e742c3bbaba7053e
 
   # Yuzu - END
 
@@ -1109,4 +1109,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/XargonWan/RetroDECK.git
-        branch: main
+        branch: cooker-0.6.7b
