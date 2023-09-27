@@ -43,6 +43,9 @@ jobs:
       - name: Run pre-build automation tasks
         run : "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/pre_build_automation.sh"
 
+      - name: Generate additional controller configs
+        run: "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/controller_generator.sh"
+
       - name: Read manifest content
         id: read_manifest
         run: echo "::set-output name=file_content::$(cat net.retrodeck.retrodeck.yml)"

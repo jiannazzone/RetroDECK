@@ -52,7 +52,10 @@ jobs:
           echo "VersionID is $result"
 
       - name: Run pre-build automation tasks
-        run : "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/pre_build_automation.sh"
+        run: "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/pre_build_automation.sh"
+
+      - name: Generate additional controller configs
+        run: "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/controller_generator.sh"
 
       - name: "Adding flatpak portal for automated updates (cooker only)"
         run: "/bin/bash ${GITHUB_WORKSPACE}/automation_tools/cooker_flatpak_portal_add.sh"
