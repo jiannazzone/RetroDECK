@@ -285,9 +285,12 @@ modules:
   - rd-submodules/shared-modules/glew/glew.json
 
   # FTP Server
+  # https://github.com/flathub/eu.ithz.umftpd
+
   - name: umftpd
     buildsystem: simple
     build-commands:
+    - pip3 install pygobject==3.44.0
     - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" --ignore-installed setuptools
     - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" .
     - mv flatpak/app/* /app/
