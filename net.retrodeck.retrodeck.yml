@@ -284,6 +284,87 @@ modules:
   # dependency of: CEMU, RPCS3
   - rd-submodules/shared-modules/glew/glew.json
 
+  # FTP Server
+  - name: umftpd
+    buildsystem: simple
+    build-commands:
+    - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" --ignore-installed setuptools
+    - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" .
+    - mv flatpak/app/* /app/
+    sources:
+    - type: git
+      url: https://gitlab.com/ergoithz/umftpd/
+      tag: v0.3.3
+      commit: 0596bc22ba83c59823462f7d22ca2aae71418049
+    - type: file
+      url: https://files.pythonhosted.org/packages/10/e5/be08751d07b30889af130cec20955c987a74380a10058e6e8856e4010afc/flit_core-3.8.0.tar.gz
+      sha256: b305b30c99526df5e63d6022dd2310a0a941a187bd3884f4c8ef0418df6c39f3
+    - type: file
+      url: https://files.pythonhosted.org/packages/fc/ef/0335f7217dd1e8096a9e8383e1d472aa14717878ffe07c4772e68b6e8735/wheel-0.40.0.tar.gz
+      sha256: cd1196f3faee2b31968d626e1731c94f99cbdb67cf5a46e4f5656cbee7738873
+    - type: file
+      url: https://files.pythonhosted.org/packages/0b/fc/8781442def77b0aa22f63f266d4dadd486ebc0c5371d6290caf4320da4b7/setuptools-67.6.1-py3-none-any.whl
+      sha256: e728ca814a823bf7bf60162daf9db95b93d532948c4c0bea762ce62f60189078
+    - type: file
+      url: https://files.pythonhosted.org/packages/1d/66/8f42c941be949ef2b22fe905d850c794e7c170a526023612aad5f3a121ad/setuptools_scm-7.1.0-py3-none-any.whl
+      sha256: 73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e
+    - type: file
+      url: https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl
+      sha256: 939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc
+    - type: file
+      url: https://files.pythonhosted.org/packages/ed/35/a31aed2993e398f6b09a790a181a7927eb14610ee8bbf02dc14d31677f1c/packaging-23.0-py3-none-any.whl
+      sha256: 714ac14496c3e68c99c29b00845f7a2b85f3bb6f1078fd9f72fd20f0570002b2
+    - type: file
+      url: https://files.pythonhosted.org/packages/5b/fa/c9e82bbe1af6266adf08afb563905eb87cab83fde00a0a08963510621047/zipp-3.15.0-py3-none-any.whl
+      sha256: 48904fc76a60e542af151aded95726c1a5c34ed43ab4134b597665c86d7ad556
+    - type: file
+      url: https://files.pythonhosted.org/packages/ed/d0/f7470892f9f496f3d403fca9b141367b1d5350fcd953ef5761674afafaa7/cryptography-40.0.1-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      sha256: 63dac2d25c47f12a7b8aa60e528bfb3c51c5a6c5a9f7c86987909c6c79765554
+      only-arches:
+      - x86_64
+    - type: file
+      url: https://files.pythonhosted.org/packages/e9/79/b258803f573bfb202e29f9f56cd73e2b2e2fee1fe2e9cdf03f388919d8cc/cryptography-40.0.1-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+      sha256: 3a4805a4ca729d65570a1b7cac84eac1e431085d40387b7d3bbaa47e39890b88
+      only-arches:
+      - aarch64
+    - type: file
+      url: https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl
+      sha256: 8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
+    - type: file
+      url: https://files.pythonhosted.org/packages/88/89/c34caf63029fb7628ec2ebd5c88ae0c9bd17db98c812e4065a4d020ca41f/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      sha256: dd86c085fae2efd48ac91dd7ccffcfc0571387fe1193d33b6394db7ef31fe2a4
+      only-arches:
+      - x86_64
+    - type: file
+      url: https://files.pythonhosted.org/packages/ef/41/19da352d341963d29a33bdb28433ba94c05672fb16155f794fad3fd907b0/cffi-1.15.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+      sha256: 21157295583fe8943475029ed5abdcf71eb3911894724e360acff1d61c1d54bc
+      only-arches:
+      - aarch64
+    - type: file
+      url: https://files.pythonhosted.org/packages/b7/6d/d7377332703ffd8821878794aca4fb54637da654bf3e467ffb32109c2147/pyOpenSSL-23.1.1-py3-none-any.whl
+      sha256: 9e0c526404a210df9d2b18cd33364beadb0dc858a739b885677bc65e105d4a4c
+    - type: file
+      url: https://files.pythonhosted.org/packages/2f/bc/f03a15bf807698bbecdcf316041e3d79b25a40fa7b6e071e17702ff7b9d4/pyftpdlib-1.5.7.tar.gz
+      sha256: 7ea3ce4137db8209af1f6b9ea020590f462c63ed7c7a1240bd596e4d3a7b656e
+    - type: file
+      url: https://files.pythonhosted.org/packages/1e/9f/ad61867b12823f6e2c0ef2b80a704273b9385de707ac4539afa445c0665d/asyncssh-2.13.1-py3-none-any.whl
+      sha256: c90eb5e2b4f9a7cc6e6af01fd844563d722c0d667f8c5f51fe5b3c2a79fa0575
+    - type: file
+      url: https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl
+      sha256: fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4
+    - type: file
+      url: https://files.pythonhosted.org/packages/3f/ff/a8d7faaa3573b6e4c775cacbf911a0afbcb4928ce71b3de43119227a396a/zeroconf-0.39.4-py3-none-any.whl
+      sha256: d60eae9e9c99d1a168ce9ff9de7e7398c23754a0c2004ded230f8d529c5260a0
+    - type: file
+      url: https://files.pythonhosted.org/packages/9c/1f/19ebc343cc71a7ffa78f17018535adc5cbdd87afb31d7c34874680148b32/ifaddr-0.2.0-py3-none-any.whl
+      sha256: 085e0305cfe6f16ab12d72e2024030f5d52674afad6911bb1eee207177b8a748
+    - type: file
+      url: https://files.pythonhosted.org/packages/d6/c1/8991e7c5385b897b8c020cdaad718c5b087a6626d1d11a23e1ea87e325a7/async_timeout-4.0.2-py3-none-any.whl
+      sha256: 8ca1e4fcf50d07413d66d1a5e416e42cfdf5851c981d679a09851a6853383b3c
+    - type: file
+      url: https://files.pythonhosted.org/packages/ae/0d/dcfe8116c9f31cb251c372742807a15abce28d1efeb2f3c6a7554cbad17f/ustache-0.1.5-py3-none-any.whl
+      sha256: 3d277909dd7bc3012eee101ffa68a241f66222b768fe1c7c77afff9a1d2028fc
+
   # ES-DE - START
   # https://gitlab.com/es-de/emulationstation-de
 
@@ -1296,7 +1377,7 @@ modules:
       # Tools
       - mkdir -p /app/tools
       - cp -r tools/** /app/tools
-      - find /app/tools -name '*.py|*.sh' -exec chmod +x {} \;
+      - find /app/tools -name '*.py|*.sh' -exec chmod +x {} \;     
 
       # Function libraries
       - mkdir -p /app/libexec

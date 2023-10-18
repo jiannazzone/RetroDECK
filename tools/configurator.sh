@@ -61,6 +61,7 @@ source /app/libexec/global.sh
 #       - Install: RetroDECK SD Controller Profile
 #       - Install: PS3 firmware
 #       - RetroDECK: Change Update Setting
+#       - Start FTP Server
 #     - Troubleshooting
 #       - Backup: RetroDECK Userdata
 #       - Check & Verify: BIOS
@@ -527,7 +528,9 @@ configurator_retrodeck_tools_dialog() {
   "Tool: Compress Games" "Compress games for systems that support it" \
   "Install: RetroDECK SD Controller Profile" "Install the custom RetroDECK controller layout for the Steam Deck" \
   "Install: PS3 Firmware" "Download and install PS3 firmware for use with the RPCS3 emulator" \
-  "RetroDECK: Change Update Setting" "Enable or disable online checks for new versions of RetroDECK" )
+  "RetroDECK: Change Update Setting" "Enable or disable online checks for new versions of RetroDECK" \
+  "Start FTP Server" "Start an FTP server to manage your retrodeck folder from another device"
+  )
 
   case $choice in
 
@@ -569,6 +572,10 @@ configurator_retrodeck_tools_dialog() {
 
   "RetroDECK: Change Update Setting" )
     configurator_online_update_setting_dialog
+  ;;
+
+  "Start FTP Server" )
+    umftpd
   ;;
 
   "" ) # No selection made or Back button clicked
