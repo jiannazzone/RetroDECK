@@ -290,10 +290,9 @@ modules:
   - name: umftpd
     buildsystem: simple
     build-commands:
-    - pip3 install pygobject==3.44.0
-    - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" --ignore-installed setuptools
-    - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" .
-    - mv flatpak/app/* /app/
+      - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" --ignore-installed setuptools
+      - pip3 install --prefix=/app --no-index --find-links="file://${PWD}" .
+      - mv flatpak/app/* /app/
     sources:
     - type: git
       url: https://gitlab.com/ergoithz/umftpd/
