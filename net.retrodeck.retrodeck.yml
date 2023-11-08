@@ -297,6 +297,7 @@ modules:
       - cp -r usr/* ${FLATPAK_DEST}
       - rm -rf usr lib etc
       - mkdir -p ${FLATPAK_DEST}/retrodeck/ftp
+      - mkdir -p ${FLATPAK_DEST}/libexec
       - cp -vf virtual_users.txt vsftpd.conf ${FLATPAK_DEST}/retrodeck/ftp
       - cp -vf ftp_server.sh ${FLATPAK_DEST}/libexec
       - chmod +x ${FLATPAK_DEST}/libexec/ftp_server.sh
