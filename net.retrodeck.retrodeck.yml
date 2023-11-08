@@ -297,9 +297,9 @@ modules:
       - cp -r usr/* ${FLATPAK_DEST}
       - rm -rf usr lib etc
       - mkdir -p ${FLATPAK_DEST}/retrodeck/ftp
-      - cp virtual_users.txt vsftpd.conf ${FLATPAK_DEST}/retrodeck/ftp
-      - cp ftp_server.sh /app/libexec
-      - chmod +x /app/libexec/ftp_server.sh
+      - cp -vf virtual_users.txt vsftpd.conf ${FLATPAK_DEST}/retrodeck/ftp
+      - cp -vf ftp_server.sh ${FLATPAK_DEST}/libexec
+      - chmod +x ${FLATPAK_DEST}/libexec/ftp_server.sh
     sources:
       - type: file
         url: http://de.archive.ubuntu.com/ubuntu/pool/main/v/vsftpd/vsftpd_3.0.5-0ubuntu1_amd64.deb
