@@ -723,9 +723,9 @@ prepare_emulator() {
     echo "------------------------"
 
     mkdir -p "/var/config/ftp"
-    cp "/app/retrodeck/ftp/*" "/var/config/ftp"
+    cp "/app/retrodeck/ftp/*" "/var/config/retrodeck/ftp"
     # TODO: this step is to be done properly: Replacing RETRODECKHOMEDIR placeholder
-    sed -i 's#RETRODECKHOMEDIR#'$rdhome'#g' "/var/config/ftp/vsftpd.conf"
+    sed -i 's#RETRODECKHOMEDIR#'$rdhome'#g' "/var/config/retrodeck/ftp/vsftpd.conf"
 
   fi
 
