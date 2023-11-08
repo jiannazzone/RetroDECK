@@ -575,7 +575,7 @@ configurator_retrodeck_tools_dialog() {
   ;;
 
   "Start FTP Server" )
-    umftpd
+    source /app/libexec/ftp_server.sh
   ;;
 
   "" ) # No selection made or Back button clicked
