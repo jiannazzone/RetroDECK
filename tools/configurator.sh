@@ -989,7 +989,7 @@ configurator_reset_dialog() {
   --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --width=1200 --height=720 \
   --column="Choice" --column="Action" \
   "Reset Specific Emulator" "Reset only one specific emulator to default settings" \
-  "Reset All Emulators" "Reset all emulators to default settings" \
+  "Reset All Emulators" "Reset all emulators and FTP server to their default settings" \
   "Reset RetroDECK" "Reset RetroDECK to default settings" )
 
   case $choice in
@@ -1044,7 +1044,7 @@ configurator_reset_dialog() {
   ;;
 
 "Reset All Emulators" )
-  if [[ $(configurator_reset_confirmation_dialog "all emulators" "Are you sure you want to reset all emulators to default settings?\n\nThis process cannot be undone.") == "true" ]]; then
+  if [[ $(configurator_reset_confirmation_dialog "all emulators" "Are you sure you want to reset all emulators and FTP server to their default settings?\n\nThis process cannot be undone.") == "true" ]]; then
     (
     prepare_emulator "reset" "all"
     ) |
