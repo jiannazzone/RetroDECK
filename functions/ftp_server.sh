@@ -12,7 +12,7 @@ if nc -z localhost $port; then
 fi
 
 # Start FTP server on port $port
-nohup vsftpd /app/retrodeck/ftp/vsftpd.conf &
+nohup vsftpd /var/config/ftp/vsftpd.conf &
 
 # Get the PID of the FTP server process
 ftp_pid=$!

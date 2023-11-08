@@ -714,7 +714,7 @@ prepare_emulator() {
 
   fi
 
-  # TODO: this is not properly an emulator but le'ts treat like this for the moment
+  # TODO: this is not properly an emulator but let's treat like this for the moment
   if [[ "$emulator" =~ ^(ftp|FTP|all)$ ]]; then
     # TODO: do a proper script
     # This is just a placeholder script to test the emulator's flow
@@ -722,10 +722,10 @@ prepare_emulator() {
     echo "Initializing FTP Server"
     echo "------------------------"
 
-    mkdir -p /var/config/umftpd
-    cp /app/tools/ftp/config.json /var/config/umftpd
+    mkdir -p "/var/config/ftp"
+    cp "/app/retrodeck/ftp/*" "/var/config/ftp"
     # TODO: this step is to be done properly: Replacing RETRODECKHOMEDIR placeholder
-    sed -i 's#RETRODECKHOMEDIR#'$rdhome'#g' "/var/config/umftpd/config.json"
+    sed -i 's#RETRODECKHOMEDIR#'$rdhome'#g' "/var/config/ftp/vsftpd.conf"
 
   fi
 
