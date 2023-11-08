@@ -27,7 +27,7 @@ stop_ftp_server() {
 zenity --icon-name=net.retrodeck.retrodeck --info --no-wrap \
       --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" \
       --title "RetroDECK - FTP Server" \
-      --text="FTP server started on port $port, pointing to:\n$rdhome\nPress Stop to terminate the server." --ok-label="Stop" || stop_ftp_server
+      --text="FTP server started on port $port, pointing to:\n$rdhome\nID:\tretrodeck\nPassword:\tretrodeck\n\nPress Stop to terminate the server." --ok-label="Stop" || stop_ftp_server
 
 # If the user clicks "Stop", call the function to stop the FTP server
 stop_ftp_server
