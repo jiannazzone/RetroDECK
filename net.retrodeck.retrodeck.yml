@@ -286,19 +286,35 @@ modules:
 
   # SFTP Server - START
 
-  - name: sftp-hostname
+  - name: hostname
     buildsystem: simple
     build-commands:
       - ar -x hostname*.deb
       - tar -xf data.tar.zst
       - cp -r bin/* ${FLATPAK_DEST}/bin
-      - mkdir -p ${FLATPAK_DEST}/libexec
-      - cp -vf sftp_server.sh ${FLATPAK_DEST}/libexec
-      - chmod +x ${FLATPAK_DEST}/libexec/sftp_server.sh
     sources:
       - type: file
         url: http://de.archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.23ubuntu2_amd64.deb
         sha256: cec0448fef88a43a3c232fd9df555ca4c468cf5e16ddf3a1b0a5f7b7f076e413
+
+  # NOTE: we're only copying usr, there are other dirs but we don't need them atm
+  - name: openssh-server
+    build-commands:
+      - ar -x openssh-server*.deb
+      - tar -xf data.tar.*
+      - cp -r usr/* /usr
+    sources:
+      - type: file
+        url: http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_8.2p1-4ubuntu0.9_amd64.deb
+        sha256: d7681d00e2c29b8a9f4489cffb4e68c77971fe07bd48718bdd576747bfda487c
+
+  - name: sftp-tool
+    buildsystem: simple
+    build-commands:
+      - mkdir -p ${FLATPAK_DEST}/libexec
+      - cp -vf sftp_server.sh ${FLATPAK_DEST}/libexec
+      - chmod +x ${FLATPAK_DEST}/libexec/sftp_server.sh
+    sources:
       - type: file
         path: functions/sftp_server.sh
 
