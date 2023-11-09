@@ -61,7 +61,7 @@ source /app/libexec/global.sh
 #       - Install: RetroDECK SD Controller Profile
 #       - Install: PS3 firmware
 #       - RetroDECK: Change Update Setting
-#       - Start FTP Server
+#       - Start an SFTP Server
 #     - Troubleshooting
 #       - Backup: RetroDECK Userdata
 #       - Check & Verify: BIOS
@@ -529,7 +529,7 @@ configurator_retrodeck_tools_dialog() {
   "Install: RetroDECK SD Controller Profile" "Install the custom RetroDECK controller layout for the Steam Deck" \
   "Install: PS3 Firmware" "Download and install PS3 firmware for use with the RPCS3 emulator" \
   "RetroDECK: Change Update Setting" "Enable or disable online checks for new versions of RetroDECK" \
-  "Start FTP Server" "Start an FTP server to manage your retrodeck folder from another device"
+  "Start an SFTP Server" "Start an SFTP server to manage your retrodeck folder from another device"
   )
 
   case $choice in
@@ -574,8 +574,8 @@ configurator_retrodeck_tools_dialog() {
     configurator_online_update_setting_dialog
   ;;
 
-  "Start FTP Server" )
-    source /app/libexec/ftp_server.sh
+  "Start an SFTP Server" )
+    source /app/libexec/sftp_server.sh
   ;;
 
   "" ) # No selection made or Back button clicked
@@ -989,7 +989,7 @@ configurator_reset_dialog() {
   --window-icon="/app/share/icons/hicolor/scalable/apps/net.retrodeck.retrodeck.svg" --width=1200 --height=720 \
   --column="Choice" --column="Action" \
   "Reset Specific Emulator" "Reset only one specific emulator to default settings" \
-  "Reset All Emulators" "Reset all emulators and FTP server to their default settings" \
+  "Reset All Emulators" "Reset all emulators to their default settings" \
   "Reset RetroDECK" "Reset RetroDECK to default settings" )
 
   case $choice in
@@ -1044,7 +1044,7 @@ configurator_reset_dialog() {
   ;;
 
 "Reset All Emulators" )
-  if [[ $(configurator_reset_confirmation_dialog "all emulators" "Are you sure you want to reset all emulators and FTP server to their default settings?\n\nThis process cannot be undone.") == "true" ]]; then
+  if [[ $(configurator_reset_confirmation_dialog "all emulators" "Are you sure you want to reset all emulators to their default settings?\n\nThis process cannot be undone.") == "true" ]]; then
     (
     prepare_emulator "reset" "all"
     ) |

@@ -714,21 +714,6 @@ prepare_emulator() {
 
   fi
 
-  # TODO: this is not properly an emulator but let's treat like this for the moment
-  if [[ "$emulator" =~ ^(ftp|FTP|all)$ ]]; then
-    # TODO: do a proper script
-    # This is just a placeholder script to test the emulator's flow
-    echo "------------------------"
-    echo "Initializing FTP Server"
-    echo "------------------------"
-
-    mkdir -p "/var/config/ftp"
-    cp "/app/retrodeck/ftp/*" "/var/config/retrodeck/ftp"
-    # TODO: this step is to be done properly: Replacing RETRODECKHOMEDIR placeholder
-    sed -i 's#RETRODECKHOMEDIR#'$rdhome'#g' "/var/config/retrodeck/ftp/vsftpd.conf"
-
-  fi
-
   # Update presets for all emulators after any reset or move
   if [[ ! "$emulator" == "retrodeck" ]]; then
     build_retrodeck_current_presets

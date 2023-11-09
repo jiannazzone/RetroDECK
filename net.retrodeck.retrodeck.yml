@@ -284,33 +284,25 @@ modules:
   # dependency of: CEMU, RPCS3
   - rd-submodules/shared-modules/glew/glew.json
 
-  # FTP Server
-  # TODO: address
+  # SFTP Server
 
-  - name: vsftpd
+  - name: sftp-hostname
     buildsystem: simple
     build-commands:
-      - ar -x vsftpd*.deb
-      - rm -f vsftpd*.deb
+      - ar -x hostname*.deb
       - tar -xf data.tar.zst
-      - rm -f control.tar.gz data.tar.zst debian-binary
-      - cp -r usr/* ${FLATPAK_DEST}
-      - rm -rf usr lib etc
-      - mkdir -p ${FLATPAK_DEST}/retrodeck/ftp
+      - cp -r bin/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/libexec
-      - cp -vf virtual_users.txt vsftpd.conf ${FLATPAK_DEST}/retrodeck/ftp
       - cp -vf ftp_server.sh ${FLATPAK_DEST}/libexec
       - chmod +x ${FLATPAK_DEST}/libexec/ftp_server.sh
     sources:
       - type: file
-        url: http://de.archive.ubuntu.com/ubuntu/pool/main/v/vsftpd/vsftpd_3.0.5-0ubuntu1_amd64.deb
-        sha256: 248582c4511ceaab5fd0d7f28d3a95af1a946a83bffe1a36d1accb72d99c2cf8
+        url: http://de.archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.23ubuntu2_amd64.deb
+        sha256: cec0448fef88a43a3c232fd9df555ca4c468cf5e16ddf3a1b0a5f7b7f076e413
       - type: file
-        path: tools/ftp/virtual_users.txt
-      - type: file
-        path: tools/ftp/vsftpd.conf
-      - type: file
-        path: functions/ftp_server.sh
+        path: functions/sftp_server.sh
+
+  # SFTP Server - END
 
   # ES-DE - START
   # https://gitlab.com/es-de/emulationstation-de
