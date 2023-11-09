@@ -3,6 +3,9 @@
 port=22
 ip=$(hostname -I | awk '{print $1}')
 
+# Set the log file path
+log_file="$rdhome/.logs/sftp_server.log"
+
 # Check if the port is in use
 if nc -z localhost $port; then
     zenity --error --no-wrap \
@@ -18,6 +21,9 @@ echo "retrodeck:$(openssl passwd -1 retrodeck)" >> /tmp/sftp_home/retrodeck/etc/
 
 # Set rdhome as the home directory for retrodeck user
 echo "Match User retrodeck\n    ChrootDirectory $rdhome" >> /etc/ssh/sshd_config
+
+# Redirect SSHD logs to the specified log file
+echo "Match User retrodeck\n    ChrootDirectory $rdhome\n    ForceCommand internal-sftp -l INFO -f $log_file" >> /etc/ssh/sshd_config
 
 # Restart SSHD to apply the new configuration
 service ssh restart
