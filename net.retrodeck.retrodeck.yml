@@ -284,7 +284,7 @@ modules:
   # dependency of: CEMU, RPCS3
   - rd-submodules/shared-modules/glew/glew.json
 
-  # SFTP Server
+  # SFTP Server - START
 
   - name: sftp-hostname
     buildsystem: simple
@@ -293,8 +293,8 @@ modules:
       - tar -xf data.tar.zst
       - cp -r bin/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/libexec
-      - cp -vf ftp_server.sh ${FLATPAK_DEST}/libexec
-      - chmod +x ${FLATPAK_DEST}/libexec/ftp_server.sh
+      - cp -vf sftp_server.sh ${FLATPAK_DEST}/libexec
+      - chmod +x ${FLATPAK_DEST}/libexec/sftp_server.sh
     sources:
       - type: file
         url: http://de.archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.23ubuntu2_amd64.deb
