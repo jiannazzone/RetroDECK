@@ -299,6 +299,7 @@ modules:
 
   # NOTE: we're only copying usr, there are other dirs but we don't need them atm
   - name: openssh-server
+    buildsystem: simple
     build-commands:
       - ar -x openssh-server*.deb
       - tar -xf data.tar.*
