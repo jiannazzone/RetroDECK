@@ -303,7 +303,10 @@ modules:
     build-commands:
       - ar -x openssh-server*.deb
       - tar -xf data.tar.*
-      - cp -r usr/* /usr
+      - cp -vr usr/lib/* ${FLATPAK_DEST}/lib
+      - cp -vr usr/sbin/* ${FLATPAK_DEST}/bin
+      - cp -vr usr/share/* ${FLATPAK_DEST}/share
+      - chmod +x ${FLATPAK_DEST}/bin/sshd
     sources:
       - type: file
         url: http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_8.2p1-4ubuntu0.9_amd64.deb
