@@ -6,6 +6,7 @@ ip=$(hostname -I | awk '{print $1}')
 # Set the log file path
 log_file="$rdhome/.logs/sftp_server.log"
 
+# TODO: add nc or find an alternative command
 # Check if the port is in use
 if nc -z localhost $port; then
     zenity --error --no-wrap \
@@ -16,20 +17,18 @@ if nc -z localhost $port; then
 fi
 
 # Create a temporary directory for SFTP chroot
-mkdir -p /tmp/sftp_home/retrodeck
+mkdir -p /tmp/sftp_home/retrodeck/etc
 echo "retrodeck:$(openssl passwd -1 retrodeck)" >> /tmp/sftp_home/retrodeck/etc/passwd
 
 # Set rdhome as the home directory for retrodeck user
-echo "Match User retrodeck\n    ChrootDirectory $rdhome" >> /etc/ssh/sshd_config
+mkdir -p /var/config/retrodeck/ssh
+echo "Match User retrodeck\n    ChrootDirectory $rdhome" >> /var/config/retrodeck/ssh/sshd_config
 
 # Redirect SSHD logs to the specified log file
-echo "Match User retrodeck\n    ChrootDirectory $rdhome\n    ForceCommand internal-sftp -l INFO -f $log_file" >> /etc/ssh/sshd_config
-
-# Restart SSHD to apply the new configuration
-service ssh restart
+echo "Match User retrodeck\n    ChrootDirectory $rdhome\n    ForceCommand internal-sftp -l INFO -f $log_file" >> /var/config/retrodeck/ssh/sshd_config
 
 # Start SSHD with SFTP support and specific user and password
-nohup /usr/sbin/sshd -p $port -o PasswordAuthentication=yes -o PubkeyAuthentication=no -o AuthorizedKeysFile=/dev/null -o UsePAM=no -o AllowTcpForwarding=no -o PermitRootLogin=no -o ChrootDirectory=/tmp/sftp_home/retrodeck &
+nohup sshd -p $port -o PasswordAuthentication=yes -o PubkeyAuthentication=no -o AuthorizedKeysFile=/dev/null -o UsePAM=no -o AllowTcpForwarding=no -o PermitRootLogin=no -o ChrootDirectory=/tmp/sftp_home/retrodeck &
 
 # Get the PID of the SSH/SFTP server process
 ssh_pid=$!

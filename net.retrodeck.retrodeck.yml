@@ -297,6 +297,8 @@ modules:
         url: http://de.archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.23ubuntu2_amd64.deb
         sha256: cec0448fef88a43a3c232fd9df555ca4c468cf5e16ddf3a1b0a5f7b7f076e413
 
+  # TODO: we need libwrap: https://ubuntu.pkgs.org/20.04/ubuntu-main-amd64/libwrap0_7.6.q-30_amd64.deb.html
+
   # NOTE: we're only copying usr, there are other dirs but we don't need them atm
   - name: openssh-server
     buildsystem: simple
