@@ -4,7 +4,7 @@
    <id>net.retrodeck.retrodeck</id>
    <launchable type="desktop-id">net.retrodeck.retrodeck.desktop</launchable>
    <name>RetroDECK</name>
-   <summary>RetroDECK brings an environment to catalog and play your retro games directly on your Steam Deck.</summary>
+   <summary>RetroDECK brings an environment to catalog and play your retro games directly on your Steam Deck</summary>
    <developer_name>RetroDECK Team</developer_name>
    <url type="homepage">https://retrodeck.net</url>
    <url type="bugtracker">https://github.com/XargonWan/RetroDECK/issues</url>
@@ -71,6 +71,33 @@
             <p>News:</p>
             <ul>
                <li>Welcome to cooker 0.8.0b!</li>
+            </ul>
+         </description>
+      </release>
+      <release version="0.7.4b" date="2023-11-17">
+         <url>https://github.com/XargonWan/RetroDECK/releases/tag/0.7.4b</url>
+         <description>
+            <p>Hotfix:</p>
+            <ul>
+               <li>Fixed a bug where the system folders were not correctly generated</li>
+            </ul>
+            <p>Known issues:</p>
+            <ul>
+               <li>Please check the know issues in the Wiki under General Infomration.</li>
+            </ul>
+         </description>
+      </release>
+      <release version="0.7.3b" date="2023-11-14">
+         <url>https://github.com/XargonWan/RetroDECK/releases/tag/0.7.3b</url>
+         <description>
+            <p>Updates:</p>
+            <ul>
+               <li>All standalone emulators</li>
+               <li>EmulationStation Desktop Edition (ES-DE)</li>
+            </ul>
+            <p>Known issues:</p>
+            <ul>
+               <li>Please check the know issues in the Wiki under General Infomration.</li>
             </ul>
          </description>
       </release>
