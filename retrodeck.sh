@@ -168,6 +168,7 @@ fi
 
 desktop_mode_warning
 low_space_warning
+rdhome_checker
 
 # Check if there is a new version of RetroDECK available, if update_check=true in retrodeck.cfg and there is network connectivity available.
 if [[ $update_check == "true" ]]; then

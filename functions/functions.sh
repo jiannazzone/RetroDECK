@@ -527,9 +527,20 @@ easter_eggs() {
   cp -f "$new_splash_file" "$current_splash_file" # Deploy assigned splash screen
 }
 
+rdhome_checker() {
+  if [ ! -d "$rdhome" ]; then
+      if [[ $(configurator_generic_question_dialog "RetroDECK" "The \"retrodeck\" folder cannot be found in:\n\"$rdhome\".\nIt may havve bebn moved or misplaced, do you want to browse for it?") == "true" ]]; then
+        finit
+      else
+        exit 0
+      fi
+  fi
+}
+
 start_retrodeck() {
   easter_eggs # Check if today has a surprise splashscreen and load it if so
   # normal startup
   echo "Starting RetroDECK v$version"
   emulationstation --home /var/config/emulationstation
 }
+
