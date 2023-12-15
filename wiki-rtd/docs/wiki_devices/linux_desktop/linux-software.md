@@ -37,7 +37,6 @@ This more complex application allows you to manage and verify your roms via .dat
 RomM is a game library roms manager focused in retro gaming. Manage and organize all of your games from a web browser.
 Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your games from a modern interface while enriching them with IGDB metadata.
 
-
 [RomM Github](https://github.com/zurdi15/romm)
 
 
@@ -53,9 +52,9 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 ### Chiaki
 
-Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, NetBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
-
 <img src="../../../wiki_images/logos/chiaki-logo.png" width="150">
+
+Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, NetBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
 
 [Chiaki Flathub](https://flathub.org/apps/re.chiaki.Chiaki)
 
