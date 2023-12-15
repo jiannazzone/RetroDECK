@@ -59,7 +59,7 @@ Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStati
 
 [Chiaki Flathub](https://flathub.org/apps/re.chiaki.Chiaki)
 
-## Moonlight
+### Moonlight
 
 <img src="../../../wiki_images/logos/moonlight-logo.png" width="150">
 
