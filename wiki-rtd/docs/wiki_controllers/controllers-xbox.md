@@ -21,8 +21,12 @@ Supported by Steam Input
 
 ## What are the Official profiles called?
 
-- Xbox 360: `RetroDECK: Xbox 360  - <Version Number>`
-- Xbox Wireless Controller: `RetroDECK: Xbox Wireless  - <Version Number>`
+- Xbox 360: `RetroDECK: Xbox 360`
+- Xbox Wireless Controller: `RetroDECK: Xbox Wireless>`
+
+### What is the Current Version Number of the profile?
+
+WIP
 
 ## Global Hotkeys: Xbox Button Combos
 

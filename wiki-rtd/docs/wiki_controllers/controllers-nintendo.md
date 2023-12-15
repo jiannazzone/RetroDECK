@@ -10,7 +10,11 @@ Supported by Steam Input
 
 ## What is the Official - Switch Pro RetroDECK profile called?
 
-- Switch Pro: `RetroDECK: Switch Pro - <Version Number>`
+- Switch Pro: `RetroDECK: Switch Pro`
+
+### What is the Current Version Number of the profile?
+
+WIP
 
 ### Switch Pro - Global Hotkeys: Nintendo Button Combos
 

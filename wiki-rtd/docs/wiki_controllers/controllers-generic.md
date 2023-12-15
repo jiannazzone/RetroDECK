@@ -8,13 +8,20 @@
 Generic Controllers is a broad category that encompasses the vast majority of third party controllers.<br>
 
 
-## Generic: Standard
+
+
+## Generic - Standard
 
 This guide assumes that they have a similar layout as an Xbox Controller aka a Standard layout.
 
-### What are the Official profiles called?
+### What is the Official profile called?
 
-- Generic Standard : `RetroDECK: Generic: Standard - <Version Number>`
+- Generic - Standard : `RetroDECK: Generic - Standard`
+
+#### What is the Current Version Number of the profile?
+
+WIP
+
 
 ## Global Hotkeys: Generic Button Combos
 

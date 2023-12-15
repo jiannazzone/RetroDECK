@@ -19,9 +19,13 @@ Steam Input have support for the following controllers:
 
 ## What are the Official profiles called?
 
-- Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3 - <Version Number>`
-- Dualshock 4: `RetroDECK: Dualshock 4  - <Version Number>`
-- DualSense: `RetroDECK: DualSense - <Version Number>`
+- Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3`
+- Dualshock 4: `RetroDECK: Dualshock 4`
+- DualSense: `RetroDECK: DualSense`
+
+### What is the Current Version Number of the profiles?
+
+WIP
 
 ## Global Hotkeys: Playstation Button Combos
 
