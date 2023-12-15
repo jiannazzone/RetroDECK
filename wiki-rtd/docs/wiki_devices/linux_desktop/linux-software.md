@@ -40,7 +40,7 @@ Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your gam
 [RomM Github](https://github.com/zurdi15/romm)
 
 
-## Streaming Applications
+## Game Streaming Applications
 
 ### Greenlight
 
@@ -54,7 +54,7 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 <img src="../../../wiki_images/logos/chiaki-logo.png" width="150">
 
-Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, NetBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
 
 [Chiaki Flathub](https://flathub.org/apps/re.chiaki.Chiaki)
 
