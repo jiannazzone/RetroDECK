@@ -11,7 +11,7 @@ The following software works great with the Linux Desktop and might enhance your
 Flips is a software that let you patch romhacks IPS & BPS files onto the rom files.
 It's already on Flathub.
 
-[Flips](https://flathub.org/apps/details/com.github.Alcaro.Flips)
+[Flips Flathub](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
 ### BoilR
 
