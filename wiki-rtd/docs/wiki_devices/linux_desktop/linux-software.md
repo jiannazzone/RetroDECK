@@ -75,4 +75,4 @@ Moonlight allows you to play your PC games on almost any device, whether you're 
 
 Sunshine is a self-hosted game stream host for Moonlight. Offering low latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware encoding.
 
-[Sunshine Github]](https://github.com/LizardByte/Sunshine)
+[Sunshine Github](https://github.com/LizardByte/Sunshine)
