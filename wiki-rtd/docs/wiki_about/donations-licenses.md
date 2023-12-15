@@ -403,6 +403,7 @@ Over the last couple of years Kenny.nl have released [30,000+](https://kenney.nl
 
 #### Licenses
 CC0 & CC1
+Members of the RetroDECK Team also owns a seperate donation license.
 
 ---
 
@@ -419,6 +420,11 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 
 ### Lutris
 [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)
+
+### Pixel UI Theme for Godot
+
+Members of the RetroDECK Team owns a license.
+[Pixel UI Theme Itch.io ](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
 
 ### Steam Deck & Steam Deck Logo
 
