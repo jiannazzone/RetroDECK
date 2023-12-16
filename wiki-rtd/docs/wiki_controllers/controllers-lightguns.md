@@ -17,7 +17,11 @@ WIP
 <img src="../../wiki_images/logos/gun4ir-logo.png" width="250">
 
 The GUN4IR uses LED point strips around your display and allows you to rebuild existing lightguns or toyguns into the GUN4IR system. <br>
-The payed software to configure the GUN4IR guns is Windows only.
+
+- A configuration software with a valid license is required that be bought from the website (or come with a GUN4IR total system purchase)
+- The software is as of this date Windows only, you will need to connect the Windows device to the display you want to use.
+    - The calibration and firmware updates can be done in Windows on the display you want to play on.
+    - After the calibrtion you can unplug the device and use it in Linux (but not RetroDECK yet).
 
 [GUN4IR Website](https://www.gun4ir.com/)
 
