@@ -14,6 +14,7 @@ _EmulationStation Desktop Edition (ES-DE) and it's guide is written by [Leon Sty
 
 What follows is a list of recommended sections of the User Guide with links.
 
+
 ## General Interface & navigation
 What follows are links to parts of the EmulationStation DE user guide that talks about general settings and navigation.
 
@@ -24,6 +25,7 @@ These are the buttons mappings automatically applied by ES-DE.<br>
 [General navigation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#general-navigation)
 If you are using the Steam Deck look at RetroDECKs hotkeys:
 [Steam Deck: Hotkeys ](https://github.com/XargonWan/RetroDECK/wiki/Steam-Deck:-Hotkeys)
+
 
 ## Settings
 
@@ -39,6 +41,7 @@ These are mostly technical settings.<br>
 Various sound settings.<br>
 [Sound settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings)
 
+
 ## Game settings and filters
 
 ### Game options men
@@ -52,6 +55,7 @@ ES-DE provides two types of collections, Automatic collections and Custom collec
 ### Set alternative emulator.
 ES-DE allows you to change emulators for systems that has many different emulators.<br>
 [Set alternative emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1)
+
 
 ## Scraper
 
