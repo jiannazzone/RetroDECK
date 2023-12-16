@@ -14,7 +14,7 @@ WIP
 
 ## GUN4IR
 
-<img src="../../wiki_images/logos/gun4ir-logo.png" width="250">
+<img src="../../wiki_images/controllers/lightgun-gun4ir.png" width="200">
 
 The GUN4IR uses LED point strips around your display and allows you to rebuild existing lightguns or toyguns into the GUN4IR system. <br>
 
