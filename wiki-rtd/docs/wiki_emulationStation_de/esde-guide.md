@@ -44,7 +44,7 @@ Various sound settings.<br>
 
 ## Game settings and filters
 
-### Game options men
+### Game options
 Various navigation for the game options menu.<br>
 [Game options menu](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu)
 
