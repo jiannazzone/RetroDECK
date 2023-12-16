@@ -25,31 +25,31 @@ These are the buttons mappings automatically applied by ES-DE.<br>
 If you are using the Steam Deck look at RetroDECKs hotkeys:
 [Steam Deck: Hotkeys ](https://github.com/XargonWan/RetroDECK/wiki/Steam-Deck:-Hotkeys)
 
-### Settings
+## Settings
 
-#### General UI Settings
+### General UI Settings
 Various settings that affect the user interface.<br>
 [UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings)
 
-#### Other UI settings
+### Other UI settings
 These are mostly technical settings.<br>
 [Other UI settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings)
 
-#### General Sound Settings
+### General Sound Settings
 Various sound settings.<br>
 [Sound settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings)
 
-### Game settings and filters
+## Game settings and filters
 
-#### Game options men
+### Game options men
 Various navigation for the game options menu.<br>
 [Game options menu](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu)
 
-#### Game collections
+### Game collections
 ES-DE provides two types of collections, Automatic collections and Custom collections, the latter being defined by the user. Collections are as the name implies only collections of games already present in your actual game systems, so they're basically grouping of games into convenient views.<br>
 [Game collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections)
 
-#### Set alternative emulator.
+### Set alternative emulator.
 ES-DE allows you to change emulators for systems that has many different emulators.<br>
 [Set alternative emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1)
 
@@ -81,7 +81,7 @@ These are the settings for the miximage generator, which can either be run from 
 ### Various other scraping settings.<br>
 [Other scraper settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings)
 
-## Metadata editor
+### Metadata editor
 In the metadata editor, you can modify the metadata, scrape for game info and media files, clear the entry which will delete all metadata and game media files, or delete the entire game which also removes its file on the filesystem. <br>
 [Metadata editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor)
 
