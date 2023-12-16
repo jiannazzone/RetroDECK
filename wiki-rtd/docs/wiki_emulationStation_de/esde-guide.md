@@ -14,11 +14,7 @@ _EmulationStation Desktop Edition (ES-DE) and it's guide is written by [Leon Sty
 
 What follows is a list of recommended sections of the User Guide with links.
 
-
-## General Interface & navigation
-What follows are links to parts of the EmulationStation DE user guide that talks about general settings and navigation.
-
-### Navigation
+## Navigation
 
 #### General navigation
 These are the buttons mappings automatically applied by ES-DE.<br>
