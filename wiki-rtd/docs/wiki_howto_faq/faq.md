@@ -349,6 +349,13 @@ Read more on [wikipedia](https://en.wikipedia.org/wiki/Read-only_memory)
 
 <br>
 
+### I'm not getting any sound
+- Check so you have not turned down the volume or muted in: the emulators, es-de, the OS or other volume settings.
+- On the Steam Deck make sure you have not muted RetroDECK in Desktop Mode as that transfers over to Game Mode.
+
+<br>
+
+
 ### PS2 games are not working or buggy in the RetroArch Core.
  It's a known issue with if you are using the libretro core but you can use the the standalone pcsx2 emulator to solve this issue.
  Be sure to check that the bios files are in the correct folder. Read more on the `How-to's 💬` - `How to: Manage BIOS and Firmware`
