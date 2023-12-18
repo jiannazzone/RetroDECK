@@ -1,5 +1,5 @@
 ---
-date: 2023-12-23
+date: 2023-12-18
 ---
 # A RetroDECK Doomy December:
 
@@ -7,21 +7,42 @@ Twas the night before Christmas, and all through Mars space.<br>
 Not a creature was stirring, all over the base. <br>
 The chainsaws were hung by the fireplace with care. <br>
 In hopes that the demons would soon be there.
-
+<br>
+<br>
 <!-- more -->
+
+<img src="../../../doom-esde.png" width="550">
 
 # GZDoom and modding
 
-We in the RetroDECK team always believe that modding is a core part of the retro gaming experience.
+We in the RetroDECK team always believe that modding, texture replacements and tinkering is a core part of the gaming experience. <br>
+So on this secret December update we decided to share some technical details on what we are working on for DOOM.
 
-Even if you install GZDoom today from flathub it can be quite daunting for the average player on how to get it running.
-Access the hidden folders and understand what configs to edit to make it work.
+If you like running DOOM mods/fan-games today by installing GZDoom from flathub it can be quite daunting for the average player on how to get it running.
+
+Access the hidden folders, understand what configs to edit to make it work and in some cases drag-and-drop files into the GZDoom application.
 
 So what we are working on now is to make it at least a bit easier to play DOOM mods with RetroDECK.
 
-## How it works today
+---
 
-The files you put in /retrodeck/roms/doom/ today are:
+## How it works in RetroDECK today
+
+The files you put in `/retrodeck/roms/doom/` today are:
+
+- .iwad
+- .wad
+- .pwad
+
+Then they are added into the ES-DE interface and run as default with the `RetroArch Core` - `PrBoom`.<br>
+`PrBoom` only supports a few file types, many doom mods don't work and this in total offers an inferior experience.<br>
+You do get the benefit of all that RetroArch offers with the core tho.
+
+---
+
+## How it will work in 0.8b with GZDoom
+
+With the addition of GZDoom into RetroDECK we will make it the new default for running DOOM and also get support for the following file formats:
 
 - .iwad
 - .wad
@@ -30,11 +51,127 @@ The files you put in /retrodeck/roms/doom/ today are:
 - .ipk3
 - .pk4
 
-They are run by default with the RetroArch core PrBoom.
+But we will also create a new format called the `.doom` file and a new parser to handle them.
 
-## How it will work in 0.8b
+---
 
-With the addition of GZDoom
+## The RetroDECK DOOM Parser
+
+The Iwad parser will look for any of the CORE DOOM files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
+We have not decided on the entire structure yet under `/retrodeck/roms/doom/` but you can follow our efforts on the Discord.
+
+
+Here is what files it is currently looking for:
+
+```
+IWAD_FILES=("DOOM1.WAD" "DOOM.WAD" "DOOM2.WAD" "DOOM2F.WAD" "DOOM64.WAD" "TNT.WAD"
+            "PLUTONIA.WAD" "HERETIC1.WAD" "HERETIC.WAD" "HEXEN.WAD" "HEXDD.WAD"
+            "STRIFE0.WAD" "STRIFE1.WAD" "VOICES.WAD" "CHEX.WAD"
+            "CHEX3.WAD" "HACX.WAD" "freedoom1.wad" "freedoom2.wad" "freedm.wad"
+            "doom_complete.pk3"
+            )
+```
+
+---
+
+## The .doom file
+
+The .doom file is an empty text file they you can write what order to load the wads into GZDoom.<br>
+The goal is:
+
+- Easier controll to load what you want.
+- Reduce duplicates files and you only will need one core file and one version of the mod file.
+- Make it easier to run from the ES-DE interface.
+
+---
+
+## Brutality .doom examples:
+
+Lets say you have a bunch of mods and core doom wads already downloaded under the `/retrodeck/roms/doom/` folder.
+
+You want to play [Project Brutality](https://www.moddb.com/mods/project-brutality) on DOOM 2 levels.
+
+On the ModDB Page of Project Brutality they say that the order to run it is:
+
+- Map WAD
+- Project Brutality
+- Any other mini-mods
+
+All you need to do is create an empty file called `Project Brutality.doom`
+
+Each line the the file will be the order the mods are loaded.
+
+So in the case of `Project Brutality.doom`
+
+The contents will look like this
+
+```
+DOOM2.WAD
+PB_Staging_9f2561c.pk3
+```
+
+You can now run Project Brutality from RetroDECK.
+
+---
+
+### But I want the metal soundtrack!
+
+Maybe after a few minutes you feel.... wait I really want the `Doom Metal Soundtrack Mod - Volume 5` mod as well to give better sound.
+
+So you go back out open the `Project Brutality.doom` text file and add:
+
+```
+DOOM2.WAD
+PB_Staging_9f2561c.pk3
+DoomMetalVol5.wad
+```
+
+Save and go back out to play with those metal tunes.
+
+## Customize the .doom files
+You can customize it how you wish with the above example as a guideline.<br>
+There is nothing stopping you from adding more mods or create an infinite amount of `.doom` files.
+
+Maybe you want to have Project Brutality with DOOM and Doom 2 as separate entries in the ES-DE interface. <br>
+
+`Project Brutality DOOM 2.doom`
+```
+DOOM2.WAD
+PB_Staging_9f2561c.pk3
+```
+
+
+`Project Brutality DOOM.doom`
+```
+DOOM.WAD
+PB_Staging_9f2561c.pk3
+```
+
+What to have more minor mods into Project Brutality?
+
+Just keep adding the lines with the mod file names how many you want.
+
+Name the .doom file so you understand what it is and you are done:
+
+- `Project Brutality - The Ultimate Collection.doom`
+- `Project Brutality - But with Horses.doom`
+- `Project Brutality - Chex Quest with a Vengeance.doom`
+
+It is that easy.
+
+## Sharing is caring
+
+As it is soon Christmas we want to talk about the importance of sharing.<br>
+Maybe you will make a really cool .doom file in the future with 10, 20, 50 mods that you think is really cool.<br>
+
+Share the .doom file with the RetroDECK Community, tell everyone: HEY! Download the mods from here and put them and this .doom file i made into the `/retrodeck/roms/doom/` folder for a really cool experience!
+
+### Happy Holidays
+
+If you liked the Christmas Boot Logo by Ar
+
+With that the RetroDECK Team wishes you happy holidays and a happy new year!
+
 
 **Check out our:**
 
@@ -44,4 +181,4 @@ With the addition of GZDoom
 
 [Wiki](https://github.com/XargonWan/RetroDECK/wiki)
 
-[Donations](https://github.com/XargonWan/RetroDECK/wiki/Misc%3A-Donations-%26-Licenses)
+[Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
