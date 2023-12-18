@@ -16,7 +16,7 @@ Rip and tear!
 
 <img src="../../../doom-esde.png" width="550">
 
-*Theme is Alekfull NX (Revisited) by antfortytwo, fagnerpc and feedback by Lazorne(RetroDECK)*
+*Theme is Alekfull NX (Revisited) by antfortytwo and fagnerpc. Also testing and feedback by Lazorne(RetroDECK)*
 
 # GZDoom and modding
 
