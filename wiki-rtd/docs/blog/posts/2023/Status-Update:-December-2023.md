@@ -6,7 +6,10 @@ date: 2023-12-18
 Twas the night before Christmas, and all through Mars space.<br>
 Not a creature was stirring, all over the base. <br>
 The chainsaws were hung by the fireplace with care. <br>
-In hopes that the demons would soon be there.
+In hopes that the demons would soon be there.<br>
+...
+
+Rip and tear!
 <br>
 <br>
 <!-- more -->
@@ -85,7 +88,7 @@ The goal is:
 
 ---
 
-## Brutality .doom examples:
+## Project Brutality .doom examples:
 
 Lets say you have a bunch of mods and core doom wads already downloaded under the `/retrodeck/roms/doom/` folder.
 
@@ -128,8 +131,20 @@ DoomMetalVol5.wad
 
 Save and go back out to play with those metal tunes.
 
+---
+
+### I'm sick of Project Brutality, I want to play something else a Rogue-Like!
+
+[Doom Infinite](https://www.moddb.com/mods/doom-infinite)
+
+`Doom Infinite.doom`
+```
+DOOM2.WAD
+DOOM_Infinite_DEMO_0978_6.pk3
+```
+
 ## Customize the .doom files
-You can customize it how you wish with the above example as a guideline.<br>
+You can customize it how you wish with the above examples as a guideline.<br>
 There is nothing stopping you from adding more mods or create an infinite amount of `.doom` files.
 
 Maybe you want to have Project Brutality with DOOM and Doom 2 as separate entries in the ES-DE interface. <br>
@@ -147,8 +162,7 @@ DOOM.WAD
 PB_Staging_9f2561c.pk3
 ```
 
-What to have more minor mods into Project Brutality?
-
+Want to have more minor mods into Project Brutality?<br>
 Just keep adding the lines with the mod file names how many you want.
 
 Name the .doom file so you understand what it is and you are done:
@@ -162,13 +176,25 @@ It is that easy.
 ## Sharing is caring
 
 As it is soon Christmas we want to talk about the importance of sharing.<br>
-Maybe you will make a really cool .doom file in the future with 10, 20, 50 mods that you think is really cool.<br>
+Maybe you will make a really neat `.doom` file in the future with 10, 20, 50 mods that you think is really cool.<br>
 
-Share the .doom file with the RetroDECK Community, tell everyone: HEY! Download the mods from here and put them and this .doom file i made into the `/retrodeck/roms/doom/` folder for a really cool experience!
+Share the `.doom` file and where to download the mods with the RetroDECK Community, tell everyone:
 
-### Happy Holidays
+```
+HEY Everyone!
 
-If you liked the Christmas Boot Logo by Ar
+Download the mods from here (links)!
+Put them into the /retrodeck/roms/doom/ folder.
+Then put this .doom file I made: CoolDOOM.doom into the same folder.
+For the ultimate cool experience!
+```
+
+### 🎆🤶 Happy Holidays 🎅🎇
+
+If you liked the Christmas Boot Logo we got many more holidays up for grabs: Lunar New Year, Swedish Midsummer, Halloween and many more. <br>
+
+So any artist is welcome to do a remix for a Holiday with the Boot Logo.<br>
+Contact the RetroDECK Team on Discord for more information if you are interested.
 
 With that the RetroDECK Team wishes you happy holidays and a happy new year!
 
