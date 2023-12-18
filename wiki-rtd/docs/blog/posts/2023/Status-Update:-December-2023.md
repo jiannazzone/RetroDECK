@@ -145,6 +145,8 @@ DOOM2.WAD
 DOOM_Infinite_DEMO_0978_6.pk3
 ```
 
+---
+
 ## Customize the .doom files
 You can customize it how you wish with the above examples as a guideline.<br>
 There is nothing stopping you from adding more mods or create an infinite amount of `.doom` files.
@@ -175,6 +177,8 @@ Name the .doom file so you understand what it is and you are done:
 
 It is that easy.
 
+---
+
 ## Sharing is caring
 
 As it is soon Christmas we want to talk about the importance of sharing.<br>
@@ -190,6 +194,8 @@ Put them into the /retrodeck/roms/doom/ folder.
 Then put this .doom file I made: CoolDOOM.doom into the same folder.
 For the ultimate cool experience!
 ```
+
+---
 
 ### 🎆🤶 Happy Holidays 🎅🎇
 
