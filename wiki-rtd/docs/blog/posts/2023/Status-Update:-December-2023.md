@@ -16,6 +16,8 @@ Rip and tear!
 
 <img src="../../../doom-esde.png" width="550">
 
+*Theme is Alekfull NX (Revisited) by antfortytwo, fagnerpc and feedback by Lazorne(RetroDECK)*
+
 # GZDoom and modding
 
 We in the RetroDECK team always believe that modding, texture replacements and tinkering is a core part of the gaming experience. <br>
