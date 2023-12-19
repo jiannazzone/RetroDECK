@@ -2,7 +2,7 @@
 
 ## How RetroDECK was born?
 
-<img src="../../wiki_images/logos/351-deck-logo.png" width="550">
+<img src="../../wiki_images/logos/351e-deck-logo.png" width="550">
 
 Let's take a step back.
 
