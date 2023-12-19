@@ -16,7 +16,10 @@ Víctor R<br>
 
 ## Xmas Period
 
+
+<details><summary> Spoiler </summary>
 <img src="../../wiki_images/logos/rd-xmas-logo.svg" width="500">
+</details>
 
 **Artist:**<br>
 [Weestuarty](https://github.com/Weestuarty)
