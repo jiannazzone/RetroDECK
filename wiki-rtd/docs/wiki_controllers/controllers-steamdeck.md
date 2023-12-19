@@ -3,6 +3,9 @@
 <img src="../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
 
+## Input Guide
+
+<img src="../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
 
 ## RetroDECK - Steam Deck Layout
