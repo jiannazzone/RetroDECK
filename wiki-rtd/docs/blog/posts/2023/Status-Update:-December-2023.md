@@ -199,7 +199,7 @@ For the ultimate cool experience!
 
 ### 🎆🤶 Happy Holidays 🎅🎇
 
-Did you like the Christmas Boot Logo? We got many more holidays up for commissions: [Boot Logos](../wiki_about/boot-logos.md) <br>
+Did you like the Christmas Boot Logo? We got many more holidays up for commission check: About RetroDECK 📖 -> Boot Logos <br>
 
 If you are an artist and want make a logo to contact the RetroDECK Team on Discord for more information if you are interested.
 
