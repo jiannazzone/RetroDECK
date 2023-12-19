@@ -6,7 +6,7 @@
 
 **Artists that contributed:**<br>
 
-Everyone here contributed is various ways such as making the first and second versions of the logo, colors, icons or concepts.
+Everyone here contributed in various ways in the first and second iterations of the logo, colors, icons, steamgridDB or concepts.
 
 [Pixelguin](https://github.com/Pixelguin)<br>
 [XargonWan](https://github.com/XargonWan)<br>
