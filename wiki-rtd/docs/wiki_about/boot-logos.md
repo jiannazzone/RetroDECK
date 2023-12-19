@@ -2,7 +2,7 @@
 
 ## Standard Logo
 
-<img src="../../wiki_images/logos/rd-xmas-logo.svg" width="500">
+<img src="../../wiki_images/logos/rd-logo-box.png" width="500">
 
 **Artists that contributed:**<br>
 
