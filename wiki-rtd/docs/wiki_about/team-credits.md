@@ -79,12 +79,6 @@ Have done some themes for ES-DE.
 ### [RavenKilit](https://github.com/RavenKilit)
 Did some code and testning, contributed to [AmberELEC](https://amberelec.org/)
 
-### [MorGuux](https://github.com/MorGuux)
-Made the RetroDECK steamdb graphics for the old logo
-
-### [Pixelguin](https://github.com/Pixelguin)
-Made the new logo and steamdb graphics
-
 ### teotwaki
 Generous cloud hosting sponsor
 
@@ -96,6 +90,10 @@ Server Administration
 
 ### [ItzSelenux](https://github.com/ItzSelenux)
 Maker of [pixelitos](https://github.com/ItzSelenux/pixelitos-icon-theme)
+
+## Logo & Icon Creators
+
+[Boot Logos](../wiki_about/boot-logos.md)
 
 ## Special Thanks
  We want give special thanks to:
