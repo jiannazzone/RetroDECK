@@ -1,4 +1,4 @@
-# RetroDECK: Steam Deck - Controls
+# Steam Deck - Controls
 
 <img src="../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
