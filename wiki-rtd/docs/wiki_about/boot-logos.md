@@ -8,11 +8,11 @@
 
 Everyone here contributed is various ways such as making the first and second versions of the logo, colors, icons or concepts.
 
-[Pixelguin](https://github.com/Pixelguin)
-[XargonWan](https://github.com/XargonWan)
-[antfortytwo](https://github.com/anthonycaccese/)
-[MorGuux](https://github.com/MorGuux)
-Víctor R
+[Pixelguin](https://github.com/Pixelguin)<br>
+[XargonWan](https://github.com/XargonWan)<br>
+[antfortytwo](https://github.com/anthonycaccese/)<br>
+[MorGuux](https://github.com/MorGuux)<br>
+Víctor R<br>
 
 ## Xmas Period
 
