@@ -199,10 +199,9 @@ For the ultimate cool experience!
 
 ### 🎆🤶 Happy Holidays 🎅🎇
 
-If you liked the Christmas Boot Logo we got many more holidays up for grabs: Lunar New Year, Swedish Midsummer, Halloween and many more. <br>
+Did you like the Christmas Boot Logo? We got many more holidays up for commissions: [Boot Logos](../wiki_about/boot-logos.md) <br>
 
-So any artist is welcome to do a remix for a Holiday with the Boot Logo.<br>
-Contact the RetroDECK Team on Discord for more information if you are interested.
+If you are an artist and want make a logo to contact the RetroDECK Team on Discord for more information if you are interested.
 
 With that the RetroDECK Team wishes you happy holidays and a happy new year!
 
