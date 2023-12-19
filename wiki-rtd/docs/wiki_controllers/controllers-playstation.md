@@ -8,14 +8,25 @@ Steam Input have support for the following controllers:
 
 <img src="../../wiki_images/controllers/ps3-dualshock3.png" width="250">
 
+Has Steam Input support
+
 ## Playstation 4 - Dualshock 4
 
-
 <img src="../../wiki_images/controllers/ps4-dualshock4.png" width="250">
+
+Has Steam Input support
 
 ## Playstation 5 - DualSense
 
 <img src="../../wiki_images/controllers/ps5-dualsense.png" width="250">
+
+Has Steam Input support
+
+## Playstation 5 - DualSense Edge
+
+<img src="../../wiki_images/controllers/ps5-dualsense-edge.png" width="250">
+
+The DualSense Edge does not have full Steam Input support at the time of this writing.
 
 ## What are the Official profiles called?
 
