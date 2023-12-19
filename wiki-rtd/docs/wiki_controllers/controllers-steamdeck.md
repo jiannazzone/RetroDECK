@@ -10,20 +10,46 @@ The Steam Deck comes with several built-in hotkeys that you can use in all games
 | Function                 | Button / Combination |  Comment |
 | :---                    | :---:               |     :---:     |
 | Take Steam Screenshot      |   `Steam   + R1`          |               |
-| Left Mouse Click           |   `Steam  +  R2`          |               |
+| Left Mouse Click |   `Steam  +  Right Touchpad Click`  / `Steam  +  R3`   /  `Steam  +  R2`      |               |
 | Enable Magnifier           |   `Steam  +  L1`          |               |
 | Right Mouse Click          |   `Steam  +  L2`          |               |
-| Increase Brightness      |   `Steam  + Left Stick - Up`          |               |
-| Decrease Brightness      |   `Steam +  Left Stick - Down`          |               |
-| Right Stick - Joystick Mouse |   `Steam *HOLD*  +  Right Stick`          |               |
-|  Left Mouse Click |   `Steam  +  R3`          |               |
-| Right Touchpad - Touchpad as Mouse |   `Steam *HOLD*  +  Right Touchpad`          |               |
-|  Left Mouse Click |   `Steam  +  Right Touchpad Click`          |               |
+| Increase Brightness      |   `Steam  + Left Stick Up`          |               |
+| Decrease Brightness      |   `Steam +  Left Stick Down`          |               |
+| Joystick Mouse |   `Steam *HOLD*  +  Right Stick`          |               |
+| Touchpad as Mouse |   `Steam *HOLD*  +  Right Touchpad`          |               |
 |  Force Quit Game |   `Steam  +  B *HOLD*`          |      Great for any game that Freezes       |
 |  Show Keyboard |   `Steam  +  X`          |             |
 |  Tab |   `Steam  +  D-Pad Down`          |               |
 |  Escape |   `Steam  +  D-Pad Left`          |               |
 |  Enter |   `Steam  +  D-Pad Right`          |               |
+
+## Steam Deck - Built-in Desktop Mode Hotkeys and Navigation
+
+The Steam Deck comes with several built-in hotkeys that you can use in Desktop Mode. They could be useful when navigating the RetroDECK Configurator or moving various files into RetroDECK.
+
+| Function                 | Button / Combination |  Comment |
+| :---                    | :---:               |     :---:     |
+|  Joystick Mouse     |  `Right Stick`         |               |
+| Touchpad as Mouse |     `Right Touchpad`        |               |
+|  Left Mouse Click |   `R3` / `Right Touchpad Click` /  `R2`        |               |
+|  Middle Mouse Click |   `Left Touchpad Click`         |               |
+|  Right Mouse Click |   `L2`         |               |
+|  Horizontal and Vertical Scrolling |   `Left Touchpad`         |               |
+|  Left Ctrl |   `L1`         |               |
+|  Left Alt |   `R1`         |               |
+|  Space |   `Y`         |               |
+|  Show Keyboard |   `X`         |               |
+|  Escape  |   `B`   /  `Start`      |               |
+|  Tab  |   `Select`      |               |
+|  Enter  |   `A`         |               |
+|  Left Shift  |   `L4`         |               |
+|  Super Key   |   `L5`         |               |
+|  Page Up  |   `R4`         |               |
+|  Page Down  |   `R5`         |               |
+|  Arrow Key - Up  |   `D-Pad Up` / `Left Stick Up`       |               |
+|  Arrow Key - Down  |   `D-Pad Down` / `Left Stick Down`            |               |
+|  Arrow Key - Left  |   `D-Pad Left` / `Left Stick Left`         |               |
+|  Arrow Key - Right  |   `D-Pad Right` / `Left Stick Right`            |               |
 
 ## RetroDECK - Steam Deck Layout
 
