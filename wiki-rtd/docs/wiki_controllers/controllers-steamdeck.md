@@ -1,8 +1,41 @@
-# RetroDECK: Steam Deck - Official Layout
-
+# RetroDECK: Steam Deck - Controls
 
 <img src="../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
+
+## Steam Deck - Built-in Game Mode Hotkeys
+
+The Steam Deck comes with several built-in hotkeys that you can use in all games from Game Mode including RetroDECK.
+
+| Function                 | Button / Combination |  Comment |
+| :---                    | :---:               |     :---:     |
+| Take Steam Screenshot      |   `Steam   + R1`          |               |
+| Left Mouse Click           |   `Steam  +  R2`          |               |
+| Enable Magnifier           |   `Steam  +  L1`          |               |
+| Right Mouse Click          |   `Steam  +  L2`          |               |
+| Increase Brightness      |   `Steam  + Left Stick - Up`          |               |
+| Decrease Brightness      |   `Steam +  Left Stick - Down`          |               |
+| Right Stick - Joystick Mouse |   `Steam *HOLD*  +  Right Stick`          |               |
+|  Left Mouse Click |   `Steam  +  R3`          |               |
+| Right Touchpad - Touchpad as Mouse |   `Steam *HOLD*  +  Right Touchpad`          |               |
+|  Left Mouse Click |   `Steam  +  Right Touchpad Click`          |               |
+|  Force Quit Game |   `Steam  +  B *HOLD*`          |      Great for any game that Freezes       |
+|  Show Keyboard |   `Steam  +  X`          |             |
+|  Tab |   `Steam  +  D-Pad Down`          |               |
+|  Escape |   `Steam  +  D-Pad Left`          |               |
+|  Enter |   `Steam  +  D-Pad Right`          |               |
+
+## RetroDECK - Steam Deck Layout
+
+#### Make sure to Enable the RetroDECK Layout
+Have the `RetroDECK: Official Controller Layout` activated from the `Templates`.
+
+If you are unsure on how to do enable it, read Step 3 on the Installation Guide:<br>
+[How do I install RetroDECK on the Steam Deck?](../../wiki_devices/steamdeck/steamdeck-start/)
+
+If you want to reinstall the controller profile or missed to activate it during first setup you can do so from the configurator.
+
+`RetroDECK Configurator` -> `RetroDECK: Tools` -> `Install: RetroDECK SD Controller Profile`
 
 ### What's the latest version of the Steam Deck layout?
 
@@ -10,13 +43,6 @@
 
 The layout versioning do not always update with each minor patch. <br>
 Generally only the major versions comes with profile changes.
-
-## Enable the Layout
-Be sure to have the `RetroDECK: Official Controller Layout` activated from the `Templates`.
-
-- Add the Official Layout under `Controller Settings` -> `Controller Layouts` -> `Templates` in the Steam Deck called `RetroDECK: Official Layout` with a version number and apply.
-
-## Global Hotkeys: Button Combos
 
 ### The hotkey button
 The `HK` or `hotkey button` on the Steam Deck is `L4` or `R4` or `Select` depending on what is closest for the button combo you are trying to press, all trigger the same functions.
@@ -26,7 +52,7 @@ The `HK` or `hotkey button` on the Steam Deck is `L4` or `R4` or `Select` depend
 You want to do the command `Pause / Resume`. <br>
 You press and hold either `L4` or `R4` or `Select` and press `A` to trigger the command.
 
-### Button combo list
+### Global Hotkeys: Button Combos list
 The global hotkeys are activated by pressing the hotkey button and holding it while pressing the corresponding other button input.
 What follows is a list of hotkeys:
 
@@ -75,7 +101,7 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `Select`                |     `RetroArch`  `MAME` `FBNeo`    |            |
 
-## Steam Input - Radial Menu System
+## RetroDECK Layout - Radial Menu System
 
 #### Is there a quick way to go back to the top of the radial menu system?
 Yes, just press  on the `HK` trigger buttons: `L4` or `R4` or `Select`
@@ -250,5 +276,3 @@ The `3DS Menu` here you find hotkeys related to the Citra standalone emulator: L
 | :---                    | :---:                |      :---:           |  :---:     |
 | Load Amiibo             |   `Alt + M`          |`Citra`               |            |
 | Remove Amiibo           |   `Alt + N`          |`Citra`               |            |
-
-
