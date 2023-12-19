@@ -1,4 +1,4 @@
-# Steam Deck - Controls
+# Steam Deck - Controller
 
 <img src="../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
