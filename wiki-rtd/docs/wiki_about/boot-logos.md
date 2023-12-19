@@ -6,7 +6,7 @@
 
 **Artists that contributed:**<br>
 
-Everyone here contributed is various ways such as making the first and second versions of the logo, colors, icons or concepts.
+Everyone here contributed in various ways in the first and second iterations of the logo, colors, icons, steamgridDB or concepts.
 
 [Pixelguin](https://github.com/Pixelguin)<br>
 [XargonWan](https://github.com/XargonWan)<br>
@@ -14,7 +14,7 @@ Everyone here contributed is various ways such as making the first and second ve
 [MorGuux](https://github.com/MorGuux)<br>
 Víctor R<br>
 
-## Xmas Period
+## Holiday Period
 
 
 <details><summary> Spoiler </summary>
@@ -24,9 +24,9 @@ Víctor R<br>
 **Artist:**<br>
 [Weestuarty](https://github.com/Weestuarty)
 
-## Artist Wanted
+## Looking for Artist
 
-### Lunar New Year
+### Lunar New Year - 春节
 
 ### Valentines Day
 
@@ -36,15 +36,15 @@ Víctor R<br>
 
 ### April Fools' Day
 
-### Hanami Season
+### Hanami - 花見
 
 ### Star Wars Day
 
-### Kodomo no Hi
+### Kodomo no Hi - こどもの日
 
 ### Towel's Day
 
-### Swedish Midsummer
+### Swedish Midsummer - Midsommarafton
 
 ### Halloween
 
@@ -55,3 +55,6 @@ Víctor R<br>
 ### Ferragosto
 
 ### Carnevale / Mardi Gras
+
+### Mid-Autumn Festival - 中秋节
+
