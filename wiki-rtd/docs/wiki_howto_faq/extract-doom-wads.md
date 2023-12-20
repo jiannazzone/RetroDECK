@@ -38,7 +38,7 @@ DOOM 1:
 
 - `Steam/steamapps/common/Ultimate Doom/base/`
 
-## Where are the official addon wads/pwads?
+## Where are the official addons wads?
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
