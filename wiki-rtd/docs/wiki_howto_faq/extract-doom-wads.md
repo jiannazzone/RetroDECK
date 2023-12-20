@@ -22,28 +22,33 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
 
-### Flatpak Linux Steam/steamapps/ location
 
-If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
-`home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
 
 ## Where are the base wads?
 
+### Steam
+
 DOOM 2:
 
-- Steam/steamapps/common/Doom 2/masterbase/doom2/
-- Steam/steamapps/common/Doom 2/masterbase/master/wads/
-- Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/
+- `Steam/steamapps/common/Doom 2/masterbase/doom2/`
+- `Steam/steamapps/common/Doom 2/masterbase/master/wads/`
+- `Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`
 
 DOOM 1:
 
-DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
+`DOOM.WAD`
+
+- `Steam/steamapps/common/Ultimate Doom/base/`
 
 ## Where are the official addon wads/pwads?
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
 You first need to download the addons from the 2022 Unity Versions of either DOOM 2 or DOOM 1.
+
+### GOG
+
+### Steam
 
 **DOOM 2:**
 
@@ -57,6 +62,13 @@ Steam:
 
 `Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
 
+#### Flatpak Linux Steam/steamapps/ location**
+
+If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
+`home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
+
+
+## Addon List
 
 | Name                     |                      Creator                        |     WAD name         | ADDON ID |
 | :---                     | :---                                                |        :---:         |  :---:   |
