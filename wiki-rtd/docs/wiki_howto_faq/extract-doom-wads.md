@@ -55,29 +55,29 @@ Windows: c:/users/<username>/Saved Games/id Software/DOOM Classic/WADs/
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
-| Name                 | Creator |  WAD name      | Location     |
-| :---                    | :---:               | :---:                 |       :---:          |
-| Anomaly Report           |   Michael Jan Krizik (valkiriforce)          |   `AR.WAD`         |     |
-| Arrival           |   Walker Wright (Pavera) and Brayden Hart (AD_79)          |   `ARRIVAL.WAD`          |     |
-| Base Ganymede          |   Adam Woodmansey (Khorus)          |   `BGCOMP.WAD`          |     |
-| BTSX Episode 1             |   Esselfortium et al.          |   `BTSX_E1.WAD`          |     |
-| BTSX Episode 2          |   Esselfortium et al.          |   `BTSX_E2.WAD`            |     |
-| Deathless            |   James Paddock           |   `DEATHLESS.WAD`          |     |
-| Doom Zero           |   Christopher Golden (DASI-I)          |   `DOOMZERO.WAD`          |     |
-| Double Impact           |   Ralphis & RottKing          |   `DBIMPACT.WAD`          |     |
-| Earthless: Prelude            |   James Paddock & Fuzzball           |   `EARTHLESS_PR.WAD`          |     |
-| Harmony          |   Thomas van der Velden, James Paddock            |   `HARM1.WAD`          |
-| No End In Sight          |  Emil Brundage, Christopher Lutz, Xaser         |   `NEIS.WAD`          |
-| No Rest for the Living          |   Nerve Software            |   `NERVE.WAD`         |   |
-| The Plutonia Experiment          |   Dario Casali & Milo Casali          |   `PLUTONIA.WAD`          |
-| REKKR           |   Matthew Little (Revae) et al.         |   `REKKR.WAD`          |
-| Revolution! + MIDI Pack           |   Thomas van der Velden; MIDI pack contributors            |   `TVR!.WAD`          |
-| Scientist             |   Roland van der Velden         |   `SCI.WAD`          |
-| SIGIL            |   Romero Games        |   `SIGIL.WAD`          |
-| SIGIL II              |   Romero Games        |   `SIGILII.WAD`          |
-| Syringe              |   Pavera, Tarnsman, Marcaek, & Xaser         |   `SYRINGE.WAD`          |
-| TNT: Evilution               |   Team TNT         |   `TNT.WAD`          |
-| The Troopers' Playground    |   Matthias Worch       |   `TTP.WAD`          |
+| Name                 | Creator |  WAD name      | ADDON ID    |
+| :---                    | :---:                                                |        :---:         |  :---:   |
+| Anomaly Report           |   Michael Jan Krizik (valkiriforce)                 |   `AR.WAD`           |  `16`    |
+| Arrival                  |   Walker Wright (Pavera) and Brayden Hart (AD_79)   |   `ARRIVAL.WAD`      |  `15`    |
+| Base Ganymede            |   Adam Woodmansey (Khorus)                          |   `BGCOMP.WAD`       |  `18`    |
+| BTSX Episode 1           |   Esselfortium et al.                               |   `BTSX_E1.WAD`      |  `8`     |
+| BTSX Episode 2           |   Esselfortium et al.                               |   `BTSX_E2.WAD`      |  `9`     |
+| Deathless                |   James Paddock                                     |   `DEATHLESS.WAD`    |  `7`     |
+| Doom Zero                |   Christopher Golden (DASI-I)                       |   `DOOMZERO.WAD`     |  `11`    |
+| Double Impact            |   Ralphis & RottKing                                |   `DBIMPACT.WAD`     |  `5`     |
+| Earthless: Prelude       |   James Paddock & Fuzzball                          |   `EARTHLESS_PR.WAD` |  `13`    |
+| Harmony                  |   Thomas van der Velden, James Paddock              |   `HARM1.WAD`        |  `17`    |
+| No End In Sight          |  Emil Brundage, Christopher Lutz, Xaser             |   `NEIS.WAD`         |  `6`     |
+| No Rest for the Living   |   Nerve Software                                    |   `NERVE.WAD`        |  `3`     |
+| The Plutonia Experiment  |   Dario Casali & Milo Casali                        |   `PLUTONIA.WAD`     |  `2`     |
+| REKKR                    |   Matthew Little (Revae) et al.                     |   `REKKR.WAD`        |  `10`    |
+| Revolution!              |   Thomas van der Velden; MIDI pack contributors     |   `TVR!.WAD`         |  `14`    |
+| Scientist                |   Roland van der Velden                             |   `SCI.WAD`          |  `19`    |
+| SIGIL                    |   Romero Games                                      |   `SIGIL.WAD`        |  `4`     |
+| SIGIL II                 |   Romero Games                                      |   `SIGILII.WAD`      |  `21`    |
+| Syringe                  |   Pavera, Tarnsman, Marcaek, & Xaser                |   `SYRINGE.WAD`      |  `12`    |
+| TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          |  `1`     |
+| The Troopers' Playground |   Matthias Worch                                    |   `TTP.WAD`          |  `20`    |
 
 ### How to extract them?
 
