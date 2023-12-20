@@ -41,33 +41,7 @@ DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
 
 ## Where are the official addon wads/pwads?
 
-[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
-
-| Name                 | Creator |  WAD / PWAD name      | Location     |
-| :---                    | :---:               | :---:                 |       :---:          |
-| Anomaly Report           |   Michael Jan Krizik (valkiriforce)          |   `CTRL + P`          |     |
-| Arrival           |   Walker Wright (Pavera) and Brayden Hart (AD_79)          |   `CTRL + P`          |     |
-| Base Ganymede          |   Adam Woodmansey (Khorus)          |   `CTRL + P`          |     |
-| BTSX Episode 1             |   Esselfortium et al.          |   `CTRL + P`          |     |
-| BTSX Episode 2          |   Esselfortium et al.          |   `CTRL + P`          |     |
-| Deathless            |   James Paddock           |   `CTRL + P`          |     |
-| Doom Zero           |   Christopher Golden (DASI-I)          |   `CTRL + P`          |     |
-| Double Impact           |   Ralphis & RottKing          |   `CTRL + P`          |     |
-| Earthless: Prelude            |   James Paddock & Fuzzball           |   `CTRL + P`          |     |
-| Harmony          |   Thomas van der Velden, James Paddock            |   `CTRL + P`          |
-| No End In Sight          |  Emil Brundage, Christopher Lutz, Xaser         |   `CTRL + P`          |
-| No Rest for the Living          |   Nerve Software            |   `CTRL + P`          |
-| The Plutonia Experiment          |   Dario Casali & Milo Casali          |   `CTRL + P`          |
-| REKKR           |   Matthew Little (Revae) et al.         |   `CTRL + P`          |
-| Revolution! + MIDI Pack           |   Thomas van der Velden; MIDI pack contributors            |   `CTRL + P`          |
-| Scientist             |   Roland van der Velden         |   `CTRL + P`          |
-| SIGIL            |   Romero Games        |   `CTRL + P`          |
-| SIGIL II              |   Romero Games        |   `CTRL + P`          |
-| Syringe              |   Pavera, Tarnsman, Marcaek, & Xaser         |   `CTRL + P`          |
-| TNT: Evilution               |   Team TNT         |   `CTRL + P`          |
-| The Troopers' Playground    |   Matthias Worch       |   `CTRL + P`          |
-
-
+You first need to download the addons from the 2022 Unity Versions of either DOOM 2 or DOOM 1.
 
 **DOOM 2:**
 Linux: Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/
@@ -77,3 +51,35 @@ Windows: c:/users/<username>/Saved Games/id Software/DOOM 2/WADs/
 **DOOM 1:**
 Linux: Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/
 Windows: c:/users/<username>/Saved Games/id Software/DOOM Classic/WADs/
+
+
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
+
+| Name                 | Creator |  WAD name      | Location     |
+| :---                    | :---:               | :---:                 |       :---:          |
+| Anomaly Report           |   Michael Jan Krizik (valkiriforce)          |   `AR.WAD`         |     |
+| Arrival           |   Walker Wright (Pavera) and Brayden Hart (AD_79)          |   `ARRIVAL.WAD`          |     |
+| Base Ganymede          |   Adam Woodmansey (Khorus)          |   `BGCOMP.WAD`          |     |
+| BTSX Episode 1             |   Esselfortium et al.          |   `BTSX_E1.WAD`          |     |
+| BTSX Episode 2          |   Esselfortium et al.          |   `BTSX_E2.WAD`            |     |
+| Deathless            |   James Paddock           |   `DEATHLESS.WAD`          |     |
+| Doom Zero           |   Christopher Golden (DASI-I)          |   `DOOMZERO.WAD`          |     |
+| Double Impact           |   Ralphis & RottKing          |   `DBIMPACT.WAD`          |     |
+| Earthless: Prelude            |   James Paddock & Fuzzball           |   `EARTHLESS_PR.WAD`          |     |
+| Harmony          |   Thomas van der Velden, James Paddock            |   `HARM1.WAD`          |
+| No End In Sight          |  Emil Brundage, Christopher Lutz, Xaser         |   `NEIS.WAD`          |
+| No Rest for the Living          |   Nerve Software            |   `NERVE.WAD`         |   |
+| The Plutonia Experiment          |   Dario Casali & Milo Casali          |   `PLUTONIA.WAD`          |
+| REKKR           |   Matthew Little (Revae) et al.         |   `REKKR.WAD`          |
+| Revolution! + MIDI Pack           |   Thomas van der Velden; MIDI pack contributors            |   `TVR!.WAD`          |
+| Scientist             |   Roland van der Velden         |   `SCI.WAD`          |
+| SIGIL            |   Romero Games        |   `SIGIL.WAD`          |
+| SIGIL II              |   Romero Games        |   `SIGILII.WAD`          |
+| Syringe              |   Pavera, Tarnsman, Marcaek, & Xaser         |   `SYRINGE.WAD`          |
+| TNT: Evilution               |   Team TNT         |   `TNT.WAD`          |
+| The Troopers' Playground    |   Matthias Worch       |   `TTP.WAD`          |
+
+### How to extract them?
+
+On windows you can just download https://github.com/kevansevans/Unity-Doom-Ripper
+
