@@ -2,16 +2,21 @@
 
 ## Where to buy DOOM?
 
-We recommend that you buy both DOOM 1993 and DOOM 2
+We recommend that you at buy both DOOM 1993 and DOOM 2.
 
 **GOG:**
 https://www.gog.com/en/game/doom_ii
 https://www.gog.com/en/game/doom_1993
+https://www.gog.com/en/game/doom_64
+https://www.gog.com/en/game/doom_3
 
 **Steam:**
 https://store.steampowered.com/app/2280/DOOM_1993/
 https://store.steampowered.com/app/2300/DOOM_II/
+https://store.steampowered.com/app/1148590/DOOM_64/
+https://store.steampowered.com/app/208200/DOOM_3/
 
+**Steam Bundle:**
 https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/
 
 
@@ -32,9 +37,9 @@ DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
 
 
 
-## Where are the extra wads?
+## Where are the extra addon wads?
 
-
+https://doomwiki.org/wiki/Official_add-ons
 
 **DOOM 2:**
 Linux: Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/
