@@ -59,7 +59,7 @@ Steam:
 
 
 | Name                     |                      Creator                        |     WAD name         | ADDON ID |
-| :---                     | :---:                                               |        :---:         |  :---:   |
+| :---                     | :---                                                |        :---:         |  :---:   |
 | Anomaly Report           |   Michael Jan Krizik (valkiriforce)                 |   `AR.WAD`           |  `16`    |
 | Arrival                  |   Walker Wright (Pavera) and Brayden Hart (AD_79)   |   `ARRIVAL.WAD`      |  `15`    |
 | Base Ganymede            |   Adam Woodmansey (Khorus)                          |   `BGCOMP.WAD`       |  `18`    |
@@ -85,7 +85,7 @@ Steam:
 ### How to extract them?
 
 
-## Extra: Windows tips
+### Extra: Windows tips
 
 If you want to move the WADs from a Windows installations instead you can use this software:
 [Unity Doom Ripper](https://github.com/kevansevans/Unity-Doom-Ripper)
