@@ -128,3 +128,19 @@ or
 `My Documents\Saved Games\id Software\DOOM Classic\WADs\`
 
 Then just transfer them with a USB Stick or another way to your Linux machine.
+
+## Where can I find more WADs?
+
+Doom mods are all over the internet from old forums, github and various websites.
+
+**Doomworld:**
+
+As the oldest doom community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards) Doomworld is the lifeblood of DOOM.<br>
+Generations of doom wads are there.
+
+[Doomworld Files](https://www.doomworld.com/files/)
+[Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
+
+**ModDB:**
+
+[ModDB](https://www.moddb.com/games/doom/mods)
