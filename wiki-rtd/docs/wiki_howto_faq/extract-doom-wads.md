@@ -41,7 +41,7 @@ DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
 
 https://doomwiki.org/wiki/Official_add-ons
 
-| Name                 | Maker |  WAD / PWAD name      | Location     |
+| Name                 | Creator |  WAD / PWAD name      | Location     |
 | :---                    | :---:               | :---:                 |       :---:          |
 | Anomaly Report           |   Michael Jan Krizik (valkiriforce)          |   `CTRL + P`          |     |
 | Arrival           |   Walker Wright (Pavera) and Brayden Hart (AD_79)          |   `CTRL + P`          |     |
