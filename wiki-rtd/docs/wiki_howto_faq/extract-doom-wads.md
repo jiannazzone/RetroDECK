@@ -30,16 +30,18 @@ If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder 
 ## Where are the core wads?
 
 DOOM 2:
-Steam/steamapps/common/Doom 2/masterbase/doom2/
-Steam/steamapps/common/Doom 2/masterbase/master/wads/
-Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/
+
+- Steam/steamapps/common/Doom 2/masterbase/doom2/
+- Steam/steamapps/common/Doom 2/masterbase/master/wads/
+- Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/
 
 DOOM 1:
+
 DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
 
 ## Where are the official addon wads/pwads?
 
-https://doomwiki.org/wiki/Official_add-ons
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
 | Name                 | Creator |  WAD / PWAD name      | Location     |
 | :---                    | :---:               | :---:                 |       :---:          |
