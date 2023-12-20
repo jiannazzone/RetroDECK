@@ -22,8 +22,6 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
 
-
-
 ## Where are the base wads?
 
 ### Steam
@@ -106,10 +104,10 @@ Each file is located in the `WADs/` folder from the step above with an ID number
 
 Sigil has the ID of `4` and is then located in the `/WADs/4/` folder.
 
-Within that folder there are images and also a file without an extension just called `4`
+Within that folder there are images and also a file without an extension just called `4`.
 That `4` file is the `SIGIL.WAD` file.
 
-All you need to do is copy the `4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`
+All you need to do is copy the ``/WADs/4/4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`.
 
 
 ## Extra: Windows tips
