@@ -27,7 +27,7 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
 `home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
 
-## Where are the core wads?
+## Where are the base wads?
 
 DOOM 2:
 
@@ -41,22 +41,25 @@ DOOM.WAD: Steam/steamapps/common/Ultimate Doom/base/DOOM.WAD
 
 ## Where are the official addon wads/pwads?
 
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
+
 You first need to download the addons from the 2022 Unity Versions of either DOOM 2 or DOOM 1.
 
 **DOOM 2:**
-Linux: Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/
-Windows: c:/users/<username>/Saved Games/id Software/DOOM 2/WADs/
 
+Steam:
+
+`Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/`
 
 **DOOM 1:**
-Linux: Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/
-Windows: c:/users/<username>/Saved Games/id Software/DOOM Classic/WADs/
+
+Steam:
+
+`Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
 
 
-[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
-
-| Name                 | Creator |  WAD name      | ADDON ID    |
-| :---                    | :---:                                                |        :---:         |  :---:   |
+| Name                     |                      Creator                        |     WAD name         | ADDON ID |
+| :---                     | :---:                                               |        :---:         |  :---:   |
 | Anomaly Report           |   Michael Jan Krizik (valkiriforce)                 |   `AR.WAD`           |  `16`    |
 | Arrival                  |   Walker Wright (Pavera) and Brayden Hart (AD_79)   |   `ARRIVAL.WAD`      |  `15`    |
 | Base Ganymede            |   Adam Woodmansey (Khorus)                          |   `BGCOMP.WAD`       |  `18`    |
@@ -81,5 +84,18 @@ Windows: c:/users/<username>/Saved Games/id Software/DOOM Classic/WADs/
 
 ### How to extract them?
 
-On windows you can just download https://github.com/kevansevans/Unity-Doom-Ripper
 
+## Extra: Windows tips
+
+If you want to move the WADs from a Windows installations instead you can use this software:
+[Unity Doom Ripper](https://github.com/kevansevans/Unity-Doom-Ripper)
+
+The WADs are located in
+
+`My Documents\Saved Games\id Software\DOOM 2\WADs\`
+
+or
+
+`My Documents\Saved Games\id Software\DOOM Classic\WADs\`
+
+Then just transfer them with a USB Stick to your Linux machine.
