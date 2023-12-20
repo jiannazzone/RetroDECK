@@ -131,7 +131,7 @@ Then just transfer them with a USB Stick or another way to your Linux machine.
 
 ## Where can I find more WADs?
 
-None-official wads (mods) are all over the internet from old forums, github, the internet archive and various websites.
+None-official wads (mods) are all over the internet from old forums, github and various websites.
 
 **Doomworld:**
 
