@@ -25,7 +25,6 @@ DOOM 1:
 
 ## Where are the addon wads?
 
-
 Linux:
 
 ADDON WADS:
