@@ -135,7 +135,7 @@ Doom none-official wads (mods) are all over the internet from old forums, github
 
 **Doomworld:**
 
-The oldest doom community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).<br>
+The oldest DOOM community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).<br>
 Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
 
 [Doomworld Files](https://www.doomworld.com/files/)
