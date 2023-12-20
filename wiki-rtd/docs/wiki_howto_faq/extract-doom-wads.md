@@ -42,15 +42,18 @@ DOOM 1:
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
-You first need to download the addons from within the 2022 Unity Versions of either `DOOM 2` or `DOOM 1993`.
-
-Launch either of them and go into the `Addons Menu` and Download them all.
+### Prerequisite: Download the Addons
 
 🛑 DO NOT DOWNLOAD THEM FOR BOTH DOOM AND DOOM 2 🛑
 
-### GOG
+You first need to download the addons from within the 2022 `Unity Versions` of either `DOOM 2` or `DOOM 1993`.
 
-### Steam
+Launch either of the titles and go from the `Main Menu` into the `Addons Menu` and Download them all.
+
+
+### GOG Location
+
+### Steam Location
 
 **DOOM 2:**
 
