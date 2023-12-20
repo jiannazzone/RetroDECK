@@ -44,7 +44,7 @@ DOOM 1:
 
 ### Prerequisite: Download the Official Addons
 
-🛑 DO NOT DOWNLOAD THEM FOR BOTH DOOM AND DOOM 2 🛑
+🛑 DO NOT DOWNLOAD THE ADDONS FOR BOTH DOOM AND DOOM 2 🛑
 
 You first need to download the addons from within the 2022 `Unity Versions` of either `DOOM 2` or `DOOM 1993`.
 
