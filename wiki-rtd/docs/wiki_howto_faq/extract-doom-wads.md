@@ -44,7 +44,9 @@ DOOM 1:
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
-You first need to download the addons from the 2022 Unity Versions of either DOOM 2 or DOOM 1.
+You first need to download the addons from within the 2022 Unity Versions of either `DOOM 2` or `DOOM 1993`.
+
+Launch either of them and go into the `Addons Menu` and Download them all.
 
 ### GOG
 
@@ -62,7 +64,7 @@ Steam:
 
 `Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
 
-#### Flatpak Linux Steam/steamapps/ location**
+#### Flatpak steamapps/ location
 
 If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
 `home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
