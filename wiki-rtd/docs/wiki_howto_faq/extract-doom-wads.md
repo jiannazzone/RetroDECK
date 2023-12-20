@@ -98,4 +98,4 @@ or
 
 `My Documents\Saved Games\id Software\DOOM Classic\WADs\`
 
-Then just transfer them with a USB Stick to your Linux machine.
+Then just transfer them with a USB Stick or another way to your Linux machine.
