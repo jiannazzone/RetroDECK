@@ -131,7 +131,7 @@ Then just transfer them with a USB Stick or another way to your Linux machine.
 
 ## Where can I find more WADs?
 
-Doom mods are all over the internet from old forums, github and various websites.
+Doom mod wads are all over the internet from old forums, github and various websites.
 
 **Doomworld:**
 
