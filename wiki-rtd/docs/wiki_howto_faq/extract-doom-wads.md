@@ -48,6 +48,8 @@ You first need to download the addons from within the 2022 Unity Versions of eit
 
 Launch either of them and go into the `Addons Menu` and Download them all.
 
+🛑 DO NOT DOWNLOAD THEM FOR BOTH DOOM AND DOOM 2 🛑
+
 ### GOG
 
 ### Steam
@@ -98,8 +100,19 @@ If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder 
 
 ### How to extract them?
 
+Each file is located in the `WADs/` folder from the step above with an ID number that you can check on the list.
 
-### Extra: Windows tips
+#### Example: Sigil
+
+Sigil has the ID of `4` and is then located in the `/WADs/4/` folder.
+
+Within that folder there are images and also a file without an extension just called `4`
+That `4` file is the `SIGIL.WAD` file.
+
+All you need to do is copy the `4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`
+
+
+## Extra: Windows tips
 
 If you want to move the WADs from a Windows installations instead you can use this software:
 [Unity Doom Ripper](https://github.com/kevansevans/Unity-Doom-Ripper)
