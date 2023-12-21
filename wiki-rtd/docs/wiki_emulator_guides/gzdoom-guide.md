@@ -11,19 +11,19 @@ Doom games should be put under the `retrodeck/roms/doom/` directory.
 
 
 ## File types
-.wad - Where's All the Data? file
-.iwad - internal wad
-.pwad - patch wad have priority over iwad
-.pk3 - is a zipfile
-.ipk3 - internal pk3 file
-.pk4 - is a zipfile
-.pk7 - is a 7zip files
-.pke - zipfile made for the the Eternity Engine
-.epk - zipfile made for the EDGE engine
-.deh — DeHackEd file which allows editing of hardcoded aspects of Doom engine
-.bex — Enhanced DeHackEd-type file used by Boom and other source ports
-.lev — File which can be loaded along with a PWAD and renames Doom levels
-.mus — Music file format of Doom, Heretic, Hexen and Strife
+- .wad - `Where's All the Data?` file
+- .iwad - `internal wad`
+- .pwad - `patch wad` have priority over iwad
+- .pk3 - is a `.zip` file archive
+- .ipk3 - `internal pk3` file
+- .pk4 - is a `.zip` file archive
+- .pk7 - is a `.7zip` file archive
+- .pke - is a `.zip` file archive made for the the Eternity Engine
+- .epk - is a `.zip` file archive made for the EDGE engine
+- .deh — `DeHackEd file`, edits hardcoded parts of the DOOM engine.
+- .bex — `Enhanced DeHackEd` file has more features then `.deh` and used by various ports.
+- .lev — A file that renames levels of a `.pwad`
+- .mus — `Music file` format of `DOOM`, `Heretic`, `Hexen` and `Strife`
 
 
 ## The RetroDECK DOOM Parser
