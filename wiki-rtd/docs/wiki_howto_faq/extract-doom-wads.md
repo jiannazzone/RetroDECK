@@ -142,6 +142,10 @@ Doomworld is the lifeblood of DOOM community, generations of knowledge and a vas
 - [Doomworld Files](https://www.doomworld.com/files/)
 - [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
 
+**Doomwiki:**
+
+[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WAD)
+
 **ModDB:**
 
 - [ModDB](https://www.moddb.com/games/doom/mods)
