@@ -55,6 +55,8 @@ With the addition of GZDoom into RetroDECK we will make it the new default for r
 - .pk3
 - .ipk3
 - .pk4
+- .deh
+- .bex
 
 But we will also create a new format called the `.doom` file and a new parser to handle them.
 
