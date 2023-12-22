@@ -9,7 +9,6 @@ The following software works great with the Linux Desktop and might enhance your
 <img src="../../../wiki_images/logos/flips-logo.png" width="150">
 
 Flips is a software that let you patch romhacks IPS & BPS files onto the rom files.
-It's already on Flathub.
 
 [Flips Flathub](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
@@ -19,8 +18,8 @@ It's already on Flathub.
 
 <img src="../../../wiki_images/logos/jrommanager-logo.png" width="150">
 
-A Mame and Retrogaming Rom Manager. <br>
-This more complex application allows you to manage and verify your roms via .dat files. It's already in on Flathub and downloadable in Discover.
+A MAME and retro gaming rom manager. <br>
+This more complex application allows you to manage and verify your roms via .dat files.
 
 [JRomManager Flathub](https://flathub.org/apps/details/com.github.optyfr.JRomManager)<br>
 
@@ -52,7 +51,7 @@ Install and manage Wine- and Proton-based compatibility tools for both Steam, Bo
 
 [ProtonUp-Qt Flathub](https://flathub.org/apps/net.davidotek.pupgui2)
 
-## Game and Software Installers
+## Game and Software Clients
 
 ### Lutris
 
@@ -89,7 +88,14 @@ Bottles provides several tools and integrations to help you manage and optimize 
 
 [Bottles Flathub](https://flathub.org/apps/com.usebottles.bottles)
 
+### Prism Launcher
 
+
+<img src="../../../wiki_images/logos/prismlauncher-logo.png" width="150">
+
+A custom client for Minecraft Java that allows you to easily manage multiple different installations of Minecraft at once and features easy mod management.
+
+[Prism Launcher Flathub](https://flathub.org/apps/org.prismlauncher.PrismLauncher)
 
 
 ## Game Streaming Applications
