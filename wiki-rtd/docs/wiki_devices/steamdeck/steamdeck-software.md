@@ -51,7 +51,7 @@ Chiaki4deck is a fork of Chiaki, adding features for the Steam Deck. <br>
 It is a free and Open Source Client for PlayStation 4 and PlayStation 5 Remote Play. <br>
 It can be used to play in real time on a PlayStation as long as there is a network connection.
 
-https://flathub.org/apps/io.github.streetpea.Chiaki4deck
+[Chiaki4deck Flathub](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
 
 ### Discover Overlay
 
@@ -60,4 +60,4 @@ https://flathub.org/apps/io.github.streetpea.Chiaki4deck
 If you use Discord this is a program that adds Discord integration into the Steam Deck's gamemode UI.
 It's already in on Flathub and downloadable in Discover. Note that you need to install and login to Discord as well.
 
-[Discover Overlay Github](https://trigg.github.io/Discover/)
+[Discover Overlay Flathub](https://flathub.org/apps/io.github.trigg.discover_overlay)
