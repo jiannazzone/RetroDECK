@@ -48,7 +48,7 @@ WIP
 
 ## Disney Infinity
 
-### The Disney Infinity Base
+### Infinity Base
 
 <img src="../../wiki_images/controllers/disney-infinity-base.png" width="250">
 
@@ -57,7 +57,7 @@ WIP
 
 ## Kamen Rider Summonride
 
-### The Summonrider Portal
+### Summonrider Portal
 
 <img src="../../wiki_images/controllers/kamen-rider summonride-portal.png" width="250">
 
