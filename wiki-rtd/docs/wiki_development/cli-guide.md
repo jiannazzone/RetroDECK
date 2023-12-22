@@ -18,7 +18,7 @@ This syntax runs the `--reset-all` argument that resets the application to defau
 
 Where the argument `--reset-all` replaced `[ARGUMENTS]` and `[FLATPAK-RUN-OPTION]`was not needed to it was removed.
 
-# CLI argument list
+## CLI argument list
 
 `-h` or `--help` - Prints all the available arguments.
 
@@ -49,13 +49,13 @@ Where the argument `--reset-all` replaced `[ARGUMENTS]` and `[FLATPAK-RUN-OPTION
 <br>
 ⚠️ WARNING! BACK UP YOUR DATA BEFORE RUNNING THIS ARGUMENT! ⚠️
 
-# General flatpak commands
+## General flatpak commands
 
 If you want to check RetroDECK's Flathub page [click here](https://flathub.org/apps/details/net.retrodeck.retrodeck)<br>
 Here follows some general flatpak commands that could be useful: <br>
 
 
-## Install RetroDECK from CLI
+### Install RetroDECK from CLI
 
 If you want to install RetroDECK from CLI type:<br>
 `flatpak install Flathub net.retrodeck.retrodeck`
@@ -63,14 +63,14 @@ If you want to install RetroDECK from CLI type:<br>
 NOTE! This will work on the Steam Deck out of the box.<br>
 But on the Linux desktop you need to check your distribution if it ships with both Flatpak and Flathub integration installed, if not you may need to install it. Check your distributions or flathubs documentation on how to install it on your desktop.
 
-## Update all flatpaks from CLI
+### Update all flatpaks from CLI
 
 If you want to update all installed flatpaks from CLI type:<br>
 `flatpak update`
 
 Then answer `y` on the input prompt.
 
-## Update only RetroDECK from CLI
+### Update only RetroDECK from CLI
 
 If you just want to update RetroDECK type: <br>
 
