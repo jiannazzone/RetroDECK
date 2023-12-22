@@ -39,6 +39,8 @@ WIP
 
 ## PlayStation Motion Controllers
 
+
+
 ### PlayStation Eye Toy
 
 <img src="../../wiki_images/controllers/playstation-eye-toy.png" width="250">
@@ -49,7 +51,7 @@ The Eye Toy was used to play the Eye Toy game series for the PlayStation 2.
 
 WIP
 
-### PlayStation Move & PlayStation Eye
+### PlayStation Eye & PlayStation Move
 
 <img src="../../wiki_images/controllers/playstation-eye.png" width="250"><img src="../../wiki_images/controllers/playstation-move.png" width="250">
 
