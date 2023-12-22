@@ -46,7 +46,9 @@ Steam exists as a Flatpak and or in most cases also as a built in native install
 
 We recommend the native version of Steam over the flatpak version as running RetroDECK in the Steam flatpak version you will need to open various permissions to get everything to work.
 
+[Steam](https://store.steampowered.com/)<br>
 [Steam Flathub](https://flathub.org/apps/com.valvesoftware.Steam)
+
 
 ### Lutris
 
