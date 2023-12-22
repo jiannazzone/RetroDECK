@@ -92,17 +92,3 @@ WIP
 <img src="../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
 
 WIP
-
-## Wii Remote (Wiimote)
-
-<img src="../../wiki_images/controllers/wii-mote.png" width="250">
-
-WIP
-
-
-## Wii Balance Board
-
-
-<img src="../../wiki_images/controllers/wii-balance-board.png" width="250">
-
-WIP

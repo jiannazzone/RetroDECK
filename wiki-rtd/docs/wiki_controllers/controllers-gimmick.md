@@ -61,16 +61,6 @@ Used for the UDraw game series for the Wii.
 WIP
 
 
-## RIDE Balance Board
-
-<img src="../../wiki_images/controllers/ride-controller.png" width="250">
-
-Used for the Activision games Tony Hawk Ride and Tony Hawk Shread.
-
-### How to configure
-
-WIP
-
 ## Shinkansen Cockpit
 
 <img src="../../wiki_images/controllers/shinkansen-controller.png" width="250">
