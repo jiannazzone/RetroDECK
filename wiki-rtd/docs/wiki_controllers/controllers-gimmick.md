@@ -1,6 +1,6 @@
-# Special Controllers
+# Gimmick Controllers
 
-Special Controllers is a broad category that encompasses the vast majority of third and first party controllers that don't fit anywhere else. <br>
+Gimmick Controllers is a broad category that encompasses the vast majority of third and first party controllers that don't fit anywhere else. <br>
 They might have been made for a single game.
 
 ## The Steel Battalion Cockpit
@@ -44,7 +44,28 @@ The heart rate monitors type controllers for the game EA Sports Active 2.
 
 <img src="../../wiki_images/controllers/drawsome-tablet.png" width="250">
 
-Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest
+Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest for the Wii.
+
+### How to configure
+
+WIP
+
+
+## RIDE Balance Board
+
+<img src="../../wiki_images/controllers/ride-controller.png" width="250">
+
+Used for the Activision games Tony Hawk Ride and Tony Hawk Shread for the Wii.
+
+### How to configure
+
+WIP
+
+## Shinkansen Cockpit
+
+<img src="../../wiki_images/controllers/shinkansen-controller.png" width="250">
+
+Used for the Wii game: Densha de Go! Shinkansen EX for the Wii.
 
 ### How to configure
 
