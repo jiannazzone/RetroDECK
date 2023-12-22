@@ -1,7 +1,7 @@
 # Linux Desktop - Recommended Software
 
 
-## Emulation, Games and Roms
+## Emulation Mangement
 The following software works great with the Linux Desktop and might enhance your RetroDECK experience (these are entirely optional to install).
 
 ### Flips
@@ -13,13 +13,7 @@ It's already on Flathub.
 
 [Flips Flathub](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
-### BoilR
 
-<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
-
-BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to manually and automatically download custom art from SteamGridDB. It's already in Flathub.
-
-[BoilR Flathub](https://flathub.org/apps/details/io.github.philipk.boilr)
 
 ### JRomManager
 
@@ -38,6 +32,64 @@ RomM is a game library roms manager focused in retro gaming. Manage and organize
 Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your games from a modern interface while enriching them with IGDB metadata.
 
 [RomM Github](https://github.com/zurdi15/romm)
+
+
+## Steam & Games
+
+### BoilR
+
+<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
+
+BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to manually and automatically download custom art from SteamGridDB. It's already in Flathub.
+
+[BoilR Flathub](https://flathub.org/apps/details/io.github.philipk.boilr)
+
+### ProtonUp-Qt
+
+<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="150">
+
+Install and manage Wine- and Proton-based compatibility tools for both Steam, Bottles and Lutris.
+
+[ProtonUp-Qt Flathub](https://flathub.org/apps/net.davidotek.pupgui2)
+
+## Installer front-ends
+
+### Lutris
+
+<img src="../../../wiki_images/logos/lutris-logo.png" width="130">
+
+Lutris is a separate interface to manage and play your games on Linux. It can integrate several different stores: GOG, Steam, Epic, Itch.io, Battle.net and more.
+
+[Lutris Flathub](https://flathub.org/apps/net.lutris.Lutris)
+
+
+### Minigalaxy
+
+<img src="../../../wiki_images/logos/minigalaxy-logo.png" width="150">
+
+A simple GOG client for Linux. Minigalaxy lets you download, install and play your GOG Linux games without getting in your way.
+
+[Minigalaxy Flathub](https://flathub.org/apps/io.github.sharkwouter.Minigalaxy)
+
+### Heroic Games Launcher
+
+<img src="../../../wiki_images/logos/heroic-logo.png" width="150">
+
+Heroic is an Open Source Games Launcher. It supports launching games from the Epic Games Store, GOG and Amazon Games.
+
+[Heroic Flathub](https://flathub.org/apps/com.heroicgameslauncher.hgl)
+
+### Bottles
+
+<img src="../../../wiki_images/logos/bottles-logo.png" width="150">
+
+Bottles lets you run Windows software on Linux, such as applications and games. <br>
+It introduces a workflow that helps you organize by categorizing each software to your liking. <br>
+Bottles provides several tools and integrations to help you manage and optimize your applications.
+
+[Bottles Flathub](https://flathub.org/apps/com.usebottles.bottles)
+
+
 
 
 ## Game Streaming Applications
@@ -63,8 +115,6 @@ Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStati
 <img src="../../../wiki_images/logos/moonlight-logo.png" width="150">
 
 Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.
-
-[Moonlight Webpage](https://moonlight-stream.org/)
 
 [Moonlight Flathub](https://flathub.org/apps/com.moonlight_stream.Moonlight)
 
