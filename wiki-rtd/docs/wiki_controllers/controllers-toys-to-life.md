@@ -55,3 +55,11 @@ WIP
 #### How to configure
 WIP
 
+## Kamen Rider Summonride
+
+### The Summonrider Portal
+
+<img src="../../wiki_images/controllers/kamen-rider summonride-portal.png" width="250">
+
+#### How to configure
+WIP

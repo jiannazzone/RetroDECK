@@ -20,3 +20,24 @@ It translates the controllers input to emulated xinput. You can read more about 
 [Github Steel Battalion Controller Library for Arduino](https://github.com/SantiagoSaldana/SBC)
 
 If you have this rare controller and want to try to get it running by the above methods on Linux and RetroDECK please contact the RetroDECK team on discord to inform on your efforts we will follow them with great intrest.
+
+
+## Buzz Buzzers
+
+<img src="../../wiki_images/controllers/buzz-buzzers.png" width="250">
+
+The unique cockpit buzzers controllers for the original Buzz game series.
+
+### How to configure
+
+WIP
+
+## EA Sports Active 2
+
+<img src="../../wiki_images/controllers/ea-sports-active2.png" width="250">
+
+The unique cockpit buzzers controllers for the original Buzz game series.
+
+### How to configure
+
+WIP
