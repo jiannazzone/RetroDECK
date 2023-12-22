@@ -112,6 +112,15 @@ Sunshine is a self-hosted game stream host for Moonlight. Offering low latency, 
 
 [Sunshine Github](https://github.com/LizardByte/Sunshine)
 
+### Steam Link
+
+<img src="../../../wiki_images/logos/steamlink-logo.png" width="150">
+
+The Steam Link app allows you to stream games from your other computers. <br>
+Just plug in a controller, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
+
+[Steam Link Flathub](https://flathub.org/apps/com.valvesoftware.SteamLink)
+
 ## Other software
 
 ### BoilR
