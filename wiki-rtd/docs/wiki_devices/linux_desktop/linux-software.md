@@ -1,8 +1,8 @@
 # Linux Desktop - Recommended Software
 
+The following software might enhance your RetroDECK or general gaming experience on Linux.
 
 ## Emulation Management
-The following software works great with the Linux Desktop and might enhance your RetroDECK experience (these are entirely optional to install).
 
 ### Flips
 
@@ -11,7 +11,6 @@ The following software works great with the Linux Desktop and might enhance your
 Flips is a software that let you patch romhacks IPS & BPS files onto the rom files.
 
 [Flips Flathub](https://flathub.org/apps/details/com.github.Alcaro.Flips)
-
 
 
 ### JRomManager
@@ -32,26 +31,7 @@ Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your gam
 
 [RomM Github](https://github.com/zurdi15/romm)
 
-
-## Steam & Games
-
-### BoilR
-
-<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
-
-BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to manually and automatically download custom art from SteamGridDB. It's already in Flathub.
-
-[BoilR Flathub](https://flathub.org/apps/details/io.github.philipk.boilr)
-
-### ProtonUp-Qt
-
-<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="150">
-
-Install and manage Wine- and Proton-based compatibility tools for both Steam, Bottles and Lutris.
-
-[ProtonUp-Qt Flathub](https://flathub.org/apps/net.davidotek.pupgui2)
-
-## Game and Software Clients
+## Game & Software Clients/Installers
 
 ### Lutris
 
@@ -131,3 +111,29 @@ Moonlight allows you to play your PC games on almost any device, whether you're 
 Sunshine is a self-hosted game stream host for Moonlight. Offering low latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware encoding.
 
 [Sunshine Github](https://github.com/LizardByte/Sunshine)
+
+## Other software
+
+### BoilR
+
+<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
+
+BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to manually and automatically download custom art from SteamGridDB. It's already in Flathub.
+
+[BoilR Flathub](https://flathub.org/apps/details/io.github.philipk.boilr)
+
+### ProtonUp-Qt
+
+<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="150">
+
+Install and manage Wine- and Proton-based compatibility tools for both Steam, Bottles and Lutris.
+
+[ProtonUp-Qt Flathub](https://flathub.org/apps/net.davidotek.pupgui2)
+
+### Flatseal
+
+<img src="../../../wiki_images/logos/flatseal-logo.png" width="150">
+
+Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
+
+[Flatseal Flathub](https://flathub.org/apps/com.github.tchx84.Flatseal)
