@@ -59,7 +59,7 @@ WIP
 
 ### Summonrider Portal
 
-<img src="../../wiki_images/controllers/kamen-rider summonride-portal.png" width="250">
+<img src="../../wiki_images/controllers/kamen-rider-summonride-portal.png" width="250">
 
 #### How to configure
 WIP
