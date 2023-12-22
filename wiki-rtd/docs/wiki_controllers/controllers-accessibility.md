@@ -1,10 +1,10 @@
-# Adaptive Controllers
+# Accessibility Controllers
 
-Adaptive Controllers is a small category of specialized controllers that are designed to primarily to meet the needs of gamers with limited mobility.
+Accessibility Controllers is a small category of specialized controllers that are designed to primarily to meet the needs of gamers with limited mobility.
 
-They can be customized to fit the players needs with swapable inputs from various sources controlled by the main hub of the adaptive controller.
+They can be customized to fit the players needs with swapable inputs from various sources controlled by the main hub of the a adaptive controller.
 
-You can also sometimes expand to more inputs as well by connecting other controller types like a Flight Stick.
+You can also sometimes expand to more inputs as well by connecting other controller types like a Flight Stick, external joysticks or buttons.
 
 ## Xbox Adaptive Controller (XAC)
 
