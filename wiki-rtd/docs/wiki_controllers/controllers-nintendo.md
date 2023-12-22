@@ -80,6 +80,13 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 WIP
 
+## Wii U GamePad
+
+
+<img src="../../wiki_images/controllers/wii-u-gamepad.png" width="250">
+
+WIP
+
 ## GameCube Controller Adapter for Wii U
 
 <img src="../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
@@ -92,9 +99,10 @@ WIP
 
 WIP
 
-## Wii U GamePad
+
+## Wii Balance Board
 
 
-<img src="../../wiki_images/controllers/wii-u-gamepad.png" width="250">
+<img src="../../wiki_images/controllers/wii-balance-board.png" width="250">
 
 WIP
