@@ -44,7 +44,7 @@ The heart rate monitors type controllers for the game EA Sports Active 2.
 
 <img src="../../wiki_images/controllers/drawsome-tablet.png" width="250">
 
-Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest for the Wii.
+Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest.
 
 ### How to configure
 
@@ -55,7 +55,7 @@ WIP
 
 <img src="../../wiki_images/controllers/ride-controller.png" width="250">
 
-Used for the Activision games Tony Hawk Ride and Tony Hawk Shread for the Wii.
+Used for the Activision games Tony Hawk Ride and Tony Hawk Shread.
 
 ### How to configure
 
@@ -65,7 +65,17 @@ WIP
 
 <img src="../../wiki_images/controllers/shinkansen-controller.png" width="250">
 
-Used for the Wii game: Densha de Go! Shinkansen EX for the Wii.
+Used for the Wii game: Densha de Go! Shinkansen.
+
+### How to configure
+
+WIP
+
+## Cyberbike
+
+<img src="../../wiki_images/controllers/cyberbike-controller.png" width="230">
+
+Used for the Wii game: Cyberbike Cycling Sports.
 
 ### How to configure
 
