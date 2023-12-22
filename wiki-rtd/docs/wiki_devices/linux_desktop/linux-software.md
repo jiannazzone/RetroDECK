@@ -33,6 +33,21 @@ Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your gam
 
 ## Game & Software Clients/Installers
 
+### Steam
+
+<img src="../../../wiki_images/logos/steam-logo.svg" width="130">
+
+Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.
+
+**RetroDECK and Steam:**<br>
+RetroDECK uses several of Steam's functions like Steam Input to do advanced controller profiles. It is not required to have Steam to use RetroDECK but launching RetroDECK from Steam will enchance your experience.
+
+Steam exists as a Flatpak and or in most cases also as a built in native installation that you can download for your distribution via built-in package managers. You nee to check your distribution on how to download Steam.
+
+We recommend the native version of Steam over the flatpak version as running RetroDECK in the Steam flatpak version you will need to open various permissions to get everything to work.
+
+[Steam Flathub](https://flathub.org/apps/com.valvesoftware.Steam)
+
 ### Lutris
 
 <img src="../../../wiki_images/logos/lutris-logo.png" width="130">
