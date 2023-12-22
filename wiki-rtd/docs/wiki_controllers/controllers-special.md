@@ -26,7 +26,7 @@ If you have this rare controller and want to try to get it running by the above 
 
 <img src="../../wiki_images/controllers/buzz-buzzers.png" width="250">
 
-The unique cockpit buzzers controllers for the original Buzz game series.
+The unique cockpit buzzers controllers for the original Buzz game series. There are wired and wireless with with a dongle versions.
 
 ### How to configure
 
@@ -36,7 +36,7 @@ WIP
 
 <img src="../../wiki_images/controllers/ea-sports-active2.png" width="250">
 
-The unique cockpit buzzers controllers for the original Buzz game series.
+The sweatband type controllers for the game EA Sports Active 2.
 
 ### How to configure
 
