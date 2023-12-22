@@ -32,7 +32,7 @@ The buzzer controllers for the original Buzz game series for the Sony Playstatio
 
 WIP
 
-## EA - Heart Rate Monitors
+## Active Heart Rate Monitor
 
 <img src="../../wiki_images/controllers/ea-sports-active2.png" width="250">
 
@@ -44,7 +44,17 @@ The heart rate monitors type controllers for the game EA Sports Active 2.
 
 <img src="../../wiki_images/controllers/drawsome-tablet.png" width="250">
 
-Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest.
+Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest for the Wii.
+
+### How to configure
+
+WIP
+
+## UDraw Tablet
+
+<img src="../../wiki_images/controllers/udraw-tablet.png" width="250">
+
+Used for the UDraw game series for the Wii.
 
 ### How to configure
 
