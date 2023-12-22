@@ -1,7 +1,7 @@
 # Linux Desktop - Recommended Software
 
 
-## Emulation Mangement
+## Emulation Management
 The following software works great with the Linux Desktop and might enhance your RetroDECK experience (these are entirely optional to install).
 
 ### Flips
@@ -52,7 +52,7 @@ Install and manage Wine- and Proton-based compatibility tools for both Steam, Bo
 
 [ProtonUp-Qt Flathub](https://flathub.org/apps/net.davidotek.pupgui2)
 
-## Installer front-ends
+## Game and Software Installers
 
 ### Lutris
 
