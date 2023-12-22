@@ -2,6 +2,8 @@
 
 **Note these inputs are part of the upcoming 0.8b update.**
 
+Xbox Controllers are controllers made by the company Microsoft. Motion Controllers made by Microsoft are listed under the Motion Controllers entry on the wiki.
+
 #### The xone Project
 [The xone Project](https://github.com/medusalix/xone) <br>
 Has firmwares, udev rules and drivers might be needed to get it to run on your distribution to get the wireless connections working.<br>

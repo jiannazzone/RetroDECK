@@ -1,28 +1,30 @@
-# Playstation Controllers
+# PlayStation Controllers
+
+PlayStation Controllers are controllers made by the company Sony. Motion Controllers made by Sony are listed under the Motion Controllers entry on the wiki.
 
 **Note these inputs are part of the upcoming 0.8b update.**
 
 Steam Input have support for the following controllers:
 
-## Playstation 3 - Dualshock 3 / Sixaxis
+## PlayStation 3 - Dualshock 3 / Sixaxis
 
 <img src="../../wiki_images/controllers/ps3-dualshock3.png" width="250">
 
 Has Steam Input support
 
-## Playstation 4 - Dualshock 4
+## PlayStation 4 - Dualshock 4
 
 <img src="../../wiki_images/controllers/ps4-dualshock4.png" width="250">
 
 Has Steam Input support
 
-## Playstation 5 - DualSense
+## PlayStation 5 - DualSense
 
 <img src="../../wiki_images/controllers/ps5-dualsense.png" width="250">
 
 Has Steam Input support
 
-## Playstation 5 - DualSense Edge
+## PlayStation 5 - DualSense Edge
 
 <img src="../../wiki_images/controllers/ps5-dualsense-edge.png" width="250">
 
@@ -38,7 +40,7 @@ The DualSense Edge does not have full Steam Input support at the time of this wr
 
 WIP
 
-## Global Hotkeys: Playstation Button Combos
+## Global Hotkeys: PlayStation Button Combos
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
 What follows is a list of hotkeys:
