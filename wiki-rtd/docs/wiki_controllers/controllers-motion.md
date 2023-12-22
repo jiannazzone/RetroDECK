@@ -55,7 +55,7 @@ WIP
 
 <img src="../../wiki_images/controllers/playstation-eye.png" width="250"><img src="../../wiki_images/controllers/playstation-move.png" width="250">
 
-The used for various titles on the PlayStation 3.
+Used for various titles on the PlayStation 3.
 
 
 #### How to configure / emulate
@@ -69,7 +69,7 @@ WIP
 
 <img src="../../wiki_images/controllers/xbox-kinect-360.png" width="250">
 
-The used for various titles on the Xbox 360.
+Used for various titles on the Xbox 360.
 
 #### How to configure / emulate
 
@@ -79,7 +79,7 @@ WIP
 
 <img src="../../wiki_images/controllers/xbox-kinect-one.png" width="250">
 
-The used for various titles on the Xbox One.
+Used for various titles on the Xbox One.
 
 #### How to configure / emulate
 
