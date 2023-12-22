@@ -54,3 +54,11 @@ WIP
 
 ### How to configure
 WIP
+
+## Dance Pads
+
+
+<img src="../../wiki_images/controllers/dance-pad.png" width="250">
+
+### How to configure
+WIP

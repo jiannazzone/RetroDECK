@@ -26,17 +26,25 @@ If you have this rare controller and want to try to get it running by the above 
 
 <img src="../../wiki_images/controllers/buzz-buzzers.png" width="250">
 
-The unique cockpit buzzers controllers for the original Buzz game series. There are wired and wireless with with a dongle versions.
+The buzzer controllers for the original Buzz game series for the Sony Playstation. There are wired and wireless with with a dongle versions.
 
 ### How to configure
 
 WIP
 
-## EA Sports Active 2
+## EA - Heart Rate Monitors
 
 <img src="../../wiki_images/controllers/ea-sports-active2.png" width="250">
 
-The sweatband type controllers for the game EA Sports Active 2.
+The heart rate monitors type controllers for the game EA Sports Active 2.
+
+### How to configure
+
+## Drawsome Tablet
+
+<img src="../../wiki_images/controllers/drawsome-tablet.png" width="250">
+
+Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest
 
 ### How to configure
 
