@@ -28,9 +28,16 @@ If you have this rare controller and want to try to get it running by the above 
 
 The buzzer controllers for the original Buzz game series for the Sony Playstation. There are wired and wireless with with a dongle versions.
 
-### How to configure
+### How to emulate
 
-WIP
+#### PCSX2 - Playstation 2
+
+You can map the buzzers to any input device such as a controller, the controllers needs to be connected.
+
+- Open `RetroDECK Configurator`
+- Open `PCSX2`
+- Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Buzz Controller` from the Dropdown list
+- Map each players `Red`, `Blue`, `Orange` and `Green` buttons to the controller or input device they are using by clicking on each value and pressing the button you want to map.
 
 ## Active Heart Rate Monitor
 

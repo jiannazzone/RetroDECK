@@ -53,7 +53,15 @@ WIP
 <img src="../../wiki_images/controllers/singstar-microphone.png" width="250">
 
 ### How to configure
-WIP
+
+#### PCSX2 - Playstation 2
+
+You need to have a `Microphone` connected or an `Integrated Microphone`.
+
+- Open `RetroDECK Configurator`
+- Open `PCSX2`
+- Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Singstar` from the Dropdown list -> Select the `Player 1 Device` of your connected `Microphone` from the Dropdown list.
+- If you want 2 player you also map `Player 2 Device` to a different `Microphone`.
 
 ## Dance Pads
 

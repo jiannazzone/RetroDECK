@@ -45,9 +45,9 @@ WIP
 
 Used for various titles on the PlayStation 3.
 
-#### How to configure / emulate
+#### How to emulate in PCSX2
 
-You need to have a USB Webcam connected or an integrerad.
+You need to have a USB Webcam connected or an integrated.
 
 - Open `RetroDECK Configurator`
 - Open `PCSX2`
