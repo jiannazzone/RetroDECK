@@ -35,21 +35,23 @@ Used for Ring Fit Adventure the fitness game on the Nintendo Switch.
 
 WIP
 
-
-
 ## PlayStation Motion Controllers
 
 
 
-### PlayStation Eye Toy
+### PlayStation EyeToy
 
 <img src="../../wiki_images/controllers/playstation-eye-toy.png" width="250">
 
-The Eye Toy was used to play the Eye Toy game series for the PlayStation 2.
+Used for various titles on the PlayStation 3.
 
 #### How to configure / emulate
 
-WIP
+You need to have a USB Webcam connected or an integrerad.
+
+- Open `RetroDECK Configurator`
+- Open `PCSX2`
+- Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.
 
 ### PlayStation Eye & PlayStation Move
 
