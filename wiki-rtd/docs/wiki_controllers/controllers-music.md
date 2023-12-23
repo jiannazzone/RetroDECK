@@ -98,5 +98,7 @@ You need to have a `Microphone` connected or an `Integrated Microphone`.
 
 <img src="../../wiki_images/controllers/taiko-drum-bachi.png" width="250">
 
+Used by the several games in the `Taiko no Tatsujin` game series.
+
 ### How to configure
 WIP
