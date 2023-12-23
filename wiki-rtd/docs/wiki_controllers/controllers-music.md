@@ -7,12 +7,16 @@ Is is a broad category that encompasses the vast majority of third and first par
 
 <img src="../../wiki_images/controllers/dance-pad.png" width="250">
 
+Used by many `Dance Games` over many different systems most famous is the `Dance Dance Revolution` series.
+
 ### How to configure
 WIP
 
 ## DK Bongos
 
 <img src="../../wiki_images/controllers/dk-bongos.png" width="250">
+
+Used by the game `Donkey Konga` on the GameCube.
 
 ### How to configure
 WIP
@@ -22,12 +26,16 @@ WIP
 
 <img src="../../wiki_images/controllers/dj-hero-turntable.png" width="250">
 
+Used by the games `DJ Hero` and `DJ Hero 2`.
+
 ### How to configure
 WIP
 
 
 ## Guitar Hero & Rockband Button Guitars
 <img src="../../wiki_images/controllers/guitar-hero-guitars.png" width="350">
+
+Used by the several games in the `Guitar Hero` and `Rockband` game series.
 
 ### How to configure
 WIP
@@ -36,11 +44,15 @@ WIP
 ## Guitar Hero & Rockband Drums
 <img src="../../wiki_images/controllers/rockband-drums.png" width="153">
 
+Used by the several games in the `Guitar Hero` and `Rockband` game series.
+
 ### How to configure
 WIP
 
 ## Guitar Hero & Rockband Microphone
 <img src="../../wiki_images/controllers/guitar-hero-microhpone.png" width="153">
+
+Used by the several games in the `Guitar Hero` and `Rockband` game series.
 
 ### How to configure
 WIP
@@ -49,6 +61,8 @@ WIP
 ## Rockband Keyboard
 <img src="../../wiki_images/controllers/rockband-keyboard.png" width="300">
 
+Used by the several games in the `Guitar Hero` and `Rockband` game series.
+
 ### How to configure
 WIP
 
@@ -56,14 +70,17 @@ WIP
 
 <img src="../../wiki_images/controllers/keyboardmania-keyboard.png" width="250">
 
+Used by the game `Keyboardmania` for the PlayStation 2.
+
 ### How to configure
 WIP
 
 
 ## Singstar Microphone
 
-
 <img src="../../wiki_images/controllers/singstar-microphone.png" width="250">
+
+Used by the several games in the `Singstar` game series.
 
 ### How to emulate
 
