@@ -47,7 +47,7 @@ Used for various titles on the PlayStation 3.
 
 #### How to emulate in PCSX2
 
-You need to have a USB Webcam connected or an integrated.
+You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 
 - Open `RetroDECK Configurator`
 - Open `PCSX2`
