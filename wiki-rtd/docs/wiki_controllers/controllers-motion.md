@@ -18,7 +18,7 @@ WIP
 
 <img src="../../wiki_images/controllers/wii-balance-board.png" width="250">
 
-Used for various fitness games on the Nintendo Wii.
+Used for various fitness games on the Nintendo Wii the most famous being `Wii Fit`.
 
 #### How to configure
 
@@ -29,7 +29,7 @@ WIP
 
 <img src="../../wiki_images/controllers/ring-fit.png" width="250">
 
-Used for Ring Fit Adventure the fitness game on the Nintendo Switch.
+Used for `Ring Fit Adventure` the fitness game on the Nintendo Switch.
 
 #### How to configure
 
@@ -43,7 +43,7 @@ WIP
 
 <img src="../../wiki_images/controllers/playstation-eye-toy.png" width="250">
 
-Used for various titles on the PlayStation 2.
+Used for various titles on the PlayStation 2 the most famous being the `EyeToy` game series.
 
 #### How to emulate in PCSX2
 
@@ -91,7 +91,7 @@ Used for various titles on the Xbox One.
 
 <img src="../../wiki_images/controllers/ride-controller.png" width="250">
 
-Used for the Activision games Tony Hawk Ride and Tony Hawk Shread.
+Used for the Activision games `Tony Hawk Ride` and `Tony Hawk Shread`.
 
 #### How to configure
 
