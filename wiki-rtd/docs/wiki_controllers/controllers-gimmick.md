@@ -26,7 +26,7 @@ If you have this rare controller and want to try to get it running by the above 
 
 <img src="../../wiki_images/controllers/buzz-buzzers.png" width="250">
 
-The buzzer controllers for the original Buzz game series for the Sony Playstation. There are wired and wireless with with a dongle versions.
+The buzzer controllers for the original `Buzz Game Series` for the Sony Playstation. There are wired and wireless with with a dongle versions.
 
 ### How to emulate
 
@@ -43,7 +43,7 @@ You can map the buzzers to any input device such as a controller, the controller
 
 <img src="../../wiki_images/controllers/ea-sports-active2.png" width="250">
 
-The heart rate monitors type controllers for the game EA Sports Active 2.
+The heart rate monitors type controllers for the game `EA Sports Active 2`.
 
 ### How to configure
 
@@ -51,7 +51,7 @@ The heart rate monitors type controllers for the game EA Sports Active 2.
 
 <img src="../../wiki_images/controllers/drawsome-tablet.png" width="250">
 
-Used for the Ubisoft games Drawsome! Artist and Drawsome! Sketch Quest for the Wii.
+Used for the Ubisoft games `Drawsome! Artist` & `Drawsome! Sketch Quest` for the Wii.
 
 ### How to configure
 
@@ -61,7 +61,7 @@ WIP
 
 <img src="../../wiki_images/controllers/udraw-tablet.png" width="250">
 
-Used for the UDraw game series for the Wii.
+Used for the `UDraw Game Series` for the Wii.
 
 ### How to configure
 
@@ -72,7 +72,7 @@ WIP
 
 <img src="../../wiki_images/controllers/shinkansen-controller.png" width="250">
 
-Used for the Wii game: Densha de Go! Shinkansen.
+Used for the Wii game `Densha de Go! Shinkansen`.
 
 ### How to configure
 
@@ -82,7 +82,17 @@ WIP
 
 <img src="../../wiki_images/controllers/cyberbike-controller.png" width="230">
 
-Used for the Wii game: Cyberbike Cycling Sports.
+Used for the Wii game `Cyberbike Cycling Sports`.
+
+### How to configure
+
+WIP
+
+## SEGA Seamic Controller
+
+<img src="../../wiki_images/controllers/sega-seamic-ps2.png" width="230">
+
+Uses for the PS2 games: `Seaman: Kindan no Pet` & `Seaman 2: Peking Genjin Ikusei Kit`
 
 ### How to configure
 
