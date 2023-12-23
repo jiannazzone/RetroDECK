@@ -52,7 +52,7 @@ WIP
 
 <img src="../../wiki_images/controllers/singstar-microphone.png" width="250">
 
-### How to configure
+### How to emulate
 
 #### PCSX2 - Playstation 2
 
@@ -64,7 +64,6 @@ You need to have a `Microphone` connected or an `Integrated Microphone`.
 - If you want 2 player you also map `Player 2 Device` to a different `Microphone`.
 
 ## Dance Pads
-
 
 <img src="../../wiki_images/controllers/dance-pad.png" width="250">
 
