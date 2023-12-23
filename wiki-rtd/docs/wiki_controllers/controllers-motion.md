@@ -43,7 +43,7 @@ WIP
 
 <img src="../../wiki_images/controllers/playstation-eye-toy.png" width="250">
 
-Used for various titles on the PlayStation 3.
+Used for various titles on the PlayStation 2.
 
 #### How to emulate in PCSX2
 
