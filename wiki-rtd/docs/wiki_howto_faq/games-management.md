@@ -24,11 +24,11 @@ In this case the folder will be viewed as a single game and it will launch `Drag
 
 ### How do I create a Multidisk Directory?
 
-Let's use the Dragon Fantasy VII example as written above.
+Let's use the `Dragon Fantasy VII` example as written above. It is a fake PlayStation 1 game.
 
 #### Step 1: Make a .m3u sub-folder
-Make a new sub-folder inside the PSX roms directory where you move and store the Dragon Fantasy VII files with a .m3u file extension in the end.
-The name of the folder will be Dragon Fantasy VII.m3u and the full file path will be:
+Make a new sub-folder inside the `roms/psx` directory (or what ever system you are creating for) where you move and store the `Dragon Fantasy VII` files with a `.m3u` file extension in the end.
+The name of the folder will be `Dragon Fantasy VII.m3u` and the full file path will be:
 
 `~/retrodeck/roms/psx/Dragon Fantasy VII.m3u`
 
