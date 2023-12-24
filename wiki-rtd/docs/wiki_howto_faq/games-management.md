@@ -18,7 +18,7 @@ In this case the folder will be viewed as a single game and it will launch `Drag
     ├── Dragon Fantasy VII - Disk1.chd <--- Game Disc
     ├── Dragon Fantasy VII - Disk2.chd <--- Game Disc
     ├── Dragon Fantasy VII - Disk3.chd <--- Game Disc
-    └── Dragon Fantasy VII.m3u <--- The .m3u file (that has the same name as the folder it is in and contains a list of the above Game Discs in order, on per row).
+    └── Dragon Fantasy VII.m3u <--- The .m3u file
 ```
 
 
