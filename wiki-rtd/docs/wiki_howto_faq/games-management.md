@@ -42,7 +42,7 @@ And it should have the disc files inside of it:
 ```
 
 #### Step 2: Make a .m3u file inside the folder.m3u
-Following the example above, make an empty file inside the Dragon Fantasy VII.m3u folder called the exact same thing as the folder name in this case: `Dragon Fantasy VII.m3u`. Now the full file path to the newly created .m3u file should be like this:
+Following the example above, make an empty file inside the `Dragon Fantasy VII.m3u Folder` called the exact same thing as the folder name in this case: `Dragon Fantasy VII.m3u`. Now the full file path to the newly created .m3u file should be like this:
 
 `~/retrodeck/roms/psx/Dragon Fantasy VII.m3u/Dragon Fantasy VII.m3u`
 
