@@ -56,8 +56,8 @@ The ES-DE interface that RetroDECK uses should now pick up on the game as one fi
 
 
 ## Emulators compatibility lists
-Here is a collection of games that were tested on Steam Deck, not on RetroDECK specifically.
-If you find some inconsistences please report them on our `🤝-community-support or 🆘-support` channel on Discord.
+Here is a collection of compatibility lists
+
 - [Citra](https://citra-emu.org/game/)
 - [Dolphin](https://dolphin-emu.org/compat/?nocr=true)
 - [PCSX2](https://pcsx2.net/compat/)
