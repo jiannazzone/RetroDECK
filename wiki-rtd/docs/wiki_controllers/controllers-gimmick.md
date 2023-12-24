@@ -11,7 +11,7 @@ The unique cockpit controller for the original Xbox game Steel Battalion.
 
 ### How to use with RetroDECK or a PC or anything else?
 
-There have been efforts by user SantiagoSaldana of hackaday.io to get it working on PCs via a Teensy 3.6 / 4.1 Arduino Adapter.
+There have been efforts by user `SantiagoSaldana` of `hackaday.io` to get it working on PCs via a `Teensy 3.6 / 4.1 Arduino Adapter`.
 
 It translates the controllers input to emulated xinput. You can read more about the project here:
 
@@ -96,4 +96,11 @@ Uses for the PS2 games: `Seaman: Kindan no Pet` & `Seaman 2: Peking Genjin Ikuse
 
 ### How to configure
 
-WIP
+#### PCSX2 - Playstation 2
+
+You can map the buzzers to any input device such as a controller, the controllers needs to be connected.
+
+- Open `RetroDECK Configurator`
+- Open `PCSX2`
+- Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `SEGA Seamic` from the Dropdown list
+- Map the buttons to the controller or input device they are using by clicking on each value and pressing the button you want to map.
