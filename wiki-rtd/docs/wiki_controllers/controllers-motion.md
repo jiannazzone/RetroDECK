@@ -10,18 +10,18 @@ Motion Controllers is a small category of specialized first and third party cont
 
 The main input for the Nintendo Wii.
 
-#### How to configure Dolphin - Official Wii Remote
+#### Prerequisites Dolphin: Hardware
 
-WIP
-
-#### How to configure Dolphin - 3rd Party Wii Remote
-
-##### Prerequisites: Hardware
-
-In addition to the controllers you will need to have:
+In addition to the controllers:
 
 - You need to have a bluetooth dongle or built-in bluetooth adapter.
 - You will need to have a Wii IR Bar. This could be a 3rd party solution wired or battery powered.
+
+#### How to configure Dolphin: Official Wii Remote
+
+WIP
+
+#### How to configure Dolphin: 3rd Party Wii Remote
 
 
 ##### Make a Bluetooth Passthrough udev rule
