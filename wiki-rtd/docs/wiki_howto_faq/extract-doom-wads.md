@@ -1,5 +1,7 @@
 # How to: Get WADs from your bought copies of DOOM
 
+<img src="../../wiki_images/logos/gzdoom-logo.png" width="150">
+
 ## Where to buy DOOM?
 
 We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
