@@ -1,5 +1,7 @@
 # Enable Controllers in Steam:
 
+<img src="../../wiki_images/steam/steam-enable-controllers.png" width="600">:
+
 **Not needed for SteamOS and Steam Deck**<br>
 For the Steam Deck or SteamOS based devices this is not needed as they are enabled by default.
 
