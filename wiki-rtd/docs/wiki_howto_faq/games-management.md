@@ -5,6 +5,10 @@ For a detalied list of which file extensions are supported and where to put the 
 [ES-DE: Folders and Files](../wiki_emulationStation_de/esde-folders-files.md)
 
 ## Multidisk/file games: Directory interpreted as files
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+
+
 You can put all the game files inside a sub-folder in order to keep you game list clean, these folder will be seen as the game itself from RetroDECK and not as an actual folder.
 
 The folder needs to have the corresponding `.m3u` file and the folder needs to be renamed to the exact filename of the `.m3u`.
@@ -66,6 +70,10 @@ The ES-DE interface that RetroDECK uses should now pick up on the game as one fi
 
 
 ## Emulators compatibility lists
+
+
+<img src="../../../wiki_icons/pixelitos/emblem-question.png" width="50">
+
 Here is a collection of compatibility lists
 
 - [Citra](https://citra-emu.org/game/)
@@ -77,6 +85,10 @@ Here is a collection of compatibility lists
 - [Xemu](https://xemu.app/#compatibility)
 
 ## Scraping
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-downloads.png" width="50">
+
+
 Scraping allows you to make the games look "pretty" with coverarts, icons, discimages and more.
 Read up on the ES-DE userguide on scraping here:
 

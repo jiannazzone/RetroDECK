@@ -1,8 +1,10 @@
 # Getting started
 
-This is a guide on how to get started with RetroDECK
+<img src="../../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
 ## Step 0: Prerequisites
+
+This is a guide on how to get started with RetroDECK
 
 ### What do I need?
 You need to meet the following prerequisites before you start following this guide:

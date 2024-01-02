@@ -1,5 +1,7 @@
 # How do I move RetroDECK to a new device
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-sync.png" width="50">
+
 ### Prerequisites: Before you move
 - Make sure you are running the latest version of RetroDECK on the old device and have started it at least once.
 - If your device has a battery like a Steam Deck or Laptop, make sure it has enough charge to complete the file transfer. We recommend you are plugged in while doing this to prevent data loss

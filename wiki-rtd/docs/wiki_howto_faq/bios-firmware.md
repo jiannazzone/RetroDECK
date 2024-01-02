@@ -1,4 +1,7 @@
 # How to: Manage BIOS and Firmware
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="50">
+
 A BIOS or firmware is like the brain of a computer or electronic device. It helps the device start up and makes sure all its parts work together smoothly. In emulation, having the correct BIOS/firmware is important because it allows the software to pretend to be the real device and work properly.
 That's why some emulators require BIOS and Firmware files to work correctly or at all.
 Generally the bios files should be put in `~/retrodeck/bios` but there could be exceptions to this.
