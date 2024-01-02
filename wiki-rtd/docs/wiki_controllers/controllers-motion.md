@@ -2,13 +2,22 @@
 
 Motion Controllers is a small category of specialized first and third party controllers that are designed to primarily be interactive with motion.
 
+---
+
 ## Nintendo Motion Controllers
+
+---
 
 ### Wii Remote (Wiimote) & Nunchuck
 
 <img src="../../wiki_images/controllers/wii-mote.png" width="250"><img src="../../wiki_images/controllers/wii-nunchuck.png" width="250">
 
 The main input for the Nintendo Wii.
+
+#### TIP: Dolphin Sync Wiimote Hotkey
+
+RetorDECK has a built-in hotkey for pressing the Dolphis `Sync Wiimote` button `Alt + W` if you find yourself dissconnected.<br>
+It can also be accessed from some controllers radial menu systems on for example the Steam Deck.
 
 #### Prerequisites Dolphin: Hardware
 
@@ -17,14 +26,21 @@ In addition to the controllers:
 - You need to have a bluetooth dongle or built-in bluetooth adapter.
 - You will need to have a Wii IR Bar. This could be a 3rd party solution wired or battery powered.
 
-#### How to configure Dolphin: Official Wii Remote
+---
+
+
+#### How-to configure Dolphin - Method 1: Bluetooth Connection
+
+This only works with the Official Wiimote conntroller and is the easier method.
 
 WIP
 
-#### How to configure Dolphin: 3rd Party Wii Remote
+---
 
 
-##### Make a Bluetooth Passthrough udev rule
+#### How-to configure Dolphin - Method 2: Bluetooth Passthrough
+
+This works with both 3rd party Wiimotes and Official and is a harder method.
 
 **🛑 Warning 🛑**<br>
 This method will make the bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes. <br>
@@ -33,24 +49,46 @@ If you need other devices connected, it is recommended to buy a separate bluetoo
 
 Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)
 
-**How to:**
+---
 
-REWRITE
+**Step 1: Find your ID's**
 
-A udev rule has to be installed so Dolphin can use a Bluetooth adapter without having to get root privileges.
+First you need to find our your `Vendor ID` `Product ID` for the bluetooth adapter you want to use.
 
-1. Paste the following into `/etc/udev/rules.d/52-dolphin.rules`. Replace `YOURVID` and `YOURPID` with the `Vendor ID` and `Product ID` respectively.
+1. Open a terminal window
+2. Type `lsusb`
+3. It will now display all connected USB or BUS devices that you have connected. Example:
 
-`SUBSYSTEM=="usb", ATTRS{idVendor}=="YOURVID", ATTRS{idProduct}=="YOURPID", TAG+="uaccess`
+```
+Bus 001 Device 003: ID 0bda:5650 Realtek Semiconductor Corp.
+Bus 001 Device 004: ID 8087:0025 Intel Corp. Wireless-AC 9260 Bluetooth Adapter
+```
+
+`ID 8087:0025 Intel Corp. Wireless-AC 9260 Bluetooth Adapter` is the Bluetooth Adapter in this example.
+
+The `ID 8087:0025` left value is the `Vendor ID` while the right is `Product ID`.<br>
+Thus in this example: `Vendor ID` is `8087`:`Product ID` is `0025`.
+
+---
+
+**Step 2: Create the rules file.**
+
+You will need root privlages for this.
+
+Type type the following command and replace `Vendor ID` and `Product ID` respectively.:
+
+`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="Vendor ID", ATTRS{idProduct}=="Product ID", TAG+="uaccess' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
+
+from the example above the result should look like this:
+
+`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", TAG+="uaccess' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
 
 2. Reload udev rules with: `sudo udevadm control --reload-rules`
+3. Take out and reinsert the bluetooth adapter or reboot if a built-in was used.
 
-3. Reinsert the adapter.
+---
 
-Dolphin should be able to automatically unload the USB Bluetooth kernel module (assuming you have permission to; you typically need to be in the plugdev group). If not, unload it with `modprobe -r btusb`.
-
-
-##### Enable Bluetooth Passthrough in Dolphin
+**Step 3: Enable Bluetooth Passthrough in Dolphin**
 
 <img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
 
@@ -61,6 +99,7 @@ Change to `Passthrough a Bluetooth Adapter`
 Press the `Sync Button` on the Wiimote and press the `Sync Button` in the Dolphin Interface.<br>
 It should now be connected and be enabled to be used with the Wii games.
 
+---
 
 ### Wii Balance Board
 
@@ -72,6 +111,7 @@ Used for various fitness games on the Nintendo Wii the most famous being `Wii Fi
 
 WIP
 
+---
 
 ### Ring Fit
 
@@ -83,9 +123,11 @@ Used for `Ring Fit Adventure` the fitness game on the Nintendo Switch.
 
 WIP
 
+---
+
 ## PlayStation Motion Controllers
 
-
+---
 
 ### PlayStation EyeToy
 
@@ -101,6 +143,8 @@ You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 - Open `PCSX2`
 - Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.
 
+---
+
 ### PlayStation Eye & PlayStation Move
 
 <img src="../../wiki_images/controllers/playstation-eye.png" width="250"><img src="../../wiki_images/controllers/playstation-move.png" width="250">
@@ -112,6 +156,7 @@ Used for various titles on the PlayStation 3.
 
 WIP
 
+---
 
 ## Xbox Motion Controllers
 
@@ -125,6 +170,8 @@ Used for various titles on the Xbox 360.
 
 WIP
 
+---
+
 ### Xbox One Kinect
 
 <img src="../../wiki_images/controllers/xbox-kinect-one.png" width="250">
@@ -133,7 +180,11 @@ Used for various titles on the Xbox One.
 
 #### How to configure / emulate
 
+---
+
 ## Other Motion Controllers
+
+---
 
 ### RIDE Balance Board
 
@@ -144,3 +195,4 @@ Used for the Activision games `Tony Hawk Ride` and `Tony Hawk Shread`.
 #### How to configure
 
 WIP
+---
