@@ -10,11 +10,11 @@ Motion Controllers is a small category of specialized first and third party cont
 
 The main input for the Nintendo Wii.
 
-#### How to configure: Official
+#### How to configure Dolphin - Official Wii Remote
 
 WIP
 
-#### How to configure: 3rd Party
+#### How to configure Dolphin - 3rd Party Wii Remote
 
 ##### Prerequisites: Hardware
 
@@ -58,8 +58,9 @@ Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `C
 
 Change to `Passthrough a Bluetooth Adapter`
 
-Press the `Sync Button` on the Wiimote and press the `Sync Button` in the Dolphin Interface.
-It should now be connected.
+Press the `Sync Button` on the Wiimote and press the `Sync Button` in the Dolphin Interface.<br>
+It should now be connected and be enabled to be used with the Wii games.
+
 
 ### Wii Balance Board
 
