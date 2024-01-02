@@ -10,9 +10,56 @@ Motion Controllers is a small category of specialized first and third party cont
 
 The main input for the Nintendo Wii.
 
-#### How to configure
+#### How to configure: Official
 
 WIP
+
+#### How to configure: 3rd Party
+
+##### Prerequisites: Hardware
+
+In addition to the controllers you will need to have:
+
+- You need to have a bluetooth dongle or built-in bluetooth adapter.
+- You will need to have a Wii IR Bar. This could be a 3rd party solution wired or battery powered.
+
+
+##### Make a Bluetooth Passthrough udev rule
+
+**🛑 Warning 🛑**<br>
+This method will make the bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes. <br>
+
+If you need other devices connected, it is recommended to buy a separate bluetooth dongle that works on Linux and use that.
+
+Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)
+
+**How to:**
+
+REWRITE
+
+A udev rule has to be installed so Dolphin can use a Bluetooth adapter without having to get root privileges.
+
+1. Paste the following into `/etc/udev/rules.d/52-dolphin.rules`. Replace `YOURVID` and `YOURPID` with the `Vendor ID` and `Product ID` respectively.
+
+`SUBSYSTEM=="usb", ATTRS{idVendor}=="YOURVID", ATTRS{idProduct}=="YOURPID", TAG+="uaccess`
+
+2. Reload udev rules with: `sudo udevadm control --reload-rules`
+
+3. Reinsert the adapter.
+
+Dolphin should be able to automatically unload the USB Bluetooth kernel module (assuming you have permission to; you typically need to be in the plugdev group). If not, unload it with `modprobe -r btusb`.
+
+
+##### Enable Bluetooth Passthrough in Dolphin
+
+<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
+
+Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
+
+Change to `Passthrough a Bluetooth Adapter`
+
+Press the `Sync Button` on the Wiimote and press the `Sync Button` in the Dolphin Interface.
+It should now be connected.
 
 ### Wii Balance Board
 
