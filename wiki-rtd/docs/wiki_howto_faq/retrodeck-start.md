@@ -1,6 +1,6 @@
 # Getting started
 
-<img src="../../../wiki_icons/pixelitos/retrodeck.png" width="50">
+<img src="../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
 ## Step 0: Prerequisites
 

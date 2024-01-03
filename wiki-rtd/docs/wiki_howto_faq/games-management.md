@@ -6,7 +6,7 @@ For a detalied list of which file extensions are supported and where to put the 
 
 ## Multidisk/file games: Directory interpreted as files
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
 
 You can put all the game files inside a sub-folder in order to keep you game list clean, these folder will be seen as the game itself from RetroDECK and not as an actual folder.
@@ -72,7 +72,7 @@ The ES-DE interface that RetroDECK uses should now pick up on the game as one fi
 ## Emulators compatibility lists
 
 
-<img src="../../../wiki_icons/pixelitos/emblem-question.png" width="50">
+<img src="../../wiki_icons/pixelitos/emblem-question.png" width="50">
 
 Here is a collection of compatibility lists
 
@@ -86,7 +86,7 @@ Here is a collection of compatibility lists
 
 ## Scraping
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-downloads.png" width="50">
+<img src="../../wiki_icons/pixelitos/folder-blue-downloads.png" width="50">
 
 
 Scraping allows you to make the games look "pretty" with coverarts, icons, discimages and more.
