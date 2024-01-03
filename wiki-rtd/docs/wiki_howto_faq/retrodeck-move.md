@@ -6,7 +6,7 @@
 - Make sure you are running the latest version of RetroDECK on the old device and have started it at least once.
 - If your device has a battery like a Steam Deck or Laptop, make sure it has enough charge to complete the file transfer. We recommend you are plugged in while doing this to prevent data loss
 - If your old device is broken but you still have access to the data you can skip this step.
-
+- If you are moving to a new SD Card it is always recommended to format it before using it.
 
 ## Quickguides
 
