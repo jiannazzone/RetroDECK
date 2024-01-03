@@ -4,7 +4,7 @@ What follows are two ways to add RetroDECK to Steam and what settings you need t
 
 ## Add with BoilR (Recommended)
 
-<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
+<img src="../../wiki_images/logos/boilr-logo.png" width="150">
 
 If you don't have [BoilR](https://flathub.org/apps/io.github.philipk.boilr) you can just install it from Flathub.
 BoilR will add RetroDECK to Steam (flatpak or standard versions), it will also add the Steam Grid art.
@@ -31,7 +31,7 @@ First make sure that you have fully closed Steam then do the following:
 
 ## Steam - Flatpak version extras
 
-<img src="../../../wiki_images/logos/flatpak-logo.png" width="150">
+<img src="../../wiki_images/logos/flatpak-logo.png" width="150">
 
 If you have the [Steam Flatpak](https://flathub.org/apps/com.valvesoftware.Steam) version installed some extra steps apply.
 
