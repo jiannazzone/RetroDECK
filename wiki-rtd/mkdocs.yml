@@ -55,14 +55,14 @@ nav:
   - FAQ ❔:  wiki_howto_faq/faq.md
 
   - How-to's 💬:
-    - How-to - Start using RetroDECK: wiki_howto_faq/retrodeck-start.md
-    - How-to - Manage your Games: wiki_howto_faq/games-management.md
-    - How-to - Manage your BIOS/Firmware: wiki_howto_faq/bios-firmware.md
-    - How-to - Move RetroDECK to a new device: wiki_howto_faq/retrodeck-move.md
-    - How-to - Add RetroDECK to Steam: wiki_howto_faq/add-to-steam.md
-    - How-to - Enable Controllers in Steam: wiki_howto_faq/enable-controllers-steam.md
-    - How-to - Change controller order in Steam: wiki_howto_faq/set-controller-order-steam.md
-    - How-to - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/extract-doom-wads.md
+    - Start using RetroDECK: wiki_howto_faq/retrodeck-start.md
+    - Manage your Games: wiki_howto_faq/games-management.md
+    - Manage your BIOS/Firmware: wiki_howto_faq/bios-firmware.md
+    - Move RetroDECK to a new device: wiki_howto_faq/retrodeck-move.md
+    - Add RetroDECK to Steam: wiki_howto_faq/add-to-steam.md
+    - Enable Controllers in Steam: wiki_howto_faq/enable-controllers-steam.md
+    - Change controller order in Steam: wiki_howto_faq/set-controller-order-steam.md
+    - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/extract-doom-wads.md
 
   - Steam Deck 🕹️:
     - Steam Deck - Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
