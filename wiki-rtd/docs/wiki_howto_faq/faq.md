@@ -13,14 +13,14 @@ It stands for Beta.
 <br>
 
 ### What is RetroDECK cooker?
- Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
- As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature,  it's just suggested to testers or developer to try bleeding edge function or to contribute.
+Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
+As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature,  it's just suggested to testers or developer to try bleeding edge function or to contribute.
 
- More info on the pinned post in #💙-i-want-to-help on our [Discord Server](discord.gg/Dz3szYsP8g).
- We don't support the cooker on user side.
+More info on the pinned post in #💙-i-want-to-help on our [Discord Server](discord.gg/Dz3szYsP8g).
+We don't support the cooker on user side.
 
 #### Why the name cooker? 🍲
- That's what cooking in the pot at this moment and not yet ready to be served (released). This name was also used by Linux Mandrake and Mandriva for the bleeding edge channel.
+That's what cooking in the pot at this moment and not yet ready to be served (released). This name was also used by Linux Mandrake and Mandriva for the bleeding edge channel.
 
 <br>
 
@@ -63,7 +63,7 @@ In the future.
 ## RetroDECK: Usage Questions
 
 ### Do I have to partition or format my disk/sdcard to install RetroDECK?
- No, partitioning or formatting is not needed at all. RetroDECK (differently from AmberELEC, Batocera and others) comes as a flatpak. Just install it as any other application and launch it from your desktop and/or Steam library.
+No, partitioning or formatting is not needed at all. RetroDECK (differently from AmberELEC, Batocera and others) comes as a flatpak. Just install it as any other application and launch it from your desktop and/or Steam library.
 
 <br>
 
@@ -84,7 +84,7 @@ There are two primary folders:
 - During uninstallation this folder is removed.
 
 ### Can I move the ROMs folder to another place?
- Yes, you can do so inside the configurator and the `Move RetroDECK` option.
+Yes, you can do so inside the configurator and the `Move RetroDECK` option.
 
 <br>
 
@@ -99,7 +99,7 @@ Or if you want to reset from CLI you can read up on:<br>
  <br>
 
 ### How do I uninstall RetroDECK?
- **On the Steam Deck:**
+**On the Steam Deck:**
 
 Put the Steam Deck into Desktop Mode `Steam button`  `Power`  `Switch to Desktop`
 
@@ -116,12 +116,12 @@ No, as long as you don't manually don't delete the `~\retrodeck` folder and it's
 <br>
 
 ### How can I move RetroDECK do a different device like Steam Deck OLED or a new Linux PC?
- Yes, check over at [How to: Move RetroDECK to a new device](../wiki_howto_faq/retrodeck-move.md)
+Yes, check over at [How to: Move RetroDECK to a new device](../wiki_howto_faq/retrodeck-move.md)
 
 <br>
 
 ### Where can I find the logfiles?
- In `~/retrodeck/logs/retrodeck.log`
+In `~/retrodeck/logs/retrodeck.log`
 
 <br>
 
@@ -140,6 +140,9 @@ This bug is appearing only when installing RetroDECK manually and not from Disco
 However you can run this to fix it: `flatpak remote-delete retrodeck-origin`
 
 <br>
+
+
+
 
 
 
@@ -291,17 +294,17 @@ RetroDECK is older then EmuDeck, EmuDeck was created later.
 
 
 ### Batocera or EmuDeck or RetroDECK I still don't get it?
- - Batocera is a retro emulation operative system that you need to boot into separately (like from an SDCard) or replace your current OS.  For the Steam Deck you lose access to the SteamOS features and your emulation gaming is separate from your SteamOS gamemode gaming. That said; Batocera has many years of development time, is a great mature OS with a lot of features.
+- Batocera is a retro emulation operative system that you need to boot into separately (like from an SDCard) or replace your current OS.  For the Steam Deck you lose access to the SteamOS features and your emulation gaming is separate from your SteamOS gamemode gaming. That said; Batocera has many years of development time, is a great mature OS with a lot of features.
 
- - EmuDeck is a shell script that you download and run. The script downloads & configures all the separate emulators & plugins for you from various sources for various operative systems.
+- EmuDeck is a shell script that you download and run. The script downloads & configures all the separate emulators & plugins for you from various sources for various operative systems.
 
- - RetroDECK is an all-in-one application that already provides everything you need without to many extra steps for the user.It is on Flathub and thus allows the users to update the application via standard safe operative system update methods.
+- RetroDECK is an all-in-one application that already provides everything you need without to many extra steps for the user.It is on Flathub and thus allows the users to update the application via standard safe operative system update methods.
 You can see RetroDECK as the in between of EmuDeck and Batocera. We hope that one day we can offer a complete Batocera-like experience right inside your operative system.
 
 <br>
 
 ### What is your relationship with EmulationStation Desktop Edition (ES-DE)?
- S-DE and RetroDECK are separate projects, but we collaborate to give the best possible user experience.
+ES-DE and RetroDECK are separate projects, but we collaborate to give the best possible user experience.
 We have a unique partnership where inside the ES-DE code is a section just for RetroDECK specific features. 
 [Read more on ES-DE FAQs](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#what-is-the-relationship-between-es-de-and-retrodeck)
 
@@ -313,15 +316,15 @@ We have a unique partnership where inside the ES-DE code is a section just for R
 <img src="../../wiki_images/logos/flatpak-logo.png" width="150">
 
 ### Retrodeck is a flatpak, what is it?
- [Flaptak](https://docs.flatpak.org/en/latest/introduction.html) is like sandboxed application, with its own read only filesystem that is different from your computer's filesystem. That's why flatpak is safer than installing something directly in your filesystem as everything it needs is contained within the flatpak.
+[Flaptak](https://docs.flatpak.org/en/latest/introduction.html) is like sandboxed application, with its own read only filesystem that is different from your computer's filesystem. That's why flatpak is safer than installing something directly in your filesystem as everything it needs is contained within the flatpak.
 
 
 #### How is a flatpak made?
- A flatpak is generated from a manifest file. A software called  flatpak-builder reads the  manifest, then starts downloading dependencies and starts building the software. After the build process is done it generates the software in a .flatpak file. This file can then be hosted on Flathub or distributed on the web.
+A flatpak is generated from a manifest file. A software called  flatpak-builder reads the  manifest, then starts downloading dependencies and starts building the software. After the build process is done it generates the software in a .flatpak file. This file can then be hosted on Flathub or distributed on the web.
 
 
 #### How does the RetroDECK flatpak manifest look like?
- You can find out manifest here:  https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml
+You can find out manifest here:  https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml
 
 <br>
 
@@ -331,14 +334,14 @@ We have a unique partnership where inside the ES-DE code is a section just for R
 <img src="../../wiki_images/logos/retroarch-logo.png" width="150">
 
 ### Why are games call ROMs?
- ROM stands for "Read Only Memory" and was a common method to store games.
+ROM stands for "Read Only Memory" and was a common method to store games.
 The games where later dumped from their ROM chips into digitalized files that can be played with an emulator.
 Read more on [wikipedia](https://en.wikipedia.org/wiki/Read-only_memory)
 
 <br>
 
 ### How can I set another default emulator?
- The ES-DE interface allows you to change emulators for systems that has many different emulators.  In the main menu go to `Other Settings` - `Alternative Emulators` to set other defaults.
+The ES-DE interface allows you to change emulators for systems that has many different emulators.  In the main menu go to `Other Settings` - `Alternative Emulators` to set other defaults.
 
 <br>
 
@@ -357,20 +360,20 @@ Read more on [wikipedia](https://en.wikipedia.org/wiki/Read-only_memory)
 
 
 ### PS2 games are not working or buggy in the RetroArch Core.
- It's a known issue with if you are using the libretro core but you can use the the standalone pcsx2 emulator to solve this issue.
- Be sure to check that the bios files are in the correct folder. Read more on the `How-to's 💬` - `How to: Manage BIOS and Firmware`
+It's a known issue with if you are using the libretro core but you can use the the standalone pcsx2 emulator to solve this issue.<br>
+Be sure to check that the bios files are in the correct folder. Read more on the `How-to's 💬` - `How to: Manage BIOS and Firmware`
 
 <br>
 
 ### I configured RetroArch but the configuration was not saved.
- Configuring RetroArch can be dangerous for an inexperienced user, so RetroDECK is set to don't save the RetroArch configuration upon exiting.<br/
- The configuration must be saved willingly by going to: `Main Menu` -  `Configuration File` - `Save Current Configuration`.<br/
- If you find some better configurations however, you may contribute by sharing it on the `💙-i-want-to-help` channel on our [Discord Server](discord.gg/Dz3szYsP8g) that may be included in the next version.
+Configuring RetroArch can be dangerous for an inexperienced user, so RetroDECK is set to don't save the RetroArch configuration upon exiting.<br>
+The configuration must be saved willingly by going to: `Main Menu` -  `Configuration File` - `Save Current Configuration`.<br>
+If you find some better configurations however, you may contribute by sharing it on the `💙-i-want-to-help` channel on our [Discord Server](discord.gg/Dz3szYsP8g) that may be included in the next version.
 
 <br>
 
 ### Will you support Lightguns (Sinden, Gun4IR, Samco etc...)?
- The long term answer is yes, but there are several issues that need to be addressed from various dependencies that are beyond the scope of what RetroDECK can do by it self. We are talking to several projects and hope to have those issues addressed in the future. Right now the best way to use lightgun hardware is to use Batocera as they have developed native support in their OS.
+The long term answer is yes, but there are several issues that need to be addressed from various dependencies that are beyond the scope of what RetroDECK can do by it self. We are talking to several projects and hope to have those issues addressed in the future. Right now the best way to use lightgun hardware is to use Batocera as they have developed native support in their OS.
 
 <br>
 
@@ -382,31 +385,43 @@ Read more on [wikipedia](https://en.wikipedia.org/wiki/Read-only_memory)
 <br>
 
 ### Can I launch RetroDECK from inside of the Steam Decks gamemode?
- Yes, RetroDECK currently only supports Steam Deck's gamemode as it relies on Steam Controller configs.
- To add it into Steam please check the second step of `Steam Deck 🕹️` - `Steam Deck - Installation and Updates`.
+Yes, RetroDECK currently only supports Steam Deck's gamemode as it relies on Steam Controller configs.
+To add it into Steam please check the second step of `Steam Deck 🕹️` - `Steam Deck - Installation and Updates`.
 
 <br>
 
 ### XBOX games are slow on the Steam Deck
- Unfortunately on thanks to missing optimizations focusing on the Steam Deck and the hardware is limited in scope makes performance not great. Like most emulators they will get improvements over time and we will follow the XBOX emulators progress with great interest.
+Unfortunately on thanks to missing optimizations focusing on the Steam Deck and the hardware is limited in scope makes performance not great. Like most emulators they will get improvements over time and we will follow the XBOX emulators progress with great interest.
 
 <br>
 
 ### The games are stuck at 30FPS on the Steam Deck!
- Press the [...] button on the Steam Deck, go into the Power menu and see if the Framerate Limit is set to 30FPS and set it to 60FPS or off.
+Press the [...] button on the Steam Deck, go into the Power menu and see if the Framerate Limit is set to 30FPS and set it to 60FPS or off.
 
 <br>
 
 ### Fast forwarding is slow on the Steam Deck!
- Same as above: Check the Power menu Framerate Limit.
+Same as above: Check the Power menu Framerate Limit.
 
 <br>
 
 ### Some emulators run slow when I got my Steam Deck docked to a 4k, 8k or above resolution monitor.
- The Steam Deck does not have the power to play all the games in those high resolutions with a stable framerate. What you could do is go into desktop mode while docked and lower the resolution of the display to 1080p or 720p then return to gamemode.
+The Steam Deck does not have the power to play all the games in those high resolutions with a stable framerate. What you could do is go into desktop mode while docked and lower the resolution of the display to 1080p or 720p then return to gamemode.
 
 <br>
 
+### I'm having problems with my brand new SD card on my Steam Deck
+
+SD Cards can be tricky and there are a of scam cards out there. <br>
+But when you are thinking about getting a new SD Card adhere to the following rules:
+
+- Buy from a reputable store and a reputable brand.
+- If a deal sounds to good to be true, it is probably not true.
+- Make sure you get a good card with good read and write speeds. (What is the best card to get always changes as new cards are released, check currents reviews online)
+- When getting the card format it the first thing you should do is format it. Press `Steam` - `Storage` - Select The Card - Press `Y` for Options - `Format Drive`.
+- If you are going to name your SD Card avoid exotic names with special characters or spaces. Stick with to A to Z and 1 to 9.
+
+There are several solutions listed online with quick search on how to test if a SD Card is fake for various OSes like the software `f3` for Linux.
 
 ## Emulationstation-DE: General Questions
 
@@ -439,7 +454,7 @@ The solution we opted for instead is:
 <img src="https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/adroit-es-de/adroit-es-de_02.jpg" width="500">
 
 ### How can I add more themes?
- ES-DE comes with a built in Theme Downloader `UI Settings  Theme Downloader`. But you can also add themes manually in the: `~/retrodeck/themes` folder.
+ES-DE comes with a built in Theme Downloader `UI Settings  Theme Downloader`. But you can also add themes manually in the: `~/retrodeck/themes` folder.
 
 <br>
 
@@ -453,22 +468,20 @@ Yes, check here: [ES-DE: Themes List](https://gitlab.com/es-de/themes/themes-lis
 <br>
 
 ### "Why does the theme I am using not work?" or "Why does the layout look broken?" (black screen with blue text)?
- * Please make sure you are specifically using a theme that is compatible with [ES-DE](https://www.es-de.org).
+- Please make sure you are specifically using a theme that is compatible with [ES-DE](https://www.es-de.org).
+- If you are trying to use a theme that was built for Batocera it will likely not be compatible.
+- ES-DE uses a unique theme engine so themes are not directly portable from Batocera.
 
- * If you are trying to use a theme that was built for Batocera it will likely not be compatible.
-
- * ES-DE uses a unique theme engine so themes are not directly portable from Batocera.
-
- * Please see ES-DE's EmulationStation-DE Guide 📘 for more details.
+See the ES-DE's EmulationStation-DE Guide 📘 for more details.
 
  <br>
 
 ### Why does the theme layout look squished?
- * The Steam Deck has a screen aspect ratio of `16:10` and most themes that you will find are built for an aspect ratio of `16:9`.  Depending on the theme's design this may cause the layout to appear squished when using it on the Steam Deck's display.
+- The Steam Deck has a screen aspect ratio of `16:10` and most themes that you will find are built for an aspect ratio of `16:9`.  Depending on the theme's design this may cause the layout to appear squished when using it on the Steam Deck's display.
 
- * All of the included themes are built for 16:10 aspect ratio so you should not see this issue with any of them; however if you are downloading a theme from another source there is a chance this can occur for you.
+- All of the included themes are built for 16:10 aspect ratio so you should not see this issue with any of them; however if you are downloading a theme from another source there is a chance this can occur for you.
 
- * There are 2 ways to fix this if it does occur: (1) see if a specific version was built for `16:10` aspect ratio and use that instead or (2) edit the theme to make it compatible with that aspect ratio.
+- There are 2 ways to fix this if it does occur: (1) see if a specific version was built for `16:10` aspect ratio and use that instead or (2) edit the theme to make it compatible with that aspect ratio.
 
 <br>
 
@@ -479,13 +492,13 @@ Yes, check here: [ES-DE: Themes List](https://gitlab.com/es-de/themes/themes-lis
 <img src="https://gitlab.com/es-de/emulationstation-de/-/raw/master/images/es-de_scraper_running.png" width="500">
 
 ### Can I manually add custom game images/videos/media for games that I can not scrape?
- Yes, check the file structure over at Emulationstation DE's user guide on gitlab.
+Yes, check the file structure over at Emulationstation DE's user guide on gitlab.
 [Manually copying game media files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files)
 
 <br>
 
 ### Where is my scraped data?
- In: `~/retrodeck/downloaded_media` folder.
+In: `~/retrodeck/downloaded_media` folder.
 
 <br>
 
@@ -511,7 +524,7 @@ Yes, check the `EmulationStation-DE Guide 📘`  for more details.
 <br>
 
 ### Can I copy the downloaded_media folder to another device?
- Yes, just copy it into the other device RetroDECK folder.
+Yes, just copy it into the other device RetroDECK folder.
 
 <br>
 
@@ -523,9 +536,12 @@ Yes, check the `EmulationStation-DE Guide 📘`  for more details.
 
 
 ### My systems storage ran out after scraping...
- You can clean out images and videos that takes a lot of space under: `~/retrodeck/downloaded_media`.
+You can clean out images and videos that takes a lot of space under: `~/retrodeck/downloaded_media`.
+
+<br>
+
 
 #### But I still want them...
- The only way to still keep them is either delete something else from the storage or buy more storage.
+The only way to still keep them is either delete something else from the storage or buy more storage.
 
 <br>
