@@ -418,7 +418,7 @@ But when you are thinking about getting a new SD Card adhere to the following ru
 - Buy a reputable brand.
 - Buy from a reputable store. If a deal sounds to good to be true, it is probably not true.
 - Make sure you get a good card with good read and write speeds (what is the best card to get always changes, check current reviews online).
-- When getting the card format it the first thing you should do is format it. Press `Steam` - `Storage` - Select The Card - Press `Y` for Options - `Format Drive`.
+- When getting the card the first thing you should do is format it. Press `Steam` - `Storage` - Select The Card - Press `Y` for Options - `Format Drive`.
 - If you are going to name your SD Card avoid exotic names with special characters, emojis or spaces. Stick with to A to Z and 1 to 9.
 
 There are several solutions listed online with quick search on how to test if a SD Card is fake for various OSes like the software `f3` for Linux.
