@@ -94,10 +94,19 @@ from the example above the result should look like this:
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
-Change to `Passthrough a Bluetooth Adapter`
+Enable:
+`Passthrough a Bluetooth Adapter`
+`Connect Wii Remotes for Emulated Controllers`
+`Continous Scanning`
 
-Press the `Sync Button` on the Wiimote and press the `Sync Button` in the Dolphin Interface.<br>
-It should now be connected and be enabled to be used with the Wii games.
+
+**Step 4: Play the game**
+NOTE: if the udev rules are wrong and dolphin can not get bluetooth access it will display a error message and dolphin will crash.
+
+The Wiimote can now be connected when a game is launched, but it will not connect before that.
+
+In some cases you might need to press the `Sync Button` on the Wiimote (under the backplate) and press the `Sync Button` in the Dolphin Interface.<br>
+RetroDECK has a built in shortcut for keyboards `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
 
 ---
 
