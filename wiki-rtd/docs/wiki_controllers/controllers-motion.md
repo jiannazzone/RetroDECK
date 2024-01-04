@@ -77,7 +77,7 @@ You will need root privlages for this.
 
 Type type the following command and replace `Vendor ID` and `Product ID` respectively.:
 
-`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="Vendor ID", ATTRS{idProduct}=="Product ID", TAG+="uaccess' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
+`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="Vendor ID", ATTRS{idProduct}=="Product ID", TAG+="uaccess"' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
 
 from the example above the result should look like this:
 
