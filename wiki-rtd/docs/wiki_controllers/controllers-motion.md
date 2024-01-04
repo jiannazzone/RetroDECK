@@ -94,10 +94,12 @@ from the example above the result should look like this:
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
 
-Change to:<br>
-`Passthrough a Bluetooth Adapter`
+Change bluetooth type:
 
-Enable:<br>
+- From `Emulate the Wii's bluetooth adapter` to `Passthrough a Bluetooth Adapter`
+
+Enable the following checkboxes:
+
 - `Connect Wii Remotes for Emulated Controllers`
 - `Continous Scanning`
 
@@ -113,7 +115,7 @@ In most cases you will need to `Sync` by pressing  `1` and `2`togheter on the Wi
 In a rarer case you need press the `Sync Button` on the Emulated Wii in the Dolphin Interface.<br>
 RetroDECK has a built in shortcut for this `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
 
-If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's Bluetooth Adapter` setting.
+If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's bluetooth adapter` setting.
 
 **NOTE:**<br>
 If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access it will display a error message and crash.
