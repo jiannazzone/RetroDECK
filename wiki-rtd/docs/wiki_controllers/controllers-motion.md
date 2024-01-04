@@ -105,8 +105,10 @@ NOTE: if the udev rules are wrong and dolphin can not get bluetooth access it wi
 
 The Wiimote can now be connected when a game is launched, but it will not connect before that.
 
-In some cases you might need to press the `Sync Button` on the Wiimote (under the backplate) and press the `Sync Button` in the Dolphin Interface.<br>
-RetroDECK has a built in shortcut for keyboards `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
+In most cases you will need to `Sync` by pressing  `1` and `2`togheter on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
+
+In a rarer case you need press the `Sync Button` on the Emulated Wii in the Dolphin Interface.<br>
+RetroDECK has a built in shortcut for this `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
 
 ---
 
