@@ -80,7 +80,7 @@ Type type the following command and replace `Vendor ID` and `Product ID` respect
 
 from the example above the result should look like this:
 
-`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", TAG+="uaccess' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
+`sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", TAG+="uaccess"' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
 
 2. Reload udev rules with: `sudo udevadm control --reload-rules`
 3. Take out and reinsert the bluetooth adapter or reboot if a built-in was used.
