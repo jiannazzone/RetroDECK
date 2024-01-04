@@ -6,7 +6,6 @@ Motion Controllers is a small category of specialized first and third party cont
 
 ## Nintendo Motion Controllers
 
----
 
 ### Wii Remote (Wiimote) & Nunchuck
 
@@ -94,14 +93,18 @@ from the example above the result should look like this:
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
-Enable:
-`Passthrough a Bluetooth Adapter`
-`Connect Wii Remotes for Emulated Controllers`
-`Continous Scanning`
 
+Change to:<br>
+`Passthrough a Bluetooth Adapter`
+
+Enable:<br>
+- `Connect Wii Remotes for Emulated Controllers`
+- `Continous Scanning`
+
+---
 
 **Step 4: Play the game**
-NOTE: if the udev rules are wrong and dolphin can not get bluetooth access it will display a error message and dolphin will crash.
+
 
 The Wiimote can now be connected when a game is launched, but it will not connect before that.
 
@@ -109,6 +112,12 @@ In most cases you will need to `Sync` by pressing  `1` and `2`togheter on the Wi
 
 In a rarer case you need press the `Sync Button` on the Emulated Wii in the Dolphin Interface.<br>
 RetroDECK has a built in shortcut for this `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
+
+If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's Bluetooth Adapter` setting.
+
+**NOTE:**<br>
+If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access it will display a error message and crash.
+If that happens go back and make sure that the files in `/etc/udev/rules.d/52-dolphin.rules`
 
 ---
 
@@ -138,7 +147,6 @@ WIP
 
 ## PlayStation Motion Controllers
 
----
 
 ### PlayStation EyeToy
 
@@ -195,7 +203,6 @@ Used for various titles on the Xbox One.
 
 ## Other Motion Controllers
 
----
 
 ### RIDE Balance Board
 
