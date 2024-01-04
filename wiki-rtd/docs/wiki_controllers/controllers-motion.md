@@ -42,9 +42,12 @@ WIP
 This works with both 3rd party Wiimotes and Official and is a harder method.
 
 **🛑 Warning 🛑**<br>
-This method will make the bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes. <br>
 
-If you need other devices connected, it is recommended to buy a separate bluetooth dongle that works on Linux and use that.
+- This method will make the bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes.
+
+- If you need other devices connected, it is recommended to buy a separate bluetooth dongle that works on Linux and use that.
+
+
 
 Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)
 
@@ -117,9 +120,10 @@ RetroDECK has a built in shortcut for this `Alt + W` that is also be access from
 
 If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's bluetooth adapter` setting.
 
-**NOTE:**<br>
-If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access it will display a error message and crash.
-If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
+Others notes:
+
+- If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access: It will display a error message and crash.
+- If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
 
 ---
 
