@@ -22,7 +22,7 @@ It can also be accessed from some controllers radial menu systems on for example
 
 In addition to the controllers:
 
-- You need to have a bluetooth dongle or built-in bluetooth adapter.
+- You need to have a bluetooth dongle or built-in bluetooth adapter, for the second method you might need two depending on your usecase.
 - You will need to have a Wii IR Bar. This could be a 3rd party solution wired or battery powered.
 
 ---
