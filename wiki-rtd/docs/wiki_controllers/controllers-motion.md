@@ -117,7 +117,7 @@ If you want to play with normal controllers as Wiimotes again the best way is to
 
 **NOTE:**<br>
 If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access it will display a error message and crash.
-If that happens go back and make sure that the files in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
+If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
 
 ---
 
