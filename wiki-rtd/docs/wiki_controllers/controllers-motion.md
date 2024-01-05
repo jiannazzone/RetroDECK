@@ -69,9 +69,7 @@ This works with both 3rd party Wiimotes and Official and is a harder method.
 
 Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)
 
----
-
-**Step 1: Find your ID's**
+##### Step 1: Find your Vendor and Product ID's
 
 First you need to find our your `Vendor ID` `Product ID` for the Bluetooth adapter you want to use.
 
@@ -89,9 +87,7 @@ Bus 001 Device 004: ID 8087:0025 Intel Corp. Wireless-AC 9260 Bluetooth Adapter
 The `ID 8087:0025` left value is the `Vendor ID` while the right is `Product ID`.<br>
 Thus in this example: `Vendor ID` is `8087`:`Product ID` is `0025`.
 
----
-
-**Step 2: Create the rules file.**
+##### Step 2: Create the rules file
 
 You will need root privlages for this.
 
@@ -106,14 +102,11 @@ from the example above the result should look like this:
 2. Reload udev rules with: `sudo udevadm control --reload-rules`
 3. Take out and reinsert the Bluetooth adapter or reboot if a built-in was used.
 
----
-
-**Step 3: Enable Bluetooth Passthrough in Dolphin**
-
-<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
+##### Step 3: Enable Bluetooth Passthrough in Dolphin
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
+<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
 
 Change Bluetooth type:
 
@@ -121,12 +114,12 @@ Change Bluetooth type:
 
 Enable the following checkboxes:
 
+<img src="../../wiki_images/emulators/dolphin/dolphin-connect-scan.png" width="450">
+
 - `Connect Wii Remotes for Emulated Controllers`
 - `Continous Scanning`
 
----
-
-**Step 4: Syncing the Wiimotes**
+##### Step 4: Syncing the Wiimotes
 
 The Wiimote can now be connected when a game is launched, but it will not connect before that.
 It will need to reconnect every time when launching a new game.
@@ -135,9 +128,7 @@ You will need to `Sync Wiimote` the Wiimote by pressing  `1` and `2` together on
 
 Sometimes you will also need to press the `Sync Button` on the Emulated Wii in the Dolphin Interface, this can be found in the controller menu in Dolphin or RetroDECK has a built in shortcut for this `Alt + W` that is also be accessed from the RetroDECK Radial Menu system on the Steam Deck while in `Game Mode` under Dolphin.
 
----
-
-**Extra: Troubleshooting and tips**
+##### Extra: Troubleshooting and tips
 
 - Always sit close to the device when you are doing the initial paring.
 - Sometimes it can take a while before the paring happens, specially on 3rd party Wiimotes. You might need to try multiple times with both the `Sync Button` + `Sync Wiimote`.
