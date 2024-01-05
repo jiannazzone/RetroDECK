@@ -182,6 +182,10 @@ WIP
 
 Used for various titles on the PlayStation 2 the most famous being the `EyeToy` game series.
 
+#### Emulator
+PCSX2
+
+
 #### How to emulate in PCSX2
 
 You need to have a `USB Webcam` connected or an `Integrated Webcam`.
@@ -198,6 +202,8 @@ You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 
 Used for various titles on the PlayStation 3.
 
+#### Emulator
+RPCS3
 
 #### How to configure / emulate
 
@@ -212,6 +218,10 @@ WIP
 <img src="../../wiki_images/controllers/xbox-kinect-360.png" width="250">
 
 Used for various titles on the Xbox 360.
+
+#### Emulator
+Xenia
+
 
 #### How to configure / emulate
 
@@ -237,6 +247,9 @@ Used for various titles on the Xbox One.
 <img src="../../wiki_images/controllers/ride-controller.png" width="250">
 
 Used for the Activision games `Tony Hawk Ride` and `Tony Hawk Shread`.
+
+#### Emulator
+RPCS3, Dolphin
 
 #### How to configure
 
