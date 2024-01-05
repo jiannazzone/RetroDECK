@@ -7,12 +7,12 @@
 
 Generic Controllers is a broad category that encompasses the vast majority of third party controllers.<br>
 
-
-
-
 ## Generic - Standard
 
 This guide assumes that they have a similar layout as an Xbox Controller aka a Standard layout.
+
+#### Steam Input support
+Yes
 
 ### What is the Official profile called?
 

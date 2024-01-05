@@ -6,9 +6,10 @@ Nintendo Controllers are controllers made by the company Nintendo. Motion Contro
 
 ## Switch Pro
 
-Supported by Steam Input
-
 <img src="../../wiki_images/controllers/switch-pro.png" width="250">
+
+#### Steam Input support
+Yes
 
 ## What is the Official - Switch Pro RetroDECK profile called?
 

@@ -11,15 +11,17 @@ This should not needed for the Steam Deck, SteamOS and most gaming focus Linux d
 
 ## Xbox 360
 
-Supported by Steam Input
-
 <img src="../../wiki_images/controllers/xbox-360.png" width="250">
+
+#### Steam Input support
+Yes
 
 ## Xbox One/S/X - Xbox Wireless Controller
 
-Supported by Steam Input
-
 <img src="../../wiki_images/controllers/xbox-wireless.png" width="250">
+
+#### Steam Input support
+Yes
 
 ## What are the Official profiles called?
 

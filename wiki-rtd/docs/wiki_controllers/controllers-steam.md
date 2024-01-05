@@ -13,6 +13,9 @@ Steam Input have support for the following controllers:
 
 The first Steam Controller is nicknamed Gordon and also goes by that name in all configurations.
 
+#### Steam Input support
+Yes
+
 ### What is the Official - Steam Controller: Gordon RetroDECK profile called?
 
 - Steam Controller - Gordon: `RetroDECK: Steam Controller - Gordon`
