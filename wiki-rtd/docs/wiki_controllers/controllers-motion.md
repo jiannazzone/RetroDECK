@@ -28,14 +28,19 @@ Dolphin
 
 You will need to have a Wii Sensor Bar or an 3rd party alternative.
 
-You need to have at least one Bluetooth dongle or built-in Bluetooth adapter. If you have a dongle make sure it has Linux support and a good signal reach. If it is too old, you could have a small reach and it can cause disconnects.
+You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
+
+ - If you have a dongle make sure it has Linux support that has a a good signal reach.
 
 
 #### Steam Deck Tips:
 
-- The recommended method of playing is docked connected to a monitor/tv with and to have a separate Bluetooth dongle attached to the dock.
+The recommended method of playing is docked connected to a monitor/tv and to have a separate Bluetooth dongle attached to the dock.
+
 - It could be helpful to have a Keyboard / Mouse connected to the dock while setting everything up.
+
 - It is good to sit close to the Steam Deck when paring the Wiimotes.
+
 - As of now it is easier to configure Wiimotes in `Desktop Mode` then transfer over to `Game Mode` when everything is working (we will make easier tools later in the Configurator).
     - Open up Dolphin by launching it from the stand alone Configurator.
     - Make all the settings changes to connect the Wiimotes from the guides here on this page.
