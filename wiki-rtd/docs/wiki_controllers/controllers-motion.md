@@ -26,7 +26,7 @@ Dolphin
 
 <img src="../../wiki_images/devices/wii-bar.png" width="250">
 
-You will need to have a Wii Sensor Bar or an 3rd party alternative.
+You will need to have a Wii Sensor Bar alternative.
 
 You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
 
@@ -36,6 +36,8 @@ You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
 #### Steam Deck Tips:
 
 The recommended method of playing is docked connected to a monitor/tv and to have a separate Bluetooth dongle attached to the dock.
+
+- You need to have set a sudo password for the Steam Deck.
 
 - It could be helpful to have a Keyboard / Mouse connected to the dock while setting everything up.
 
