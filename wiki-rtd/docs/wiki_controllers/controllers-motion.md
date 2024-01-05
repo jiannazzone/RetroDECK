@@ -136,7 +136,7 @@ Enable the following checkboxes:
 The Wiimote can now be connected when a game is launched, but it will not connect before that.
 It will need to reconnect every time when launching a new game.
 
-You will need to `Sync Wiimote` the Wiimote by pressing  `1` and `2` together on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
+You will need to `Sync Wiimote` by pressing  `1` and `2` together on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
 
 Sometimes you will also need to press the `Sync Button` on the Emulated Wii in the Dolphin Interface, this can be found in the controller menu in Dolphin or RetroDECK has a built in shortcut for this `Alt + W` that is also be accessed from the RetroDECK Radial Menu system on the Steam Deck while in `Game Mode` under Dolphin.
 
