@@ -23,11 +23,13 @@ Dolphin
 
 #### Hardware Prerequisites for Dolphin:
 
-In addition to the controllers:
 
-- You need to have at least one Bluetooth dongle or built-in Bluetooth adapter.
-    - If you have a dongle make sure it has Linux support and a good signal reach. If it is too old, you could have a small reach and it can cause disconnects.
-- You will need to have a Wii Sensor Bar or an 3rd party alternative.
+<img src="../../wiki_images/devices/wii-bar.png" width="250">
+
+You will need to have a Wii Sensor Bar or an 3rd party alternative.
+
+You need to have at least one Bluetooth dongle or built-in Bluetooth adapter. If you have a dongle make sure it has Linux support and a good signal reach. If it is too old, you could have a small reach and it can cause disconnects.
+
 
 #### Steam Deck Tips:
 
