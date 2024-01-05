@@ -13,24 +13,34 @@ Motion Controllers is a small category of specialized first and third party cont
 
 The main input for the Nintendo Wii.
 
-#### TIP: Dolphin Sync Wiimote Hotkey
+##### Steam Input support
+No
 
-RetorDECK has a built-in hotkey for pressing the Dolphis `Sync Wiimote` button `Alt + W` if you find yourself dissconnected.<br>
-It can also be accessed from some controllers radial menu systems on for example the Steam Deck.
+---
 
-#### Prerequisites Dolphin: Hardware
+#### Hardware Prerequisites for Dolphin:
 
 In addition to the controllers:
 
-- You need to have at least one bluetooth dongle or built-in bluetooth adapter.
+- You need to have at least one Bluetooth dongle or built-in Bluetooth adapter.
 - You will need to have a Wii Sensor Bar or an 3rd party alternative.
 
 #### Steam Deck Tips:
 
-- As of now it is easier to configure Wiimotes in desktop mode then transfer over to game mode when everything is working (We will make easier tools later in the Configurator).
-- The recommended method of playing is docked connected to a monitor and to have a separate bluetooth dongle attached to the dock for the second method.
+- The recommended method of playing is docked connected to a monitor/tv with and to have a separate Bluetooth dongle attached to the dock.
 - It could be helpful to have a Keyboard / Mouse connected to the dock while setting everything up.
-- It is good to sit close to the Steam Deck when paring.
+- It is good to sit close to the Steam Deck when paring the Wiimotes.
+- As of now it is easier to configure Wiimotes in `Desktop Mode` then transfer over to `Game Mode` when everything is working (we will make easier tools later in the Configurator).
+    - Open up Dolphin by launching it from the stand alone Configurator.
+    - Make all the settings changes to connect the Wiimotes from the guides here on this page.
+    - Then try to launch a game from `Desktop Mode` directly in Dolphin by clicking on a game in the Dolphin interface.
+    - If the paring works and the Wiimotes connects and the game controls fine in `Desktop Mode` it will as intended in `Game Mode`.
+
+
+#### RetroDECK Sync Wiimote Hotkey
+
+RetorDECK has a built-in hotkey for pressing the Dolphins `Sync Wiimote` button `Alt + W` if you find yourself disconnected.<br>
+It can also be accessed from some controllers radial menu systems on for example the Steam Deck.
 
 ---
 
@@ -50,9 +60,9 @@ This works with both 3rd party Wiimotes and Official and is a harder method.
 
 **🛑 Warning 🛑**<br>
 
-- This method will make the bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes.
+- This method will make the Bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes.
 
-- If you need other devices connected, it is recommended to buy a separate bluetooth dongle that works on Linux and use that.
+- If you need other devices connected, it is recommended to buy a separate Bluetooth dongle that works on Linux and use that.
 
 
 
@@ -62,7 +72,7 @@ Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index
 
 **Step 1: Find your ID's**
 
-First you need to find our your `Vendor ID` `Product ID` for the bluetooth adapter you want to use.
+First you need to find our your `Vendor ID` `Product ID` for the Bluetooth adapter you want to use.
 
 1. Open a terminal window
 2. Type `lsusb`
@@ -93,20 +103,20 @@ from the example above the result should look like this:
 `sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", TAG+="uaccess"' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
 
 2. Reload udev rules with: `sudo udevadm control --reload-rules`
-3. Take out and reinsert the bluetooth adapter or reboot if a built-in was used.
+3. Take out and reinsert the Bluetooth adapter or reboot if a built-in was used.
 
 ---
 
 **Step 3: Enable Bluetooth Passthrough in Dolphin**
 
-<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
+<img src="../../wiki_images/emulators/dolphin/dolphin-Bluetooth-pass.png" width="450">
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
 
-Change bluetooth type:
+Change Bluetooth type:
 
-- From `Emulate the Wii's bluetooth adapter` to `Passthrough a Bluetooth Adapter`
+- From `Emulate the Wii's Bluetooth adapter` to `Passthrough a Bluetooth Adapter`
 
 Enable the following checkboxes:
 
@@ -122,7 +132,7 @@ It will need to reconnect every time when launching a new game.
 
 You will need to `Sync Wiimote` the Wiimote by pressing  `1` and `2` together on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
 
-Sometimes you will also need to press the `Sync Button` on the Emulated Wii in the Dolphin Interface, this can be found in the controller menu in Dolphin or RetroDECK has a built in shortcut for this `Alt + W` that is also be accessed from the RetroDECK Radial Menu system on the Steam Deck while in Game Mode under Dolphin.
+Sometimes you will also need to press the `Sync Button` on the Emulated Wii in the Dolphin Interface, this can be found in the controller menu in Dolphin or RetroDECK has a built in shortcut for this `Alt + W` that is also be accessed from the RetroDECK Radial Menu system on the Steam Deck while in `Game Mode` under Dolphin.
 
 ---
 
@@ -130,8 +140,8 @@ Sometimes you will also need to press the `Sync Button` on the Emulated Wii in t
 
 - Always sit close to the device when you are doing the initial paring.
 - Sometimes it can take a while before the paring happens, specially on 3rd party Wiimotes. You might need to try multiple times with both the `Sync Button` + `Sync Wiimote`.
-- If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's bluetooth adapter` setting.
-- If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access: It will display a error message and crash. If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
+- If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's Bluetooth adapter` setting.
+- If the udev rules you created in Step 2 are wrong and Dolphin can not get Bluetooth access, it will display a error message and crash. If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
 
 ---
 
