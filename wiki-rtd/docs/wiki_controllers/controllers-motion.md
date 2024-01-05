@@ -30,7 +30,7 @@ You will need to have a Wii Sensor Bar or an 3rd party alternative.
 
 You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
 
- - If you have a dongle make sure it has Linux support that has a a good signal reach.
+- If you have a dongle make sure it has Linux support that has a a good signal reach.
 
 
 #### Steam Deck Tips:
@@ -43,9 +43,9 @@ The recommended method of playing is docked connected to a monitor/tv and to hav
 
 - As of now it is easier to configure Wiimotes in `Desktop Mode` then transfer over to `Game Mode` when everything is working (we will make easier tools later in the Configurator).
     - Open up Dolphin by launching it from the stand alone Configurator.
-    - Make all the settings changes to connect the Wiimotes from the guides here on this page.
-    - Then try to launch a game from `Desktop Mode` directly in Dolphin by clicking on a game in the Dolphin interface.
-    - If the paring works and the Wiimotes connects and the game controls fine in `Desktop Mode` it will as intended in `Game Mode`.
+    - Make all the settings changes to connect the Wiimotes from the methods here on this page.
+    - Try to launch a game from `Desktop Mode` directly in Dolphin by clicking on a game in the Dolphin interface.
+    - If the paring works, the Wiimotes connects and the game controls fine with the Wiimotes in `Desktop Mode` it will as intended in `Game Mode` when launched from RetroDECK.
 
 
 #### RetroDECK Sync Wiimote Hotkey
