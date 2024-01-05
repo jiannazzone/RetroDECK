@@ -30,7 +30,7 @@ In addition to the controllers:
 - As of now it is easier to configure Wiimotes in desktop mode then transfer over to game mode when everything is working (We will make easier tools later in the Configurator).
 - The recommended method of playing is docked connected to a monitor and to have a separate bluetooth dongle attached to the dock for the second method.
 - It could be helpful to have a Keyboard / Mouse connected to the dock while setting everything up.
-- It is good to sit close to the Steam Deck when paring
+- It is good to sit close to the Steam Deck when paring.
 
 ---
 
