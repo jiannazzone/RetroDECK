@@ -7,6 +7,11 @@ WIP
 ## Where to put the games
 WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
+## Where to put the keys.txt files
+`~/.var/app/net.retrodeck.retrodeck/data/Cemu`
+
+This will be changed in a later update to the BIOS folder.
+
 ## ES-DE Guide
 
 **This needs to be rewritten**
