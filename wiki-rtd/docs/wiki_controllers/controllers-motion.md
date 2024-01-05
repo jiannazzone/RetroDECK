@@ -13,8 +13,11 @@ Motion Controllers is a small category of specialized first and third party cont
 
 The main input for the Nintendo Wii.
 
-##### Steam Input support
+#### Steam Input support
 No
+
+#### Emulator
+Dolphin
 
 ---
 
