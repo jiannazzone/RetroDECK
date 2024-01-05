@@ -23,6 +23,7 @@ No
 In addition to the controllers:
 
 - You need to have at least one Bluetooth dongle or built-in Bluetooth adapter.
+    - If you have a dongle make sure it has Linux support and a good signal reach. If it is too old, you could have a small reach and it can cause disconnects.
 - You will need to have a Wii Sensor Bar or an 3rd party alternative.
 
 #### Steam Deck Tips:
@@ -47,7 +48,7 @@ It can also be accessed from some controllers radial menu systems on for example
 
 #### How-to configure Dolphin - Method 1: Bluetooth Connection
 
-This only works with the Official Wiimote conntroller and is the easier method.
+This only works with the Official Wiimote controller and is the easier method.
 
 WIP
 
@@ -109,7 +110,7 @@ from the example above the result should look like this:
 
 **Step 3: Enable Bluetooth Passthrough in Dolphin**
 
-<img src="../../wiki_images/emulators/dolphin/dolphin-Bluetooth-pass.png" width="450">
+<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
