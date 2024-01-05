@@ -22,7 +22,7 @@ It can also be accessed from some controllers radial menu systems on for example
 
 In addition to the controllers:
 
-- You need to have a bluetooth dongle or built-in bluetooth adapter. For the second method you might need two depending on your usecase.
+- You need to have at least one bluetooth dongle or built-in bluetooth adapter.
 - You will need to have a Wii Sensor Bar or an 3rd party alternative.
 
 #### Steam Deck Tips:
