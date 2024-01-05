@@ -22,8 +22,15 @@ It can also be accessed from some controllers radial menu systems on for example
 
 In addition to the controllers:
 
-- You need to have a bluetooth dongle or built-in bluetooth adapter, for the second method you might need two depending on your usecase.
-- You will need to have a Wii IR Bar. This could be a 3rd party solution wired or battery powered.
+- You need to have a bluetooth dongle or built-in bluetooth adapter. For the second method you might need two depending on your usecase.
+- You will need to have a Wii Sensor Bar or an 3rd party alternative.
+
+#### Steam Deck Tips:
+
+- As of now it is easier to configure Wiimotes in desktop mode then transfer over to game mode when everything is working (We will make easier tools later in the Configurator).
+- The recommended method of playing is docked connected to a monitor and you could have a seperate blueooth dongle attached to the dock for method 2.
+- It could be helpful to have a Keyboard / Mouse connected to the dock while setting everything up.
+- It is good to sit close to the Steam Deck when paring
 
 ---
 
@@ -108,22 +115,23 @@ Enable the following checkboxes:
 
 ---
 
-**Step 4: Play the game**
-
+**Step 4: Syncing the Wiimotes**
 
 The Wiimote can now be connected when a game is launched, but it will not connect before that.
+It will need to reconnect every time when launching a new game.
 
-In most cases you will need to `Sync` by pressing  `1` and `2`togheter on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
+You will need to `Sync Wiimote` the Wiimote by pressing  `1` and `2` together on the Wiimote or the `Sync Button` (under the backplate), when launching a game.
 
-In a rarer case you need press the `Sync Button` on the Emulated Wii in the Dolphin Interface.<br>
-RetroDECK has a built in shortcut for this `Alt + W` that is also be access from the RetroDECK radialmenu system on the Steam Deck.
+Sometimes you will also need to press the `Sync Button` on the Emulated Wii in the Dolphin Interface, this can be found in the controller menu in Dolphin or RetroDECK has a built in shortcut for this `Alt + W` that is also be accessed from the RetroDECK Radial Menu system on the Steam Deck while in Game Mode under Dolphin.
 
-If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's bluetooth adapter` setting.
+---
 
-Others notes:
+**Extra: Troubleshooting and tips**
 
-- If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access: It will display a error message and crash.
-- If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
+- Always sit close to the device when you are doing the initial paring.
+- Sometimes it can take a while before the paring happens, specially on 3rd party Wiimotes. You might need to try multiple times with both the `Sync Button` + `Sync Wiimote`.
+- If you want to play with normal controllers as Wiimotes again the best way is to change back to: `Emulate the Wii's bluetooth adapter` setting.
+- If the udev rules you created in Step 2 are wrong and Dolphin can not get bluetooth access: It will display a error message and crash. If that happens go back and make sure that the file in `/etc/udev/rules.d/52-dolphin.rules` and the content is correct.
 
 ---
 
