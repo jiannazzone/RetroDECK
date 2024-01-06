@@ -117,7 +117,8 @@ We have not found a donation link to this project at this time or the project do
 ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
 
 #### Where to donate / support the project?
-We have not found a donation link to this project at this time or the project does not support donations.
+[Patreon](https://www.patreon.com/LukeUsher)
+
 
 #### License
 
